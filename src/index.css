@@ -3,5 +3,6 @@
 @tailwind utilities;
 
 body {
-  @apply bg-bg-primary text-text-primary
+  margin: 2rem;
+  @apply bg-primary text-primary
 }

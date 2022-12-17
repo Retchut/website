@@ -1,8 +1,10 @@
+import Navbar from './Components/Navbar/Navbar.jsx';
+
 function App() {
   return (
-    <div>
-      ya like jazz?
-    </div>
+    <>
+      <Navbar />
+    </>
   );
 }
 

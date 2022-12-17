@@ -1,17 +1,32 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.jsx"],
+  safelist: [
+    "text-base",
+    "text-xl",
+    "text-2xl"
+  ],
   theme: {
     extend: {
       colors: {
-        "bg-primary": "#081426",
-        "bg-section": "#0e1b33",
-        "text-primary": "#FFFFFF",
-        "text-secondary": "#60ffd9",
-        "bg-tag": "#085a4f",
-        "bg-tech": "#4B0082",
+        "section-color" : "#60ffd9"
       },
-    },
+      backgroundColor: {
+        "primary": "#081426",
+        "section": "#0e1b33",
+        "btn-hover": "#60ffd9",
+        "tag": "#085a4f",
+        "tech": "#4B0082",
+      },
+      textColor: {
+        "primary": "#FFFFFF",
+        "secondary": "#60ffd9",
+        "btn-hover" : "#0e1b33"
+      },
+      boxShadow: {
+        'section': '0px 0px 10px',
+      }
+    }
   },
   plugins: [],
 }

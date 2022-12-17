@@ -1,4 +1,4 @@
-import homeData from '../../Assets/Data/HomeData.json';
+import texts from '../../Assets/Data/Home/Texts.json';
 import myPortrait from '../../Assets/Images/Home/me.jpg';
 
 function Home(){
@@ -8,12 +8,12 @@ function Home(){
                 <div className="row-start-1 col-start-1 row-span-3 col-span-5 background-box p-4 overflow-auto">
                     <div className="grid grid-rows-3 grid-cols-5">
                         <div className="row-start-1 col-start-1 row-span-1 col-span-5">
-                            {homeData.row1.map((paragraph, index) => {
+                            {texts.row1.map((paragraph, index) => {
                                 return (<p key={"welcome-" + index} className="py-3">{paragraph}</p>)
                             })}
                         </div>
                         <div className="row-start-2 col-start-1 row-span-2 col-span-4">
-                            {homeData.row2.map((paragraph, index) => {
+                            {texts.row2.map((paragraph, index) => {
                                 return (<p key={"welcome-" + index} className="py-3">{paragraph}</p>)
                             })}
                         </div>

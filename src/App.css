@@ -1,0 +1,3 @@
+.background-box {
+    @apply bg-section rounded-xl shadow-section shadow-section-color
+}

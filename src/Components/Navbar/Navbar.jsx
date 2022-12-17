@@ -12,7 +12,7 @@ function Navbar(){
     return (
         // py-4 instead of pt-2 pb-4 
         <nav className="pt-2 pb-4 bg-primary">
-            <div className="flex justify-between items-center w-full py-2 px-6 bg-section rounded-xl shadow-section shadow-section-color">
+            <div className="flex justify-between items-center w-full py-2 px-6 background-box">
                 <LinkButton sectionKey="home" sectionLabel="Home" />
                 <ul>
                     {Object.keys(sections).map((sectionKey) => {

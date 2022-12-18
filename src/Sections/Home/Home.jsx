@@ -28,7 +28,11 @@ function Home(){
       }, []);
 
     return (
-        <div className="h-screen flex justify-center items-center">
+        <div className="h-screen flex flex-col justify-center items-center">
+            <div className="w-full mb-8">
+                <p className="mb-4 text-4xl">Home</p>
+                <hr />
+            </div>
             <div ref={homeRef} className="w-4/6 h-5/6 grid grid-cols-6 grid-rows-5">
                 <div className="fade-in-scroll z-10 row-start-1 col-start-1 row-span-3 col-span-5 background-box p-4 overflow-auto">
                     <div className="grid grid-rows-3 grid-cols-5">

@@ -40,9 +40,12 @@ function Projects(){
 
     return (
         <div className="min-h-screen flex flex-col">
-            {/* mx-3 pb-3 */}
-            <div className="w-full mb-4 flex justify-end">
-                <Dropdown dropdownText={"Filters"} dropdownItems={tags} filterHandler={setFilter}></Dropdown>
+            <div className="mb-8">
+                <div className="w-full mb-4 flex justify-between">
+                    <p className="text-4xl">Projects</p>
+                    <Dropdown dropdownText={"Filters"} dropdownItems={tags} filterHandler={setFilter}></Dropdown>
+                </div>
+                <hr />
             </div>
 
             <div className="flex flex-col items-center">

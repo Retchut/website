@@ -1,7 +1,5 @@
 import { useState } from "react";
 
-import buildRows from "../../Utils/buildRows";
-
 function DropdownMenu(props){
     const { dropdownItems, filterHandler } = props;
 

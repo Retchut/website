@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import Dropdown from '../../Components/Dropdown/Dropdown';
 
-import buildRows from '../../Utils/buildRows';
+import { filterArray } from '../../Utils/arrayFilters';
 
 import noteworthy from '../../Assets/Data/Projects/Noteworthy.json';
 import other from '../../Assets/Data/Projects/Other.json';
@@ -12,8 +12,8 @@ function Projects(){
     const [ filter, setFilter ] = useState("All");
 
     const colNum = 2;
-    const noteworthyRows = buildRows(noteworthy, 3, filter);
-    const otherRows = buildRows(other, 3, filter);
+    const noteworthyRows = filterArray(noteworthy, filter);
+    const otherRows = filterArray(other, filter);
 
     return (
         <>

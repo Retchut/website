@@ -7,7 +7,7 @@ function DropdownMenu(props){
 
     return (
         // absolute
-        <ul className="background-box overflow-hidden absolute left-20 bottom-2 w-max grid grid-cols-2">
+        <ul className="background-box overflow-hidden absolute right-24 -top-1 w-max grid grid-cols-2">
             {   
                 dropdownItems.map((item, index) => {
                     return (
@@ -29,7 +29,7 @@ function Dropdown(props){
     // const dropdownRows = buildRows(dropdownItems, 2, "");
     
     return (
-        <div>
+        <div className="relative">
             <div>
                 <a className="background-box link-btn" onClick={() => setDropdownOpen(!dropdownOpen)}>
                     {dropdownText}

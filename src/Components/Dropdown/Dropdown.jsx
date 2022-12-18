@@ -5,7 +5,7 @@ function DropdownMenu(props){
 
     return (
         // absolute
-        <ul className="background-box overflow-hidden absolute right-24 -top-1 w-max grid grid-cols-2">
+        <ul className="background-box overflow-hidden absolute right-0 top-12 w-max grid grid-cols-2">
             {   
                 dropdownItems.map((item, index) => {
                     return (

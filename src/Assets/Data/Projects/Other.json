@@ -15,7 +15,7 @@
         "id" : 2,
         "name" : "Old Library Tracker",
         "description" : "Old version of my Library Tracker. Allows for the same functionality as the other program.",
-        "imgName" : "library-tracker.jpg",
+        "imgName" : "library-tracker.png",
         "tags" : [ "Utility" ],
         "techs" : [
             "Java", "Gradle",   "JSoup"

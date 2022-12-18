@@ -51,7 +51,7 @@
         "id" : 5,
         "name" : "[] Invaders",
         "description" : "Repository for MIEIC's LCOM class of the year 2021/2022. Contains the lab assignments and my final project project for the class,a clone of the classic Space Invaders.",
-        "imgName" : "lcom-2020-2021.png",
+        "imgName" : "[]invaders.png",
         "tags" : [ "University" ],
         "techs" : [
             "C"
@@ -63,7 +63,7 @@
         "id" : 6,
         "name" : "Library Tracker",
         "description" : "Command line utility I made to track my card collection. Allows adding cards to a collection, removing them, editing, etc.. Additionally, this program fetches prices for Yu-Gi-Oh cards in the collection from cardmarket.",
-        "imgName" : "library-tracker.jpg",
+        "imgName" : "library-tracker.png",
         "tags" : [ "Utility" ],
         "techs" : [
             "Python"

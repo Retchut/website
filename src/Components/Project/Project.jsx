@@ -24,7 +24,6 @@ function getButton(buttonText, buttonUrl) {
 }
 
 function getTags(projectName, tags, techs){
-    const colNum = 3;
     return (
         <div className="h-full p-2 grid grid-cols-3">
             {tags.map((tag, index) =>
@@ -42,7 +41,7 @@ function getTags(projectName, tags, techs){
 }
 
 function Project(props) {
-    const { id, name, description, imgName, tags, techs, buttonText, buttonUrl } = props.projectData;
+    const { name, description, imgName, tags, techs, buttonText, buttonUrl } = props.projectData;
     
     return (
         <div className="background-box grid grid-cols-3">

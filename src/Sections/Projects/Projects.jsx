@@ -22,7 +22,6 @@ function Projects(){
 
     useEffect(() => {
         const els = showcaseRef.current.children;
-        console.log(els)
         const observer = new IntersectionObserver((entries) => {
           entries.forEach((entry) => {
             toggleAnimation(entry.target, entry.isIntersecting)

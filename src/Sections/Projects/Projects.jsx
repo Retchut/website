@@ -12,7 +12,6 @@ import tags from '../../Assets/Data/Projects/Tags.json';
 function Projects(){
     const [ filter, setFilter ] = useState("All");
 
-    const colNum = 2;
     const noteworthyProjs = filterArray(noteworthy, filter);
     const otherProjs = filterArray(other, filter);
 
@@ -23,19 +22,25 @@ function Projects(){
                 <Dropdown dropdownText={"Filters"} dropdownItems={tags} filterHandler={setFilter}></Dropdown>
             </div>
 
-            <div className="flex justify-center">
-                <div className="w-4/6 grid grid-cols-2">
+            <div className="flex flex-col items-center">
+                <div className="w-4/6 grid grid-cols-2 gap-8">
                     {
                         noteworthyProjs.map((project, index) =>
                         {
                             return (
-                                <div key={project.id} className="min-h-full mb-4 mx-2">
+                                // mb-4 mx-2
+                                <div key={project.id} className="min-h-full">
                                     <Project projectData={project} />
                                 </div>
                             )
                         })
                     }
                 </div>
+                {noteworthyProjs.length === 0 && 
+                    <div className="w-1/2 background-box text-center">
+                        <p className="text-3xl">No projects here. Check back later!</p>    
+                    </div>
+                }
             </div>
         </div>
     )

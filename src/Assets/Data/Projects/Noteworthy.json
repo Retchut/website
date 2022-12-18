@@ -3,9 +3,9 @@
         "id" : 1,
         "name" : "This website",
         "description" : "Repository holding this website's code. Pages were made to be independent from the data displayed on them. WIP",
-        "imgPath" : "./Images/Projects/react-logo.png",
+        "imgName" : "react-logo.png",
         "tags" : [ "Web" ],
-        "technologies" : [
+        "techs" : [
             "React",    "Bootstrap 5",  "HTML", "CSS",  "JavaScript"
         ],
         "url" : "https://github.com/Retchut/personal-website",
@@ -15,9 +15,9 @@
         "id" : 2,
         "name" : "Arch Quick Setup",
         "description" : "Some scripts and files to make setting up arch on a fresh install just the way I like like it simple and easy, with just a few simple strokes and key presses. Constant WIP.",
-        "imgPath" : "./Images/Projects/arch-quick-setup.jpg",
+        "imgName" : "arch-quick-setup.jpg",
         "tags" : [ "Utility" ],
-        "technologies" : [
+        "techs" : [
             "bash"
         ],
         "url" : "https://github.com/Retchut/arch-quick-setup",
@@ -27,9 +27,9 @@
         "id" : 3,
         "name" : "NCGM's Website",
         "description" : "Website of the Nucleus of Computer Graphics and Multimedia (NCGM)",
-        "imgPath" :"./Images/Projects/ncgm-website.png",
+        "imgName" :"ncgm-website.png",
         "tags" : [ "Web" ],
-        "technologies" : [
+        "techs" : [
             "React",    "Bootstrap 5",   "Express",  "Node.js",  "MongoDB",  "Javascript",   "CSS",  "HTML"
         ],
         "url" : "https://ncgm.fe.up.pt/",
@@ -39,9 +39,9 @@
         "id" : 4,
         "name" : "[] Invaders",
         "description" : "Repository for MIEIC's LCOM class of the year 2021/2022. Contains the lab assignments and my final project project for the class,a clone of the classic Space Invaders.",
-        "imgPath" : "./Images/Projects/lcom-2020-2021.png",
+        "imgName" : "lcom-2020-2021.png",
         "tags" : [ "University" ],
-        "technologies" : [
+        "techs" : [
             "C"
         ],
         "url" : "https://github.com/Retchut/LCOM-2020-2021",
@@ -51,9 +51,9 @@
         "id" : 5,
         "name" : "SRT Editor",
         "description" : "Simple srt file editing tool created to aid me in my manual modification (and occasional creation) of subtitle files.",
-        "imgPath" : "./Images/Projects/srt-editor.png",
+        "imgName" : "srt-editor.png",
         "tags" : [ "Utility" ],
-        "technologies" : [
+        "techs" : [
             "C++"
         ],
         "url" : "https://github.com/Retchut/srt-editor",
@@ -63,9 +63,9 @@
         "id" : 6,
         "name" : "NCGM Learning Project",
         "description" : "My learning project developed for NCGM. A simple text based adventure about escaping a locked room.",
-        "imgPath" : "./Images/Projects/learning-project.png",
+        "imgName" : "learning-project.png",
         "tags" : [ "Game Dev" ],
-        "technologies" : [
+        "techs" : [
             "Unity",
             "C#"
         ],
@@ -76,9 +76,9 @@
         "id" : 7,
         "name" : "Cleaning Day",
         "description" : "Game developed for the 2022 edition of the Level-Up Game Jam.",
-        "imgPath" : "./Images/Projects/cleaning-day.png",
+        "imgName" : "cleaning-day.png",
         "tags" : [ "Game Dev" ],
-        "technologies" : [
+        "techs" : [
             "Unity",
             "C#"
         ],
@@ -89,9 +89,9 @@
         "id" : 8,
         "name" : "Tap(e) It",
         "description" : "Game developed for the 2020 edition of the Global Game Jam.",
-        "imgPath" : "./Images/Projects/tape-it.png",
+        "imgName" : "tape-it.png",
         "tags" : [ "Game Dev" ],
-        "technologies" : [
+        "techs" : [
             "Unity",
             "C#"
         ],

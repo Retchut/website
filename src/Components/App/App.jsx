@@ -7,10 +7,10 @@ function App() {
   return (
     <>
       <Navbar />
-      <section>
+      <section className="pb-10">
         <Home />
       </section>
-      <section>
+      <section className="pb-10">
         <Projects />
       </section>
       <Footer />

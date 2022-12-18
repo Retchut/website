@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 import Dropdown from '../../Components/Dropdown/Dropdown';
 import Project from '../../Components/Project/Project';
@@ -15,6 +15,28 @@ function Projects(){
     const noteworthyProjs = filterArray(noteworthy, filter);
     const otherProjs = filterArray(other, filter);
 
+    const showcaseRef = useRef(null);
+
+    const toggleAnimation = (target, bool) => target.classList.toggle("animate", bool)
+
+    useEffect(() => {
+        const els = showcaseRef.current.children;
+        console.log(els)
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            toggleAnimation(entry.target, entry.isIntersecting)
+          })
+        },
+        {
+            threshold: 0.3
+        })
+        
+        // observe 
+        for(const el of els)
+          observer.observe(el)
+      }, [filter]);
+    
+
     return (
         <div className="min-h-screen flex flex-col">
             {/* mx-3 pb-3 */}
@@ -23,13 +45,13 @@ function Projects(){
             </div>
 
             <div className="flex flex-col items-center">
-                <div className="w-4/6 grid grid-cols-2 gap-8">
+                <div ref={showcaseRef} className="w-4/6 grid grid-cols-2 gap-8">
                     {
                         noteworthyProjs.map((project, index) =>
                         {
                             return (
                                 // mb-4 mx-2
-                                <div key={project.id} className="min-h-full">
+                                <div key={project.id} className="fade-in-scroll min-h-full">
                                     <Project projectData={project} />
                                 </div>
                             )

@@ -18,3 +18,11 @@ body {
 .dropdown-btn {
   @apply py-2 px-4 hover:bg-btn-hover hover:text-btn-hover cursor-pointer select-none
 }
+
+.fade-in-scroll {
+  opacity: 0;
+  transition: opacity 1000ms;
+}
+.animate {
+  opacity: 1;
+}

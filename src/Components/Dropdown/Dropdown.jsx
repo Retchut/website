@@ -10,7 +10,7 @@ function DropdownMenu(props){
                 dropdownItems.map((item, index) => {
                     return (
                         <li key={`dropdown-${index}`} className="flex">
-                            <a className="dropdown-btn w-full inline-block text-center" onClick={() => filterHandler(item)}>{item}</a>
+                            <button className="dropdown-btn w-full inline-block text-center" onClick={() => filterHandler(item)}>{item}</button>
                         </li>
                     )
                 })
@@ -27,9 +27,9 @@ function Dropdown(props){
     return (
         <div className="z-20 mx-3 mt-3 relative">
             <div>
-                <a className="background-box link-btn" onClick={() => setDropdownOpen(!dropdownOpen)}>
+                <button className="background-box link-btn" onClick={() => setDropdownOpen(!dropdownOpen)}>
                     {dropdownText}
-                </a>
+                </button>
             </div>
             { dropdownOpen && <DropdownMenu filterHandler={filterHandler} dropdownItems={dropdownItems} /> }
         </div>

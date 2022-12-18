@@ -8,7 +8,7 @@ function Navbar(props){
 
     const LinkButton = ({sectionKey, sectionLabel}) => {
         const textSize = `text-${(sectionKey === "home") ? "xl" : "base"}`;
-        return (<a onClick={() => handleScroll(sectionKey)} className={`link-btn ${textSize}`}>{sectionLabel}</a>);
+        return (<button onClick={() => handleScroll(sectionKey)} className={`link-btn ${textSize}`}>{sectionLabel}</button>);
     }
 
     return (

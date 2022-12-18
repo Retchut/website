@@ -16,5 +16,5 @@ body {
 }
 
 .dropdown-btn {
-  @apply py-2 px-4 hover:bg-btn-hover hover:text-btn-hover cursor-pointer rounded-xl
+  @apply py-2 px-4 hover:bg-btn-hover hover:text-btn-hover cursor-pointer
 }

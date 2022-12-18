@@ -3,8 +3,7 @@ module.exports = {
   content: ["./src/**/*.jsx"],
   safelist: [
     "text-base",
-    "text-xl",
-    "text-2xl"
+    "text-xl"
   ],
   theme: {
     extend: {

@@ -37,8 +37,8 @@ function Projects(){
                     }
                 </div>
                 {noteworthyProjs.length === 0 && 
-                    <div className="w-1/2 background-box text-center">
-                        <p className="text-3xl">No projects here. Check back later!</p>    
+                    <div className="w-fit background-box text-center">
+                        <p className="px-4 pt-3 pb-4 text-3xl">No projects here. Check back later!</p>    
                     </div>
                 }
             </div>

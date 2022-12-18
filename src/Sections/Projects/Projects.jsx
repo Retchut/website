@@ -17,6 +17,7 @@ function Projects(){
 
     const showcaseRef = useRef(null);
 
+    // TODO: abstract animation into hook
     const toggleAnimation = (target, bool) => target.classList.toggle("animate", bool)
 
     useEffect(() => {
@@ -28,7 +29,7 @@ function Projects(){
           })
         },
         {
-            threshold: 0.3
+            threshold: 0.7
         })
         
         // observe 
@@ -57,12 +58,26 @@ function Projects(){
                             )
                         })
                     }
+                    {/* TODO: remove this into another section later */}
+                    {
+                        otherProjs.map((project, index) =>
+                        {
+                            return (
+                                // mb-4 mx-2
+                                <div key={project.id} className="fade-in-scroll min-h-full">
+                                    <Project projectData={project} />
+                                </div>
+                            )
+                        })
+                    }
+                    {noteworthyProjs.length === 0 && otherProjs.length === 0 && 
+                        <div className="fade-in-scroll col-span-2 flex justify-center">
+                            <div className=" background-box text-center">
+                                <p className="px-4 pt-3 pb-4 text-3xl">No projects here. Check back later!</p>    
+                            </div>
+                        </div>
+                    }
                 </div>
-                {noteworthyProjs.length === 0 && 
-                    <div className="w-fit background-box text-center">
-                        <p className="px-4 pt-3 pb-4 text-3xl">No projects here. Check back later!</p>    
-                    </div>
-                }
             </div>
         </div>
     )

@@ -8,6 +8,7 @@ import myPortrait from '../../Assets/Images/Home/me.jpg';
 function Home(){
     const homeRef = useRef(null);
 
+    // TODO: abstract animation into hook
     const toggleAnimation = (target, bool) => target.classList.toggle("animate", bool)
 
     useEffect(() => {
@@ -18,7 +19,7 @@ function Home(){
           })
         },
         {
-            threshold: 0.3
+            threshold: 1
         })
         
         // observe 

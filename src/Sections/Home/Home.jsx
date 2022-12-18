@@ -30,7 +30,7 @@ function Home(){
     return (
         <div className="h-screen flex flex-col justify-center items-center">
             <div className="w-full mb-8">
-                <p className="mb-4 text-4xl">Home</p>
+                <p className="mb-4 text-4xl">{texts.label}</p>
                 <hr />
             </div>
             <div ref={homeRef} className="w-4/6 h-5/6 grid grid-cols-6 grid-rows-5">

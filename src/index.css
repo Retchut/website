@@ -10,3 +10,11 @@ body {
 .background-box {
   @apply bg-section rounded-xl shadow-section shadow-section-color
 }
+
+.link-btn {
+  @apply py-2 px-4 hover:bg-btn-hover hover:text-btn-hover cursor-pointer rounded-xl
+}
+
+.dropdown-btn {
+  @apply py-2 px-4 hover:bg-btn-hover hover:text-btn-hover cursor-pointer rounded-xl
+}

@@ -1,0 +1,86 @@
+[
+    {
+        "id" : 1,
+        "name" : "NCGM Web VR Workshop",
+        "description" : "End product of NCGM's VR workshop I attended.",
+        "imgPath" :"./Images/Projects/ncgm-vr-workshop.png",
+        "tags" : [ "Web", "VR" ],
+        "technologies" : [
+            "WebXR", "Javascript",   "CSS",  "HTML"
+        ],
+        "url" : "https://github.com/Retchut/ncgm-workshop-vr",
+        "buttonText" : "Git Repo"
+    },
+    {
+        "id" : 2,
+        "name" : "Library Tracker",
+        "description" : "Command line utility I made to track my card collection. Allows adding, removing, editing, etc.. Additionally, this program fetches prices for Yu-Gi-Oh cards in the collection from cardmarket. WIP",
+        "imgPath" : "./Images/Projects/library-tracker.jpg",
+        "tags" : [ "Utility" ],
+        "technologies" : [
+            "Java", "Gradle",   "JSoup"
+        ],
+        "url" : "https://github.com/Retchut/LibraryTracker",
+        "buttonText" : "Git Repo"
+    },
+    {
+        "id" : 3,
+        "name" : "Event Pointer",
+        "description" : "Project developed by my group for the Laboratory of Databases and Web Applications (LBAW).",
+        "imgPath" : "./Images/Projects/event-pointer.png",
+        "tags" : [ "Web", "University" ],
+        "technologies" : [
+            "PHP",  "PostgreSQL",   "Laravel",  "Bootstrap 5",    "JavaScript",   "Docker"
+        ],
+        "url" : "https://github.com/Retchut/EventPointer/",
+        "buttonText" : "Git Repo"
+    },
+    {
+        "id" : 4,
+        "name" : "SOPE-2020-2021",
+        "description" : "Projects developed for MIEIC's 2019/2020 SOPE class (2nd year, 2nd semester)",
+        "imgPath" : "./Images/Projects/uni-project-placeholder.png",
+        "tags" : [ "University" ],
+        "technologies" : [
+            "C"
+        ],
+        "url" : "https://github.com/Retchut/SOPE-2020-2021",
+        "buttonText" : "Git Repo"
+    },
+    {
+        "id" : 5,
+        "name" : "CAL-2020-2021-PROJ",
+        "description" : "Projects developed for MIEIC's 2019/2020 PROG class (1st year, 2nd semester) ",
+        "imgPath" : "./Images/Projects/uni-project-placeholder.png",
+        "tags" : [ "University" ],
+        "technologies" : [
+            "C++"
+        ],
+        "url" : "https://github.com/Retchut/CAL-2020-2021-PROJ",
+        "buttonText" : "Git Repo"
+    },
+    {
+        "id" : 6,
+        "name" : "rcom-data-link-protocol",
+        "description" : "Projects developed for MIEIC's 2019/2020 PROG class (1st year, 2nd semester) ",
+        "imgPath" : "./Images/Projects/uni-project-placeholder.png",
+        "tags" : [ "University" ],
+        "technologies" : [
+            "C"
+        ],
+        "url" : "https://github.com/Retchut/rcom-data-link-protocol",
+        "buttonText" : "Git Repo"
+    },
+    {
+        "id" : 7,
+        "name" : "PROG-2019-2020",
+        "description" : "Projects developed for MIEIC's 2019/2020 PROG class (1st year, 2nd semester).",
+        "imgPath" : "./Images/Projects/uni-project-placeholder.png",
+        "tags" : [ "University" ],
+        "technologies" : [
+            "C++"
+        ],
+        "url" : "https://github.com/Retchut/Prog-2019-2020",
+        "buttonText" : "Git Repo"
+    }
+]

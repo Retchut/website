@@ -6,7 +6,7 @@ function Navbar(){
 
     const LinkButton = ({sectionKey, sectionLabel}) => {
         const textSize = `text-${(sectionKey === "home") ? "xl" : "base"}`;
-        return (<a onClick={() => console.log(sectionKey)} className={`py-2 px-4 rounded-xl hover:bg-btn-hover hover:text-btn-hover cursor-pointer ${textSize}`}>{sectionLabel}</a>);
+        return (<a onClick={() => console.log(sectionKey)} className={`link-btn ${textSize}`}>{sectionLabel}</a>);
     }
 
     return (

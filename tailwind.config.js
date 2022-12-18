@@ -25,6 +25,9 @@ module.exports = {
       boxShadow: {
         'section': '0px 0px 10px',
         'dropdown-item': '0px 0px 1px',
+      },
+      spacing: {
+        'thumb': '10rem'
       }
     }
   },

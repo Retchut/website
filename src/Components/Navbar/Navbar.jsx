@@ -13,7 +13,7 @@ function Navbar(props){
 
     return (
         // py-4 instead of pt-2 pb-4 
-        <nav className="sticky z-10 top-0 pt-2 pb-0 bg-primary">
+        <nav className="sticky z-30 top-0 pt-2 pb-0 bg-primary">
             <div className="flex justify-between items-center w-full py-2 px-6 background-box">
                 <LinkButton sectionKey={homeKey} sectionLabel={homeLabel} />
                 <ul>

@@ -25,7 +25,7 @@ function Dropdown(props){
     const [ dropdownOpen, setDropdownOpen ] = useState(false);
     
     return (
-        <div className="relative">
+        <div className="mx-3 mt-3 relative">
             <div>
                 <a className="background-box link-btn" onClick={() => setDropdownOpen(!dropdownOpen)}>
                     {dropdownText}

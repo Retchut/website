@@ -1,6 +1,7 @@
+import ParagraphBox from '../../Components/ParagraphBox/ParagraphBox';
+
 import texts from '../../Assets/Data/Home/Texts.json';
 import myPortrait from '../../Assets/Images/Home/me.jpg';
-import ParagraphBox from '../../Components/ParagraphBox/ParagraphBox';
 
 function Home(){
     return (

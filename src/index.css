@@ -12,9 +12,9 @@ body {
 }
 
 .link-btn {
-  @apply py-2 px-4 hover:bg-btn-hover hover:text-btn-hover cursor-pointer rounded-xl
+  @apply py-2 px-4 hover:bg-btn-hover hover:text-btn-hover cursor-pointer rounded-xl select-none
 }
 
 .dropdown-btn {
-  @apply py-2 px-4 hover:bg-btn-hover hover:text-btn-hover cursor-pointer
+  @apply py-2 px-4 hover:bg-btn-hover hover:text-btn-hover cursor-pointer select-none
 }

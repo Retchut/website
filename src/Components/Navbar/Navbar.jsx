@@ -1,5 +1,5 @@
 function Navbar(){
-    const homeSection = "home";
+    const [ homeKey, homeLabel ]  = [ "home", "Home" ];
     const sections = {
         "projects" : "Projects"
     }
@@ -13,7 +13,7 @@ function Navbar(){
         // py-4 instead of pt-2 pb-4 
         <nav className="pt-2 pb-4 bg-primary">
             <div className="flex justify-between items-center w-full py-2 px-6 background-box">
-                <LinkButton sectionKey="home" sectionLabel="Home" />
+                <LinkButton sectionKey={homeKey} sectionLabel={homeLabel} />
                 <ul>
                     {Object.keys(sections).map((sectionKey) => {
                        return (

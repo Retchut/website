@@ -25,8 +25,6 @@ function Dropdown(props){
     const { dropdownText, dropdownItems, filterHandler } = props;
 
     const [ dropdownOpen, setDropdownOpen ] = useState(false);
-
-    // const dropdownRows = buildRows(dropdownItems, 2, "");
     
     return (
         <div className="relative">

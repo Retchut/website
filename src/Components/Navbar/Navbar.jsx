@@ -1,4 +1,6 @@
-function Navbar(){
+function Navbar(props){
+    const handleScroll = props.handleScroll;
+
     const [ homeKey, homeLabel ]  = [ "home", "Home" ];
     const sections = {
         "projects" : "Projects"
@@ -6,7 +8,7 @@ function Navbar(){
 
     const LinkButton = ({sectionKey, sectionLabel}) => {
         const textSize = `text-${(sectionKey === "home") ? "xl" : "base"}`;
-        return (<a onClick={() => console.log(sectionKey)} className={`link-btn ${textSize}`}>{sectionLabel}</a>);
+        return (<a onClick={() => handleScroll(sectionKey)} className={`link-btn ${textSize}`}>{sectionLabel}</a>);
     }
 
     return (

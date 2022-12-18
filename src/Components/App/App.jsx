@@ -1,16 +1,35 @@
+import { useRef } from 'react';
+
 import Footer from '../Footer/Footer.jsx';
 import Navbar from '../Navbar/Navbar.jsx';
 import Home from '../../Sections/Home/Home.jsx';
 import Projects from '../../Sections/Projects/Projects.jsx';
 
 function App() {
+  const refs = {
+    home : useRef(null),
+    projects : useRef(null)
+  }
+
+  // offset used because the sticky navbar takes up the top 60 px or so of the page
+  // we add 30 more pixels because of the margin between page sections
+  const scrollTopOffset = 90;
+  const scrollToSection = (sectionName) => {
+    const section = refs[sectionName];
+    window.scrollTo({
+      top : section.current.offsetTop - scrollTopOffset,
+      left : section.current.offsetLeft,
+      behavior: 'smooth'
+    })
+  }
+
   return (
     <>
-      <Navbar />
-      <section className="pb-10">
+      <Navbar handleScroll={scrollToSection} />
+      <section ref={refs.home} className="pb-10">
         <Home />
       </section>
-      <section className="pb-10">
+      <section ref={refs.projects} className="pb-10">
         <Projects />
       </section>
       <Footer />

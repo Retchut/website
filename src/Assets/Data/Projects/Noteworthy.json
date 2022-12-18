@@ -2,13 +2,13 @@
     {
         "id" : 1,
         "name" : "This website",
-        "description" : "Repository holding this website's code. Pages were made to be independent from the data displayed on them. WIP",
+        "description" : "Repository holding this website's code. I am personally proud of the custom animations and dynamic content loading from json files.",
         "imgName" : "react-logo.png",
         "tags" : [ "Web" ],
         "techs" : [
-            "React",    "Bootstrap 5",  "HTML", "CSS",  "JavaScript"
+            "React", "Tailwind CSS", "HTML", "CSS", "JavaScript"
         ],
-        "url" : "https://github.com/Retchut/personal-website",
+        "buttonUrl" : "https://github.com/Retchut/website",
         "buttonText" : "Git Repo"
     },
     {
@@ -20,7 +20,7 @@
         "techs" : [
             "bash"
         ],
-        "url" : "https://github.com/Retchut/arch-quick-setup",
+        "buttonUrl" : "https://github.com/Retchut/arch-quick-setup",
         "buttonText" : "Git Repo"
     },
     {
@@ -32,11 +32,23 @@
         "techs" : [
             "React",    "Bootstrap 5",   "Express",  "Node.js",  "MongoDB",  "Javascript",   "CSS",  "HTML"
         ],
-        "url" : "https://ncgm.fe.up.pt/",
-        "buttonText" : "See more"
+        "buttonUrl" : "https://ncgm.fe.up.pt/",
+        "buttonText" : "Visit it"
     },
     {
         "id" : 4,
+        "name" : "Atlas of Anatomical Pathology",
+        "description" : "An online Atlas of Anatomical Pathology. An educative tool made for a Veterinary Medicine University teacher.",
+        "imgName" :"atlas.png",
+        "tags" : [ "Web" ],
+        "techs" : [
+            "React",    "Tailwind CSS",   "Express",  "Node.js",  "MongoDB",  "Javascript",   "CSS",  "HTML"
+        ],
+        "buttonUrl" : "https://atlas.fly.dev/",
+        "buttonText" : "Visit it"
+    },
+    {
+        "id" : 5,
         "name" : "[] Invaders",
         "description" : "Repository for MIEIC's LCOM class of the year 2021/2022. Contains the lab assignments and my final project project for the class,a clone of the classic Space Invaders.",
         "imgName" : "lcom-2020-2021.png",
@@ -44,11 +56,23 @@
         "techs" : [
             "C"
         ],
-        "url" : "https://github.com/Retchut/LCOM-2020-2021",
+        "buttonUrl" : "https://github.com/Retchut/LCOM-2020-2021",
         "buttonText" : "Git Repo"
     },
     {
-        "id" : 5,
+        "id" : 6,
+        "name" : "Library Tracker",
+        "description" : "Command line utility I made to track my card collection. Allows adding cards to a collection, removing them, editing, etc.. Additionally, this program fetches prices for Yu-Gi-Oh cards in the collection from cardmarket.",
+        "imgName" : "library-tracker.jpg",
+        "tags" : [ "Utility" ],
+        "techs" : [
+            "Python"
+        ],
+        "buttonUrl" : "https://github.com/Retchut/library-tracker",
+        "buttonText" : "Git Repo"
+    },
+    {
+        "id" : 7,
         "name" : "SRT Editor",
         "description" : "Simple srt file editing tool created to aid me in my manual modification (and occasional creation) of subtitle files.",
         "imgName" : "srt-editor.png",
@@ -56,11 +80,11 @@
         "techs" : [
             "C++"
         ],
-        "url" : "https://github.com/Retchut/srt-editor",
+        "buttonUrl" : "https://github.com/Retchut/srt-editor",
         "buttonText" : "Git Repo"
     },
     {
-        "id" : 6,
+        "id" : 8,
         "name" : "NCGM Learning Project",
         "description" : "My learning project developed for NCGM. A simple text based adventure about escaping a locked room.",
         "imgName" : "learning-project.png",
@@ -69,11 +93,11 @@
             "Unity",
             "C#"
         ],
-        "url" : "https://github.com/Retchut/LearningProject1920",
+        "buttonUrl" : "https://github.com/Retchut/LearningProject1920",
         "buttonText" : "Git Repo"
     },
     {
-        "id" : 7,
+        "id" : 9,
         "name" : "Cleaning Day",
         "description" : "Game developed for the 2022 edition of the Level-Up Game Jam.",
         "imgName" : "cleaning-day.png",
@@ -82,11 +106,11 @@
             "Unity",
             "C#"
         ],
-        "url" : "https://retchut.itch.io/cleaning-day",
+        "buttonUrl" : "https://retchut.itch.io/cleaning-day",
         "buttonText" : "Play it!"
     },
     {
-        "id" : 8,
+        "id" : 10,
         "name" : "Tap(e) It",
         "description" : "Game developed for the 2020 edition of the Global Game Jam.",
         "imgName" : "tape-it.png",
@@ -95,7 +119,7 @@
             "Unity",
             "C#"
         ],
-        "url" : "https://simmer.io/@Retchut/tap-e-it",
+        "buttonUrl" : "https://simmer.io/@Retchut/tap-e-it",
         "buttonText" : "Play it!"
     }
 ]

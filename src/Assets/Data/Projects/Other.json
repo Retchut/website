@@ -8,19 +8,19 @@
         "techs" : [
             "WebXR", "Javascript",   "CSS",  "HTML"
         ],
-        "url" : "https://github.com/Retchut/ncgm-workshop-vr",
+        "buttonUrl" : "https://github.com/Retchut/ncgm-workshop-vr",
         "buttonText" : "Git Repo"
     },
     {
         "id" : 2,
-        "name" : "Library Tracker",
-        "description" : "Command line utility I made to track my card collection. Allows adding, removing, editing, etc.. Additionally, this program fetches prices for Yu-Gi-Oh cards in the collection from cardmarket. WIP",
+        "name" : "Old Library Tracker",
+        "description" : "Old version of my Library Tracker. Allows for the same functionality as the other program.",
         "imgName" : "library-tracker.jpg",
         "tags" : [ "Utility" ],
         "techs" : [
             "Java", "Gradle",   "JSoup"
         ],
-        "url" : "https://github.com/Retchut/LibraryTracker",
+        "buttonUrl" : "https://github.com/Retchut/OldLibraryTracker",
         "buttonText" : "Git Repo"
     },
     {
@@ -32,7 +32,7 @@
         "techs" : [
             "PHP",  "PostgreSQL",   "Laravel",  "Bootstrap 5",    "JavaScript",   "Docker"
         ],
-        "url" : "https://github.com/Retchut/EventPointer/",
+        "buttonUrl" : "https://github.com/Retchut/EventPointer/",
         "buttonText" : "Git Repo"
     },
     {
@@ -44,7 +44,7 @@
         "techs" : [
             "C"
         ],
-        "url" : "https://github.com/Retchut/SOPE-2020-2021",
+        "buttonUrl" : "https://github.com/Retchut/SOPE-2020-2021",
         "buttonText" : "Git Repo"
     },
     {
@@ -56,7 +56,7 @@
         "techs" : [
             "C++"
         ],
-        "url" : "https://github.com/Retchut/CAL-2020-2021-PROJ",
+        "buttonUrl" : "https://github.com/Retchut/CAL-2020-2021-PROJ",
         "buttonText" : "Git Repo"
     },
     {
@@ -68,7 +68,7 @@
         "techs" : [
             "C"
         ],
-        "url" : "https://github.com/Retchut/rcom-data-link-protocol",
+        "buttonUrl" : "https://github.com/Retchut/rcom-data-link-protocol",
         "buttonText" : "Git Repo"
     },
     {
@@ -80,7 +80,7 @@
         "techs" : [
             "C++"
         ],
-        "url" : "https://github.com/Retchut/Prog-2019-2020",
+        "buttonUrl" : "https://github.com/Retchut/Prog-2019-2020",
         "buttonText" : "Git Repo"
     }
 ]

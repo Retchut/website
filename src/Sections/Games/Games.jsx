@@ -42,7 +42,7 @@ function Games(){
                         {
                             return (
                                 // mb-4 mx-2
-                                <div key={game.id} className="fade-in-scroll min-h-full">
+                                <div key={game.id} className="fade-in-scroll">
                                     <Game gameData={game} />
                                 </div>
                             )

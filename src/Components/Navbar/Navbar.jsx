@@ -3,7 +3,8 @@ function Navbar(props){
 
     const [ homeKey, homeLabel ]  = [ "home", "Home" ];
     const sections = {
-        "projects" : "Projects"
+        "projects" : "Projects",
+        "interests" : "Interests"
     }
 
     const LinkButton = ({sectionKey, sectionLabel}) => {
@@ -19,7 +20,7 @@ function Navbar(props){
                 <ul>
                     {Object.keys(sections).map((sectionKey) => {
                        return (
-                            <li key={`${sectionKey}-link`}>
+                            <li key={`${sectionKey}-link`} className="inline">
                                 <LinkButton sectionKey={sectionKey} sectionLabel={sections[sectionKey]} />                            
                             </li>
                         )})

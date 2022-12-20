@@ -4,11 +4,13 @@ import Footer from '../Footer/Footer.jsx';
 import Navbar from '../Navbar/Navbar.jsx';
 import Home from '../../Sections/Home/Home.jsx';
 import Projects from '../../Sections/Projects/Projects.jsx';
+import Games from '../../Sections/Games/Games.jsx';
 
 function App() {
   const refs = {
     home : useRef(null),
-    projects : useRef(null)
+    projects : useRef(null),
+    interests : useRef(null)
   }
 
   // offset used because the sticky navbar takes up the top 60 px or so of the page
@@ -31,6 +33,9 @@ function App() {
       </section>
       <section ref={refs.projects} className="pb-10">
         <Projects />
+      </section>
+      <section ref={refs.interests} className="pb-10">
+        <Games />
       </section>
       <Footer />
     </>

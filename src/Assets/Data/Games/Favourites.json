@@ -43,5 +43,10 @@
         "id" : 9,
         "name" : "Jak 3",
         "imgName" : "jak3.png"
+    },
+    {
+        "id" : 10,
+        "name" : "Metro: Last Light",
+        "imgName" : "metro.png"
     }
 ]

@@ -1,5 +1,7 @@
 import { useEffect, useRef } from 'react';
 
+import Game from '../../Components/Game/Game';
+
 import favourites from '../../Assets/Data/Games/Favourites.json';
 
 function Games(){
@@ -41,7 +43,7 @@ function Games(){
                             return (
                                 // mb-4 mx-2
                                 <div key={game.id} className="fade-in-scroll min-h-full">
-                                    <p>{game.name}</p>
+                                    <Game gameData={game} />
                                 </div>
                             )
                         })

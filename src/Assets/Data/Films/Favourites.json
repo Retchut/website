@@ -1,0 +1,42 @@
+[
+    {
+        "id" : 1,
+        "name" : "Blade Runner",
+        "imgName" : "blade_runner.png"
+    },
+    {
+        "id" : 2,
+        "name" : "Chungking Express",
+        "imgName" : "chungking_express.png"
+    },
+    {
+        "id" : 3,
+        "name" : "Perfect Blue",
+        "imgName" : "perfect_blue.png"
+    },
+    {
+        "id" : 4,
+        "name" : "Monty Python and the Holy Grail",
+        "imgName" : "holy_grail.png"
+    },
+    {
+        "id" : 5,
+        "name" : "Ghost In The Shell",
+        "imgName" : "ghost_in_the_shell.png"
+    },
+    {
+        "id" : 6,
+        "name" : "Whiplash",
+        "imgName" : "whiplash.png"
+    },
+    {
+        "id" : 7,
+        "name" : "The End of Evangelion",
+        "imgName" : "end_of_eva.png"
+    },
+    {
+        "id" : 8,
+        "name" : "Pulp Fiction",
+        "imgName" : "pulp_fiction.png"
+    }
+]

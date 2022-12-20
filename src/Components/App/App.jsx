@@ -5,6 +5,7 @@ import Navbar from '../Navbar/Navbar.jsx';
 import Home from '../../Sections/Home/Home.jsx';
 import Projects from '../../Sections/Projects/Projects.jsx';
 import Games from '../../Sections/Games/Games.jsx';
+import Films from '../../Sections/Films/Films.jsx';
 
 function App() {
   const refs = {
@@ -36,6 +37,9 @@ function App() {
       </section>
       <section ref={refs.interests} className="pb-10">
         <Games />
+      </section>
+      <section className="pb-10">
+        <Films />
       </section>
       <Footer />
     </>

@@ -7,6 +7,7 @@ import Projects from '../../Sections/Projects/Projects.jsx';
 import Games from '../../Sections/Games/Games.jsx';
 import Films from '../../Sections/Films/Films.jsx';
 import Shows from '../../Sections/Shows/Shows.jsx';
+import Music from '../../Sections/Music/Music.jsx';
 
 function App() {
   const refs = {
@@ -44,6 +45,9 @@ function App() {
       </section>
       <section className="pb-10">
         <Shows />
+      </section>
+      <section className="pb-10">
+        <Music />
       </section>
       <Footer />
     </>

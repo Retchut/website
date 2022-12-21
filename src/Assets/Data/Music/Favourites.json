@@ -1,0 +1,72 @@
+[
+    {
+        "id" : 1,
+        "name" : "Modal Soul",
+        "imgName" : "modal_soul.png"
+    },
+    {
+        "id" : 2,
+        "name" : "Metaphorical Music",
+        "imgName" : "metaphorical_music.png"
+    },
+    {
+        "id" : 3,
+        "name" : "Tarot",
+        "imgName" : "tarot.png"
+    },
+    {
+        "id" : 4,
+        "name" : "Winter's Gate",
+        "imgName" : "winters_gate.png"
+    },
+    {
+        "id" : 5,
+        "name" : "Urn",
+        "imgName" : "urn.png"
+    },
+    {
+        "id" : 6,
+        "name" : "Stone's Reach",
+        "imgName" : "stones_reach.png"
+    },
+    {
+        "id" : 7,
+        "name" : "Fortune",
+        "imgName" : "fortune.png"
+    },
+    {
+        "id" : 8,
+        "name" : "Cherish",
+        "imgName" : "cherish.png"
+    },
+    {
+        "id" : 9,
+        "name" : "Furi (Original Game Soundtrack)",
+        "imgName" : "furi_ost.png"
+    },
+    {
+        "id" : 10,
+        "name" : "NieR Gestalt & Replicant Original Soundtrack",
+        "imgName" : "nier_ost.png"
+    },
+    {
+        "id" : 11,
+        "name" : "NieR:Automata Original Soundtrack",
+        "imgName" : "nier_automata_ost.png"
+    },
+    {
+        "id" : 12,
+        "name" : "Persona 3 Original Soundtrack",
+        "imgName" : "p3_ost.png"
+    },
+    {
+        "id" : 13,
+        "name" : "Ratchet & Clank Original Soundtrack",
+        "imgName" : "ratchet_ost.png"
+    },
+    {
+        "id" : 14,
+        "name" : "ホームタウン",
+        "imgName" : "hometown.png"
+    }
+]

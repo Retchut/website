@@ -1,0 +1,32 @@
+[
+    {
+        "id" : 1,
+        "name" : "The Tatami Galaxy",
+        "imgName" : "tatami_galaxy.png"
+    },
+    {
+        "id" : 2,
+        "name" : "Cowboy Bebop",
+        "imgName" : "cowboy_bebop.png"
+    },
+    {
+        "id" : 3,
+        "name" : "Samurai Champloo",
+        "imgName" : "samurai_champloo.png"
+    },
+    {
+        "id" : 4,
+        "name" : "South Park",
+        "imgName" : "south_park.png"
+    },
+    {
+        "id" : 5,
+        "name" : "Death Parade",
+        "imgName" : "death_parade.png"
+    },
+    {
+        "id" : 5,
+        "name" : "Bakuman",
+        "imgName" : "bakuman.png"
+    }
+]

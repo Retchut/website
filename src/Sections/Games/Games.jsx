@@ -3,11 +3,14 @@ import { useRef } from 'react';
 import Game from '../../Components/Game/Game';
 
 import useScrollAnimation from '../../Hooks/useScrollAnimation';
+import { buildRows } from '../../Utils/arrayFilters';
 
 import favourites from '../../Assets/Data/Games/Favourites.json';
 
 function Games(){
     const label = "Games";
+
+    const rows = buildRows(favourites, 3);
 
     const gamesRef = useRef(null);
     useScrollAnimation(gamesRef, 0.7);
@@ -20,14 +23,21 @@ function Games(){
             </div>
 
             <div className="flex flex-col items-center">
-                <div ref={gamesRef} className="w-4/6 grid grid-cols-3 gap-8">
+                <div ref={gamesRef} className="w-4/6">
                     {
-                        favourites.map((game, index) =>
-                        {
+                        // Map rows to containers
+                        rows.map((row, index) => {
                             return (
-                                // mb-4 mx-2
-                                <div key={game.id} className="fade-in-scroll">
-                                    <Game gameData={game} />
+                                <div key={`row-${index}`} className="fade-in-scroll flex gap-8 justify-center">
+                                    {
+                                        // Map rows to items
+                                        row.map((game) => {
+                                            return (
+                                            <div key={`game-${game.id}`} className="w-1/3 mb-8">
+                                                    <Game gameData={game} />
+                                            </div>
+                                        )})
+                                    }
                                 </div>
                             )
                         })

@@ -18,8 +18,7 @@ function Projects(){
     // const noteworthyProjs = filterArray(noteworthy, filter);
     // const otherProjs = filterArray(other, filter);
     const allProjs = noteworthy.concat(other);
-    const projRows = buildRows(allProjs, 2, filter);
-    console.log(projRows)
+    const rows = buildRows(allProjs, 2, filter);
 
     const showcaseRef = useRef(null);
     useScrollAnimation(showcaseRef, 0.7, [filter]);
@@ -37,14 +36,15 @@ function Projects(){
             <div className="flex flex-col items-center">
                 <div ref={showcaseRef} className="w-4/6">
                     {
-                        projRows.map((projRow, index) => {
-                            console.log(projRow)
+                        // Map rows to containers
+                        rows.map((row, index) => {
                             return (
                                 <div key={`row-${index}`} className="fade-in-scroll flex gap-8 justify-center">
                                     {
-                                        projRow.map((project, index) => {
+                                        // Map rows to items
+                                        row.map((project) => {
                                             return (
-                                            <div className="w-1/2 mb-8">
+                                            <div key={`project-${project.id}`} className="w-1/2 mb-8">
                                                 <Project projectData={project} />
                                             </div>
                                         )})
@@ -53,7 +53,7 @@ function Projects(){
                             )
                         })
                     }
-                    {projRows.length === 0 && 
+                    {rows.length === 0 && 
                         <div className="fade-in-scroll col-span-2 flex justify-center">
                             <div className=" background-box text-center">
                                 <p className="px-4 pt-3 pb-4 text-3xl">No projects here. Check back later!</p>    

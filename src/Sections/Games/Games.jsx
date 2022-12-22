@@ -13,7 +13,7 @@ function Games(){
     const rows = buildRows(favourites, 3);
 
     const gamesRef = useRef(null);
-    useScrollAnimation(gamesRef, 0.7);
+    useScrollAnimation(gamesRef, 0.2);
 
     return (
         <div className="min-h-screen flex flex-col">

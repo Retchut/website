@@ -13,7 +13,7 @@ function Music(){
     const rows = buildRows(favourites, 3);
 
     const musicRef = useRef(null);
-    useScrollAnimation(musicRef, 0.7);
+    useScrollAnimation(musicRef, 0.2);
 
     return (
         <div className="min-h-screen flex flex-col">

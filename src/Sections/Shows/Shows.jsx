@@ -13,7 +13,7 @@ function Shows(){
     const rows = buildRows(favourites, 3);
 
     const showsRef = useRef(null);
-    useScrollAnimation(showsRef, 0.7);
+    useScrollAnimation(showsRef, 0.1);
 
     return (
         <div className="min-h-screen flex flex-col">

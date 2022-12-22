@@ -21,7 +21,7 @@ function Projects(){
     const rows = buildRows(allProjs, 2, filter);
 
     const showcaseRef = useRef(null);
-    useScrollAnimation(showcaseRef, 0.7, [filter]);
+    useScrollAnimation(showcaseRef, 0.3, [filter]);
 
     return (
         <div className="min-h-screen flex flex-col">

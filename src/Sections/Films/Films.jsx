@@ -13,7 +13,7 @@ function Films(){
     const rows = buildRows(favourites, 3);
 
     const filmsRef = useRef(null);
-    useScrollAnimation(filmsRef, 0.7);
+    useScrollAnimation(filmsRef, 0.1);
 
     return (
         <div className="min-h-screen flex flex-col">

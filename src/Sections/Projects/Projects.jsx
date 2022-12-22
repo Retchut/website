@@ -4,7 +4,7 @@ import Dropdown from '../../Components/Dropdown/Dropdown';
 import Project from '../../Components/Project/Project';
 
 import useScrollAnimation from '../../Hooks/useScrollAnimation';
-import { buildRows, filterArray } from '../../Utils/arrayFilters';
+import { buildRows } from '../../Utils/arrayFilters';
 
 import noteworthy from '../../Assets/Data/Projects/Noteworthy.json';
 import other from '../../Assets/Data/Projects/Other.json';

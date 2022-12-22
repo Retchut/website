@@ -10,7 +10,7 @@ function Shows(){
     const label = "Shows";
 
     const showsRef = useRef(null);
-    useScrollAnimation(showsRef, 0.7, []);
+    useScrollAnimation(showsRef, 0.7);
 
     return (
         <div className="min-h-screen flex flex-col">

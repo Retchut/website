@@ -10,7 +10,7 @@ function Films(){
     const label = "Films";
 
     const filmsRef = useRef(null);
-    useScrollAnimation(filmsRef, 0.7, []);
+    useScrollAnimation(filmsRef, 0.7);
 
     return (
         <div className="min-h-screen flex flex-col">

@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 const toggleAnimation = (target, bool) => target.classList.toggle("animate", bool)
 
-function useScrollAnimation(parentRef, threshold, stateDependencies) {
+function useScrollAnimation(parentRef, threshold, stateDependencies = []) {
     useEffect(() => {
         const children = parentRef.current.children;
         const observer = new IntersectionObserver((entries) => {

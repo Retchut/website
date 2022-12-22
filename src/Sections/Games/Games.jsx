@@ -10,7 +10,7 @@ function Games(){
     const label = "Games";
 
     const gamesRef = useRef(null);
-    useScrollAnimation(gamesRef, 0.7, []);
+    useScrollAnimation(gamesRef, 0.7);
 
     return (
         <div className="min-h-screen flex flex-col">

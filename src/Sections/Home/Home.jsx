@@ -9,7 +9,7 @@ import myPortrait from '../../Assets/Images/Home/me.jpg';
 
 function Home(){
     const homeRef = useRef(null);
-    useScrollAnimation(homeRef, 1, []);
+    useScrollAnimation(homeRef, 1);
 
     return (
         <div className="h-screen flex flex-col justify-center items-center">

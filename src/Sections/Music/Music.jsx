@@ -10,7 +10,7 @@ function Music(){
     const label = "Music";
 
     const musicRef = useRef(null);
-    useScrollAnimation(musicRef, 0.7, []);
+    useScrollAnimation(musicRef, 0.7);
 
     return (
         <div className="min-h-screen flex flex-col">

@@ -1,6 +1,8 @@
-import { useEffect, useRef } from 'react';
+import { useRef } from 'react';
 
 import Show from '../../Components/Show/Show';
+
+import useScrollAnimation from '../../Hooks/useScrollAnimation';
 
 import favourites from '../../Assets/Data/Shows/Favourites.json';
 
@@ -8,25 +10,7 @@ function Shows(){
     const label = "Shows";
 
     const showsRef = useRef(null);
-
-    // TODO: abstract animation into hook
-    const toggleAnimation = (target, bool) => target.classList.toggle("animate", bool)
-
-    useEffect(() => {
-        const els = showsRef.current.children;
-        const observer = new IntersectionObserver((entries) => {
-          entries.forEach((entry) => {
-            toggleAnimation(entry.target, entry.isIntersecting)
-          })
-        },
-        {
-            threshold: 0.7
-        })
-        
-        // observe 
-        for(const el of els)
-          observer.observe(el)
-      }, []);
+    useScrollAnimation(showsRef, 0.7, []);
 
     return (
         <div className="min-h-screen flex flex-col">

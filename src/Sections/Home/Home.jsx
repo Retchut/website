@@ -1,31 +1,15 @@
-import { useEffect, useRef } from 'react';
+import { useRef } from 'react';
 
 import ParagraphBox from '../../Components/ParagraphBox/ParagraphBox';
+
+import useScrollAnimation from '../../Hooks/useScrollAnimation';
 
 import texts from '../../Assets/Data/Home/Texts.json';
 import myPortrait from '../../Assets/Images/Home/me.jpg';
 
 function Home(){
     const homeRef = useRef(null);
-
-    // TODO: abstract animation into hook
-    const toggleAnimation = (target, bool) => target.classList.toggle("animate", bool)
-
-    useEffect(() => {
-        const els = homeRef.current.children;
-        const observer = new IntersectionObserver((entries) => {
-          entries.forEach((entry) => {
-            toggleAnimation(entry.target, entry.isIntersecting)
-          })
-        },
-        {
-            threshold: 1
-        })
-        
-        // observe 
-        for(const el of els)
-          observer.observe(el)
-      }, []);
+    useScrollAnimation(homeRef, 1, []);
 
     return (
         <div className="h-screen flex flex-col justify-center items-center">

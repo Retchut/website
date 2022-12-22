@@ -1,8 +1,9 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useRef } from 'react';
 
 import Dropdown from '../../Components/Dropdown/Dropdown';
 import Project from '../../Components/Project/Project';
 
+import useScrollAnimation from '../../Hooks/useScrollAnimation';
 import { filterArray } from '../../Utils/arrayFilters';
 
 import noteworthy from '../../Assets/Data/Projects/Noteworthy.json';
@@ -18,26 +19,7 @@ function Projects(){
     const otherProjs = filterArray(other, filter);
 
     const showcaseRef = useRef(null);
-
-    // TODO: abstract animation into hook
-    const toggleAnimation = (target, bool) => target.classList.toggle("animate", bool)
-
-    useEffect(() => {
-        const els = showcaseRef.current.children;
-        const observer = new IntersectionObserver((entries) => {
-          entries.forEach((entry) => {
-            toggleAnimation(entry.target, entry.isIntersecting)
-          })
-        },
-        {
-            threshold: 0.7
-        })
-        
-        // observe 
-        for(const el of els)
-          observer.observe(el)
-      }, [filter]);
-    
+    useScrollAnimation(showcaseRef, 0.7, [filter]);
 
     return (
         <div className="min-h-screen flex flex-col">

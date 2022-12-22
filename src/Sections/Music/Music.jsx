@@ -2,31 +2,15 @@ import { useEffect, useRef } from 'react';
 
 import Album from '../../Components/Album/Album';
 
+import useScrollAnimation from '../../Hooks/useScrollAnimation';
+
 import favourites from '../../Assets/Data/Music/Favourites.json';
 
 function Music(){
     const label = "Music";
 
     const musicRef = useRef(null);
-
-    // TODO: abstract animation into hook
-    const toggleAnimation = (target, bool) => target.classList.toggle("animate", bool)
-
-    useEffect(() => {
-        const els = musicRef.current.children;
-        const observer = new IntersectionObserver((entries) => {
-          entries.forEach((entry) => {
-            toggleAnimation(entry.target, entry.isIntersecting)
-          })
-        },
-        {
-            threshold: 0.7
-        })
-        
-        // observe 
-        for(const el of els)
-          observer.observe(el)
-      }, []);
+    useScrollAnimation(musicRef, 0.7, []);
 
     return (
         <div className="min-h-screen flex flex-col">

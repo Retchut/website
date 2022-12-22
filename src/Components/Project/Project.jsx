@@ -1,7 +1,7 @@
 function getImage(folderPath, imgName){
     return (
         <div className="grow p-2 flex justify-center items-center">
-            <img className="w-thumb h-auto rounded-md" src={folderPath + imgName} alt={imgName} />
+            <img className="w-proj-thumb h-auto rounded-md" src={folderPath + imgName} alt={imgName} />
         </div>
     )
 }

@@ -26,8 +26,8 @@ module.exports = {
         'section': '0px 0px 10px',
         'dropdown-item': '0px 0px 1px',
       },
-      spacing: {
-        'thumb': '10rem'
+      aspectRatio: {
+        'poster': '2 / 3'
       }
     }
   },

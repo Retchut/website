@@ -5,7 +5,7 @@ function Film(props){
 
     return (
         <div className="background-box overflow-auto">
-            <img src={folderPath + imgName} alt={imgName} />
+            <img className="aspect-poster w-full" src={folderPath + imgName} alt={imgName} />
         </div>
     )
 }

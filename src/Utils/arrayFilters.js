@@ -1,4 +1,4 @@
-function buildRows(data, colNum, tagFilter){
+function buildRows(data, colNum, tagFilter = ""){
     const baseFilter = "All";
     const rows = [];
     if(tagFilter !== ""){

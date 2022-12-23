@@ -1,52 +1,130 @@
 [
     {
         "id" : 1,
-        "name" : "Hyper Light Drifter",
+        "data" : {
+            "name" : "Hyper Light Drifter",
+            "developer" : "Heart Machine",
+            "embedID" : "nWufEJ1Ava0",
+            "links" : {
+                "steam" : "https://store.steampowered.com/app/257850/Hyper_Light_Drifter/",
+                "website" : "https://www.heartmachine.com/hyper-light-drifter"
+            }
+        },
         "imgName" : "hld.png"
     },
     {
         "id" : 2,
-        "name" : "Furi",
+        "data" : {
+            "name" : "Furi",
+            "developer" : "The Game Bakers",
+            "embedID" : "fVQNZFBvAck",
+            "links" : {
+                "steam" : "https://store.steampowered.com/app/423230/Furi/",
+                "website" : "https://www.thegamebakers.com/press/sheet.php?p=furi"
+            }
+        },
         "imgName" : "furi.png"
     },
     {
         "id" : 3,
-        "name" : "NieR: Automata",
+        "data" : {
+            "name" : "NieR: Automata",
+            "developer" : "PlatinumGames",
+            "embedID" : "wJxNhJ8fjFk",
+            "links" : {
+                "steam" : "https://store.steampowered.com/app/524220/NieRAutomata/",
+                "website" : "https://nierautomata.square-enix-games.com/en-us/"
+            }
+        },
         "imgName" : "nier_automata.png"
     },
     {
         "id" : 4,
-        "name" : "Persona 3 FES",
+        "data" : {
+            "name" : "Persona 3 FES",
+            "developer" : "Atlus",
+            "embedID" : "j12-ZUIJpLE",
+            "links" : {
+                "website" : "https://atlus.com/atlus-titles/p3fes/?ItemID=109"
+            }
+        },
         "imgName" : "p3.png"
     },
     {
         "id" : 5,
-        "name" : "NieR Replicant ver.1.22474487139…",
+        "data" : {
+            "name" : "NieR Replicant ver.1.22474487139…",
+            "developer" : "Toylogic",
+            "embedID" : "sPcf4pfTqfY",
+            "links" : {
+                "steam" : "https://store.steampowered.com/app/1113560/NieR_Replicant_ver122474487139/",
+                "website" : "https://nier.square-enix-games.com/en-us/"
+            }
+        },
         "imgName" : "nier_replicant.png"
     },
     {
         "id" : 6,
-        "name" : "Ratchet & Clank: Going Commando",
+        "data" : {
+            "name" : "Ratchet & Clank: Going Commando",
+            "developer" : "Insomniac Games",
+            "embedID" : "aaQxK6GO7sQ",
+            "links" : {
+                "website" : "https://insomniac.games/game/ratchet-and-clank/"
+            }
+        },
         "imgName" : "ratchet2.png"
     },
     {
         "id" : 7,
-        "name" : "Terraria",
+        "data" : {
+            "name" : "Terraria",
+            "developer" : "Re-Logic",
+            "embedID" : "6nUvWkD8rAE",
+            "links" : {
+                "steam" : "https://store.steampowered.com/app/105600/Terraria/",
+                "website" : "https://www.terraria.org/"
+            }
+        },
         "imgName" : "terraria.png"
     },
     {
         "id" : 8,
-        "name" : "Borderlands 2",
+        "data" : {
+            "name" : "Borderlands 2",
+            "developer" : "Gearbox Software",
+            "embedID" : "kKVf5feSMEg",
+            "links" : {
+                "steam" : "https://store.steampowered.com/app/49520/Borderlands_2/",
+                "website" : "https://2k.com/en-US/game/borderlands-2/"
+            }
+        },
         "imgName" : "bl2.png"
     },
     {
         "id" : 9,
-        "name" : "Jak 3",
+        "data" : {
+            "name" : "Jak 3",
+            "developer" : "Naughty Dog",
+            "embedID" : "zUvFPrBCQzk",
+            "links" : {
+                "pSStore" : "https://store.playstation.com/pt-pt/product/EP9000-CUSA07991_00-SCES524600000001",
+                "website" : "https://www.playstation.com/en-us/games/jak-and-daxter-the-precursor-legacy/"
+            }
+        },
         "imgName" : "jak3.png"
     },
     {
         "id" : 10,
-        "name" : "Metro: Last Light",
+        "data" : {
+            "name" : "Metro: Last Light",
+            "developer" : "4A Games",
+            "embedID" : "2djDE_kwH3Q",
+            "links" : {
+                "steam" : "https://store.steampowered.com/app/287390/Metro_Last_Light_Redux/",
+                "website" : "https://www.metrothegame.com/story-so-far/"
+            }
+        },
         "imgName" : "metro.png"
     }
 ]

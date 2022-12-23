@@ -9,15 +9,15 @@ function getImage(imgName){
 function getShowcase({ name, developer, embedID, links }){
     const linkKeys = Object.keys(links);
     return (
-        <div className="background-box mx-4 p-4 h-full flex flex-col justify-center items-center">
-            <div className="my-3">
+        <div className="background-box mx-4 px-4 h-full flex flex-col justify-center items-center">
+            <div className="my-3 text-center">
                 <p className="mb-2 text-4xl">{name}</p>
-                <p className="my-2 text-xl">Developed by: {developer}</p>
+                <p className="my-2 text-xl">Developed by {developer}</p>
             </div>
-            <div className="w-full flex justify-center pb-1">
+            <div className="w-full flex justify-center pb-2">
                 <YoutubeEmbed embedID={embedID} />
             </div>
-            <div className="w-full grow flex items-end">
+            <div className="w-full grow flex items-end pb-1">
                 <div className="w-full">
                     <p className="pl-4 text-xl">See more:</p>
                     <div className="flex justify-center">
@@ -41,7 +41,7 @@ function Game(props){
             <div className="background-box overflow-auto peer">
                 {getImage(imgName)}
             </div>
-            <div className="w-full h-full absolute left-full z-10 hidden peer-hover:block hover:block">
+            <div className="w-full min-h-max absolute left-full z-10 hidden peer-hover:block hover:block">
                 {getShowcase(data)}
             </div>
         </div>

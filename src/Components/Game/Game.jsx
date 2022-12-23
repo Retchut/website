@@ -8,6 +8,7 @@ function getImage(imgName){
 
 function getShowcase({ name, developer, embedID, links }){
     const linkKeys = Object.keys(links);
+
     return (
         <div className="background-box mx-4 px-4 h-full flex flex-col justify-center items-center">
             <div className="my-3 text-center">
@@ -33,15 +34,16 @@ function getShowcase({ name, developer, embedID, links }){
     )
 }
 
-function Game(props){
-    const { data, imgName } = props.gameData;
+function Game({ gameData, showcaseOnRight }){
+    const { data, imgName } = gameData;
+    const positioning = showcaseOnRight ? "left-full" : "right-full";
 
     return (
         <div className="flex relative">
             <div className="background-box overflow-auto peer">
                 {getImage(imgName)}
             </div>
-            <div className="w-full min-h-max absolute left-full z-10 hidden peer-hover:block hover:block">
+            <div className={`w-full min-h-max absolute ${positioning} z-10 hidden peer-hover:block hover:block`}>
                 {getShowcase(data)}
             </div>
         </div>

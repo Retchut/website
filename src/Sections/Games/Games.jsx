@@ -32,9 +32,10 @@ function Games(){
                                     {
                                         // Map rows to items
                                         row.map((game) => {
+                                            const showcaseOnRight = (game.id % 3) !== 0;
                                             return (
                                             <div key={`game-${game.id}`} className="w-1/3 mb-8">
-                                                    <Game gameData={game} />
+                                                    <Game gameData={game} showcaseOnRight={showcaseOnRight} />
                                             </div>
                                         )})
                                     }

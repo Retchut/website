@@ -6,17 +6,28 @@ function getImage(imgName){
     return <img className="aspect-square w-full" src={folderPath + imgName} alt={imgName} />
 }
 
-function getShowcase({ name, developer, embedID, links }){
+function getShowcase({ name, developer, video, links }){
+    const videoKeys = Object.keys(video);
+    const showVideoKey = false;
     const linkKeys = Object.keys(links);
 
     return (
         <div className="background-box mx-4 px-4 h-full flex flex-col justify-center items-center">
             <div className="my-3 text-center">
                 <p className="mb-2 text-4xl">{name}</p>
-                <p className="my-2 text-xl">Developed by {developer}</p>
+                <p className="my-1 text-xl">Developed by {developer}</p>
             </div>
-            <div className="w-full flex justify-center pb-2">
-                <YoutubeEmbed embedID={embedID} />
+            <div className="w-full flex flex-col items-center pb-2">
+                {
+                    videoKeys.map((type, index) => {
+                        return (
+                        <>
+                            {showVideoKey && <p className="text-xl pb-1">{capitalize(type)}</p>}
+                            <YoutubeEmbed key={index} embedID={video[type]} />
+                        </>
+                        )
+                    })
+                }
             </div>
             <div className="w-full grow flex items-end pb-1">
                 <div className="w-full">

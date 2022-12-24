@@ -2,8 +2,8 @@
     {
         "id" : 1,
         "data" : {
-            "name" : "Hydeout Productions 2nd Collection",
-            "artist" : "Nujabes",
+            "title" : "Hydeout Productions 2nd Collection",
+            "subtitle" : "Nujabes",
             "video" : {
                 "1" : "0jFzOnDQmA4"
             },
@@ -16,8 +16,8 @@
     {
         "id" : 2,
         "data" : {
-            "name" : "Metaphorical Music",
-            "artist" : "Nujabes",
+            "title" : "Metaphorical Music",
+            "subtitle" : "Nujabes",
             "video" : {
                 "1" : "V8Xh5ErjIyM"
             },
@@ -30,8 +30,8 @@
     {
         "id" : 3,
         "data" : {
-            "name" : "Modal Soul Classics II",
-            "artist" : "Uyama Hiroto, Pase Rock, others",
+            "title" : "Modal Soul Classics II",
+            "subtitle" : "Uyama Hiroto, Pase Rock, others",
             "video" : {
                 "1" : "e1LmvSr2ZqM",
                 "2" : "xEHtDiwKpyc"
@@ -45,8 +45,8 @@
     {
         "id" : 4,
         "data" : {
-            "name" : "Tarot",
-            "artist" : "Æther Realm",
+            "title" : "Tarot",
+            "subtitle" : "Æther Realm",
             "video" : {
                 "1" : "bw3UygAi2oo"
             },
@@ -59,8 +59,8 @@
     {
         "id" : 5,
         "data" : {
-            "name" : "Winter's Gate",
-            "artist" : "Insomnium",
+            "title" : "Winter's Gate",
+            "subtitle" : "Insomnium",
             "video" : {
                 "1" : "CwNWhWt5ZeU"
             },
@@ -73,8 +73,8 @@
     {
         "id" : 6,
         "data" : {
-            "name" : "Urn",
-            "artist" : "Ne Obliviscaris",
+            "title" : "Urn",
+            "subtitle" : "Ne Obliviscaris",
             "video" : {
                 "1" : "pnyoRKNk7sQ"
             },
@@ -87,8 +87,8 @@
     {
         "id" : 7,
         "data" : {
-            "name" : "Stone's Reach",
-            "artist" : "Be'lakor",
+            "title" : "Stone's Reach",
+            "subtitle" : "Be'lakor",
             "video" : {
                 "1" : "eYaxAosBuro"
             },
@@ -101,8 +101,8 @@
     {
         "id" : 8,
         "data" : {
-            "name" : "Fortune",
-            "artist" : "SNUG SPACE",
+            "title" : "Fortune",
+            "subtitle" : "SNUG SPACE",
             "video" : {
                 "1" : "9hTSmk7bVLc"
             },
@@ -115,8 +115,8 @@
     {
         "id" : 9,
         "data" : {
-            "name" : "Cherish",
-            "artist" : "KIRINJI",
+            "title" : "Cherish",
+            "subtitle" : "KIRINJI",
             "video" : {
                 "1" : "mgY7V-nB3VI",
                 "2" : "Y36b8_WFejI"
@@ -130,8 +130,8 @@
     {
         "id" : 10,
         "data" : {
-            "name" : "Furi (Original Game Soundtrack)",
-            "artist" : "Several Artists",
+            "title" : "Furi (Original Game Soundtrack)",
+            "subtitle" : "Several Artists",
             "video" : {
                 "1" : "1CGMk_roNaE",
                 "2" : "xZv2OCbQOmI"
@@ -145,8 +145,8 @@
     {
         "id" : 11,
         "data" : {
-            "name" : "NieR Gestalt & Replicant Original Soundtrack",
-            "artist" : "Keiichi Okabe, others",
+            "title" : "NieR Gestalt & Replicant Original Soundtrack",
+            "subtitle" : "Keiichi Okabe, others",
             "video" : {
                 "1" : "V4CHW4F49oI",
                 "2" : "sW9kTkKEiEo"
@@ -160,8 +160,8 @@
     {
         "id" : 12,
         "data" : {
-            "name" : "NieR:Automata Original Soundtrack",
-            "artist" : "Keiichi Okabe, others",
+            "title" : "NieR:Automata Original Soundtrack",
+            "subtitle" : "Keiichi Okabe, others",
             "video" : {
                 "1" : "t0eTErEiyJQ",
                 "2" : "ABvi5qegodY"
@@ -175,8 +175,8 @@
     {
         "id" : 13,
         "data" : {
-            "name" : "Persona 3 Original Soundtrack",
-            "artist" : "Shoji Meguro",
+            "title" : "Persona 3 Original Soundtrack",
+            "subtitle" : "Shoji Meguro",
             "video" : {
                 "1" : "oYuzXkDRRXE",
                 "2" : "wCbYkNmvi0w"
@@ -190,8 +190,8 @@
     {
         "id" : 14,
         "data" : {
-            "name" : "Ratchet & Clank Original Soundtrack",
-            "artist" : "David Bergeaud",
+            "title" : "Ratchet & Clank Original Soundtrack",
+            "subtitle" : "David Bergeaud",
             "video" : {
                 "1" : "hGyP1dWj4OY",
                 "2" : "jOH7M1KdB1o"
@@ -205,8 +205,8 @@
     {
         "id" : 15,
         "data" : {
-            "name" : "ホームタウン",
-            "artist" : "Asian Kung-Fu Generation",
+            "title" : "ホームタウン",
+            "subtitle" : "Asian Kung-Fu Generation",
             "video" : {
                 "1" : "KGM-BO0mklY"
             },
@@ -219,8 +219,8 @@
     {
         "id" : 16,
         "data" : {
-            "name" : "Ratchet & Clank 2 Original Soundtrack",
-            "artist" : "David Bergeaud",
+            "title" : "Ratchet & Clank 2 Original Soundtrack",
+            "subtitle" : "David Bergeaud",
             "video" : {
                 "1" : "P1DG9M-V_JY&t=31s",
                 "2" : "MT0rmOwDFek&t=47s"

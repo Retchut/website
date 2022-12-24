@@ -2,8 +2,8 @@
     {
         "id" : 1,
         "data" : {
-            "name" : "Hyper Light Drifter",
-            "developer" : "Heart Machine",
+            "title" : "Hyper Light Drifter",
+            "subtitle" : "Heart Machine",
             "video" : {
                 "trailer" : "nWufEJ1Ava0"
             },
@@ -17,8 +17,8 @@
     {
         "id" : 2,
         "data" : {
-            "name" : "Furi",
-            "developer" : "The Game Bakers",
+            "title" : "Furi",
+            "subtitle" : "The Game Bakers",
             "video" : {
                 "trailer" : "fVQNZFBvAck"
             },
@@ -32,8 +32,8 @@
     {
         "id" : 3,
         "data" : {
-            "name" : "NieR: Automata",
-            "developer" : "PlatinumGames",
+            "title" : "NieR: Automata",
+            "subtitle" : "PlatinumGames",
             "video" : {
                 "trailer" : "wJxNhJ8fjFk"
             },
@@ -47,8 +47,8 @@
     {
         "id" : 4,
         "data" : {
-            "name" : "Persona 3 FES",
-            "developer" : "Atlus",
+            "title" : "Persona 3 FES",
+            "subtitle" : "Atlus",
             "video" : {
                 "trailer" : "j12-ZUIJpLE"
             },
@@ -61,8 +61,8 @@
     {
         "id" : 5,
         "data" : {
-            "name" : "NieR Replicant ver.1.22474487139…",
-            "developer" : "Toylogic",
+            "title" : "NieR Replicant ver.1.22474487139…",
+            "subtitle" : "Toylogic",
             "video" : {
                 "trailer" : "sPcf4pfTqfY"
             },
@@ -76,8 +76,8 @@
     {
         "id" : 6,
         "data" : {
-            "name" : "Ratchet & Clank 2",
-            "developer" : "Insomniac Games",
+            "title" : "Ratchet & Clank 2",
+            "subtitle" : "Insomniac Games",
             "video" : {
                 "trailer" : "aaQxK6GO7sQ"
             },
@@ -90,8 +90,8 @@
     {
         "id" : 7,
         "data" : {
-            "name" : "Terraria",
-            "developer" : "Re-Logic",
+            "title" : "Terraria",
+            "subtitle" : "Re-Logic",
             "video" : {
                 "trailer" : "6nUvWkD8rAE"
             },
@@ -105,8 +105,8 @@
     {
         "id" : 8,
         "data" : {
-            "name" : "Borderlands 2",
-            "developer" : "Gearbox Software",
+            "title" : "Borderlands 2",
+            "subtitle" : "Gearbox Software",
             "video" : {
                 "trailer" : "kKVf5feSMEg"
             },
@@ -120,8 +120,8 @@
     {
         "id" : 9,
         "data" : {
-            "name" : "Jak 3",
-            "developer" : "Naughty Dog",
+            "title" : "Jak 3",
+            "subtitle" : "Naughty Dog",
             "video" : {
                 "trailer" : "zUvFPrBCQzk"
             },
@@ -135,8 +135,8 @@
     {
         "id" : 10,
         "data" : {
-            "name" : "Metro: Last Light",
-            "developer" : "4A Games",
+            "title" : "Metro: Last Light",
+            "subtitle" : "4A Games",
             "video" : {
                 "trailer" : "2djDE_kwH3Q"
             },

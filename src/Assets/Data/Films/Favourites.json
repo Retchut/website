@@ -2,8 +2,8 @@
     {
         "id" : 1,
         "data" : {
-            "name" : "Blade Runner",
-            "director" : "Ridley Scott",
+            "title" : "Blade Runner",
+            "subtitle" : "Ridley Scott",
             "video" : {
                 "1" : "eogpIG53Cis"
             },
@@ -16,8 +16,8 @@
     {
         "id" : 2,
         "data" : {
-            "name" : "Chungking Express",
-            "director" : "Kar-Wai Wong",
+            "title" : "Chungking Express",
+            "subtitle" : "Kar-Wai Wong",
             "video" : {
                 "1" : "OPCug9jyG9k"
             },
@@ -30,8 +30,8 @@
     {
         "id" : 3,
         "data" : {
-            "name" : "Perfect Blue",
-            "director" : "",
+            "title" : "Perfect Blue",
+            "subtitle" : "",
             "video" : {
                 "1" : "n6emgmaD0Gs"
             },
@@ -44,8 +44,8 @@
     {
         "id" : 4,
         "data" : {
-            "name" : "Monty Python and the Holy Grail",
-            "director" : "Terry Gilliam and Terry Jones",
+            "title" : "Monty Python and the Holy Grail",
+            "subtitle" : "Terry Gilliam and Terry Jones",
             "video" : {
                 "1" : "urRkGvhXc8w"
             },
@@ -58,8 +58,8 @@
     {
         "id" : 5,
         "data" : {
-            "name" : "Ghost In The Shell",
-            "director" : "Mamoru Oshii",
+            "title" : "Ghost In The Shell",
+            "subtitle" : "Mamoru Oshii",
             "video" : {
                 "1" : "8RF09G8Ymqg"
             },
@@ -72,8 +72,8 @@
     {
         "id" : 6,
         "data" : {
-            "name" : "Whiplash",
-            "director" : "Damien Chazelle",
+            "title" : "Whiplash",
+            "subtitle" : "Damien Chazelle",
             "video" : {
                 "1" : "7d_jQycdQGo"
             },
@@ -86,8 +86,8 @@
     {
         "id" : 7,
         "data" : {
-            "name" : "The End of Evangelion",
-            "director" : "Hideaki Anno",
+            "title" : "The End of Evangelion",
+            "subtitle" : "Hideaki Anno",
             "video" : {
                 "1" : "Y9cXQfLdGfQ"
             },
@@ -100,8 +100,8 @@
     {
         "id" : 8,
         "data" : {
-            "name" : "Pulp Fiction",
-            "director" : "Quentin Tarantino",
+            "title" : "Pulp Fiction",
+            "subtitle" : "Quentin Tarantino",
             "video" : {
                 "1" : "s7EdQ4FqbhY"
             },

@@ -2,8 +2,8 @@
     {
         "id" : 1,
         "data" : {
-            "name" : "The Tatami Galaxy",
-            "director" : "Masaaki Yuasa",
+            "title" : "The Tatami Galaxy",
+            "subtitle" : "Masaaki Yuasa",
             "video" : {
                 "1" : "y8ax2FIa_cM"
             },
@@ -16,8 +16,8 @@
     {
         "id" : 2,
         "data" : {
-            "name" : "Cowboy Bebop",
-            "director" : "Shinichirō Watanabe",
+            "title" : "Cowboy Bebop",
+            "subtitle" : "Shinichirō Watanabe",
             "video" : {
                 "1" : "SR0kPGR6jf4"
             },
@@ -30,8 +30,8 @@
     {
         "id" : 3,
         "data" : {
-            "name" : "Samurai Champloo",
-            "director" : "Shinichirō Watanabe",
+            "title" : "Samurai Champloo",
+            "subtitle" : "Shinichirō Watanabe",
             "video" : {
                 "1" : "xWKzbhAUeZE"
             },
@@ -44,8 +44,8 @@
     {
         "id" : 4,
         "data" : {
-            "name" : "South Park",
-            "director" : "Trey Parker and Matt Stone",
+            "title" : "South Park",
+            "subtitle" : "Trey Parker and Matt Stone",
             "video" : {
             },
             "links" : {
@@ -57,8 +57,8 @@
     {
         "id" : 5,
         "data" : {
-            "name" : "Death Parade",
-            "director" : "Yuzuru Tachikawa",
+            "title" : "Death Parade",
+            "subtitle" : "Yuzuru Tachikawa",
             "video" : {
                 "1" : "YBcjwA-dX18"
             },
@@ -71,8 +71,8 @@
     {
         "id" : 6,
         "data" : {
-            "name" : "Bakuman",
-            "director" : "Kenichi Kasai",
+            "title" : "Bakuman",
+            "subtitle" : "Kenichi Kasai",
             "video" : {
             },
             "links" : {

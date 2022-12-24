@@ -4,7 +4,7 @@ function ParagraphBox(props){
     return (
         <>
             {paragraphs.map((par,index) => {
-                return (<p key={`${keyText}-${index}`} className="py-3">{par}</p>)
+                return (<p key={`${keyText}-${index}`} className="py-2">{par}</p>)
             })}
         </>
     )

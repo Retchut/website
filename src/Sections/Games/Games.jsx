@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 
-import Game from '../../Components/Game/Game';
+import Interest from '../../Components/Interest/Interest';
 
 import useScrollAnimation from '../../Hooks/useScrollAnimation';
 import { buildRows } from '../../Utils/arrayFilters';
@@ -9,6 +9,13 @@ import favourites from '../../Assets/Data/Games/Favourites.json';
 
 function Games(){
     const sectionLabel = "Games";
+    const gameLabels = {
+        subtitleLabel : "Developed by:",
+        videoLabel : "Trailer",
+        linkLabel : "See more:"
+    }
+    const gameImageFolder = "./Images/Games/";
+    const imageType = "square";
 
     const rows = buildRows(favourites, 3);
 
@@ -35,7 +42,7 @@ function Games(){
                                             const showcaseOnRight = (game.id % 3) !== 0;
                                             return (
                                             <div key={`game-${game.id}`} className="w-1/3 mb-8">
-                                                    <Game gameData={game} showcaseOnRight={showcaseOnRight} />
+                                                    <Interest data={game.data} imgName={game.imgName} imgFolderPath={gameImageFolder} showcaseLabels={gameLabels} showcaseOnRight={showcaseOnRight} imageType={imageType} />
                                             </div>
                                         )})
                                     }

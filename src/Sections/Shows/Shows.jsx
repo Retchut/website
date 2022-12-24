@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 
-import Show from '../../Components/Show/Show';
+import Interest from '../../Components/Interest/Interest';
 
 import useScrollAnimation from '../../Hooks/useScrollAnimation';
 import { buildRows } from '../../Utils/arrayFilters';
@@ -9,6 +9,13 @@ import favourites from '../../Assets/Data/Shows/Favourites.json';
 
 function Shows(){
     const sectionLabel = "Shows";
+    const showLabels = {
+        subtitleLabel : "Director:",
+        videoLabel : "Trailer",
+        linkLabel : "See more:"
+    }
+    const showImageFolder = "./Images/Shows/";
+    const imageType = "poster";
 
     const rows = buildRows(favourites, 3);
 
@@ -35,7 +42,7 @@ function Shows(){
                                             const showcaseOnRight = (show.id % 3) !== 0;
                                             return (
                                             <div key={`show-${show.id}`} className="w-1/3 mb-8">
-                                                    <Show showData={show} showcaseOnRight={showcaseOnRight} />
+                                                <Interest data={show.data} imgName={show.imgName} imgFolderPath={showImageFolder} showcaseLabels={showLabels} showcaseOnRight={showcaseOnRight} imageType={imageType} />
                                             </div>
                                         )})
                                     }

@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 
-import Film from '../../Components/Film/Film';
+import Interest from '../../Components/Interest/Interest';
 
 import useScrollAnimation from '../../Hooks/useScrollAnimation';
 import { buildRows } from '../../Utils/arrayFilters';
@@ -9,6 +9,13 @@ import favourites from '../../Assets/Data/Films/Favourites.json';
 
 function Films(){
     const sectionLabel = "Films";
+    const filmLabels = {
+        subtitleLabel : "Director:",
+        videoLabel : "Trailer",
+        linkLabel : "See more:"
+    }
+    const filmImageFolder = "./Images/Films/";
+    const imageType = "poster";
 
     const rows = buildRows(favourites, 3);
 
@@ -35,7 +42,7 @@ function Films(){
                                             const showcaseOnRight = (film.id % 3) !== 0;
                                             return (
                                             <div key={`film-${film.id}`} className="w-1/3 mb-8">
-                                                    <Film filmData={film} showcaseOnRight={showcaseOnRight} />
+                                                <Interest data={film.data} imgName={film.imgName} imgFolderPath={filmImageFolder} showcaseLabels={filmLabels} showcaseOnRight={showcaseOnRight} imageType={imageType} />
                                             </div>
                                         )})
                                     }

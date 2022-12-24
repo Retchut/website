@@ -1,42 +1,114 @@
 [
     {
         "id" : 1,
-        "name" : "Blade Runner",
+        "data" : {
+            "name" : "Blade Runner",
+            "director" : "Ridley Scott",
+            "video" : {
+                "1" : "eogpIG53Cis"
+            },
+            "links" : {
+                "IMDB" : "https://www.imdb.com/title/tt0083658/"
+            }
+        },
         "imgName" : "blade_runner.png"
     },
     {
         "id" : 2,
-        "name" : "Chungking Express",
+        "data" : {
+            "name" : "Chungking Express",
+            "director" : "Kar-Wai Wong",
+            "video" : {
+                "1" : "OPCug9jyG9k"
+            },
+            "links" : {
+                "IMDB" : "https://www.imdb.com/title/tt0109424/"
+            }
+        },
         "imgName" : "chungking_express.png"
     },
     {
         "id" : 3,
-        "name" : "Perfect Blue",
+        "data" : {
+            "name" : "Perfect Blue",
+            "director" : "",
+            "video" : {
+                "1" : "n6emgmaD0Gs"
+            },
+            "links" : {
+                "IMDB" : "https://www.imdb.com/title/tt0156887/"
+            }
+        },
         "imgName" : "perfect_blue.png"
     },
     {
         "id" : 4,
-        "name" : "Monty Python and the Holy Grail",
+        "data" : {
+            "name" : "Monty Python and the Holy Grail",
+            "director" : "Terry Gilliam and Terry Jones",
+            "video" : {
+                "1" : "urRkGvhXc8w"
+            },
+            "links" : {
+                "IMDB" : "https://www.imdb.com/title/tt0071853/"
+            }
+        },
         "imgName" : "holy_grail.png"
     },
     {
         "id" : 5,
-        "name" : "Ghost In The Shell",
+        "data" : {
+            "name" : "Ghost In The Shell",
+            "director" : "Mamoru Oshii",
+            "video" : {
+                "1" : "8RF09G8Ymqg"
+            },
+            "links" : {
+                "IMDB" : "https://www.imdb.com/title/tt0113568/"
+            }
+        },
         "imgName" : "ghost_in_the_shell.png"
     },
     {
         "id" : 6,
-        "name" : "Whiplash",
+        "data" : {
+            "name" : "Whiplash",
+            "director" : "Damien Chazelle",
+            "video" : {
+                "1" : "7d_jQycdQGo"
+            },
+            "links" : {
+                "IMDB" : "https://www.imdb.com/title/tt2582802/"
+            }
+        },
         "imgName" : "whiplash.png"
     },
     {
         "id" : 7,
-        "name" : "The End of Evangelion",
+        "data" : {
+            "name" : "The End of Evangelion",
+            "director" : "Hideaki Anno",
+            "video" : {
+                "1" : "Y9cXQfLdGfQ"
+            },
+            "links" : {
+                "IMDB" : "https://www.imdb.com/title/tt0169858/"
+            }
+        },
         "imgName" : "end_of_eva.png"
     },
     {
         "id" : 8,
-        "name" : "Pulp Fiction",
+        "data" : {
+            "name" : "Pulp Fiction",
+            "director" : "Quentin Tarantino",
+            "video" : {
+                "1" : "s7EdQ4FqbhY"
+            },
+            "links" : {
+                "IMDB" : "https://www.imdb.com/title/tt0110912/"
+            }
+        },
         "imgName" : "pulp_fiction.png"
     }
 ]

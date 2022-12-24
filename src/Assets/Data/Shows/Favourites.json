@@ -1,32 +1,84 @@
 [
     {
         "id" : 1,
-        "name" : "The Tatami Galaxy",
+        "data" : {
+            "name" : "The Tatami Galaxy",
+            "director" : "Masaaki Yuasa",
+            "video" : {
+                "1" : "y8ax2FIa_cM"
+            },
+            "links" : {
+                "IMDB" : "https://www.imdb.com/title/tt1847445/"
+            }
+        },
         "imgName" : "tatami_galaxy.png"
     },
     {
         "id" : 2,
-        "name" : "Cowboy Bebop",
+        "data" : {
+            "name" : "Cowboy Bebop",
+            "director" : "Shinichirō Watanabe",
+            "video" : {
+                "1" : "SR0kPGR6jf4"
+            },
+            "links" : {
+                "IMDB" : "https://www.imdb.com/title/tt0213338/"
+            }
+        },
         "imgName" : "cowboy_bebop.png"
     },
     {
         "id" : 3,
-        "name" : "Samurai Champloo",
+        "data" : {
+            "name" : "Samurai Champloo",
+            "director" : "Shinichirō Watanabe",
+            "video" : {
+                "1" : "xWKzbhAUeZE"
+            },
+            "links" : {
+                "IMDB" : "https://www.imdb.com/title/tt0423731/"
+            }
+        },
         "imgName" : "samurai_champloo.png"
     },
     {
         "id" : 4,
-        "name" : "South Park",
+        "data" : {
+            "name" : "South Park",
+            "director" : "Trey Parker and Matt Stone",
+            "video" : {
+            },
+            "links" : {
+                "IMDB" : "https://www.imdb.com/title/tt0121955/"
+            }
+        },
         "imgName" : "south_park.png"
     },
     {
         "id" : 5,
-        "name" : "Death Parade",
+        "data" : {
+            "name" : "Death Parade",
+            "director" : "Yuzuru Tachikawa",
+            "video" : {
+                "1" : "YBcjwA-dX18"
+            },
+            "links" : {
+                "IMDB" : "https://www.imdb.com/title/tt4279012/"
+            }
+        },
         "imgName" : "death_parade.png"
     },
     {
         "id" : 6,
-        "name" : "Bakuman",
+        "data" : {
+            "name" : "Bakuman",
+            "director" : "Kenichi Kasai",
+            "video" : {
+            },
+            "links" : {
+                "IMDB" : "https://www.imdb.com/title/tt1738419/"
+            }
+        },
         "imgName" : "bakuman.png"
     }
 ]

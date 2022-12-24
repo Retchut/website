@@ -3,7 +3,7 @@ import YoutubeEmbed from '../YoutubeEmbed/YoutubeEmbed.jsx';
 
 function getImage(imgName){
     const folderPath = "./Images/Films/";
-    return <img className="aspect-poster w-full" src={folderPath + imgName} alt={imgName} />
+    return <img className="aspect-poster min-w-full object-fill" src={folderPath + imgName} alt={imgName} />
 }
 
 function getShowcase({ name, director, video, links }){

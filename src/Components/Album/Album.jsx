@@ -3,7 +3,7 @@ import YoutubeEmbed from '../YoutubeEmbed/YoutubeEmbed.jsx';
 
 function getImage(imgName){
     const folderPath = "./Images/Albums/";
-    return <img className="aspect-square w-full" src={folderPath + imgName} alt={imgName} />
+    return <img className="aspect-square min-w-full object-fill" src={folderPath + imgName} alt={imgName} />
 }
 
 function getShowcase({ name, artist, video, links }){
@@ -49,8 +49,8 @@ function Album({ albumData, showcaseOnRight }){
     const positioning = showcaseOnRight ? "left-full" : "right-full";
 
     return (
-        <div className="flex relative">
-            <div className="background-box overflow-auto peer">
+        <div className="flex relative w-full h-full">
+            <div className="background-box overflow-auto peer w-full h-full">
                 {getImage(imgName)}
             </div>
             <div className={`w-full min-h-max absolute ${positioning} z-10 hidden peer-hover:block hover:block`}>

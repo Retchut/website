@@ -8,7 +8,7 @@ import { buildRows } from '../../Utils/arrayFilters';
 import favourites from '../../Assets/Data/Shows/Favourites.json';
 
 function Shows(){
-    const label = "Shows";
+    const sectionLabel = "Shows";
 
     const rows = buildRows(favourites, 3);
 
@@ -18,7 +18,7 @@ function Shows(){
     return (
         <div className="min-h-screen flex flex-col">
             <div className="w-full mb-8">
-                <p className="mb-4 text-4xl">{label}</p>
+                <p className="mb-4 text-4xl">{sectionLabel}</p>
                 <hr />
             </div>
 

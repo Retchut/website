@@ -8,7 +8,7 @@ import { buildRows } from '../../Utils/arrayFilters';
 import favourites from '../../Assets/Data/Music/Favourites.json';
 
 function Music(){
-    const label = "Music";
+    const sectionLabel = "Music";
 
     const rows = buildRows(favourites, 3);
 
@@ -18,7 +18,7 @@ function Music(){
     return (
         <div className="min-h-screen flex flex-col">
             <div className="w-full mb-8">
-                <p className="mb-4 text-4xl">{label}</p>
+                <p className="mb-4 text-4xl">{sectionLabel}</p>
                 <hr />
             </div>
 

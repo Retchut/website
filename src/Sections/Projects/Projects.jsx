@@ -11,7 +11,7 @@ import other from '../../Assets/Data/Projects/Other.json';
 import tags from '../../Assets/Data/Projects/Tags.json';
 
 function Projects(){
-    const label = "Projects";
+    const sectionLabel = "Projects";
     
     const [ filter, setFilter ] = useState("All");
 
@@ -27,7 +27,7 @@ function Projects(){
         <div className="min-h-screen flex flex-col">
             <div className="mb-8">
                 <div className="w-full mb-4 flex justify-between">
-                    <p className="text-4xl">{label}</p>
+                    <p className="text-4xl">{sectionLabel}</p>
                     <Dropdown dropdownText={"Filters"} dropdownItems={tags} filterHandler={setFilter}></Dropdown>
                 </div>
                 <hr />

@@ -76,7 +76,7 @@
             "name" : "Urn",
             "artist" : "Ne Obliviscaris",
             "video" : {
-                "1" : "-9kERB40e7s"
+                "1" : "pnyoRKNk7sQ"
             },
             "links" : {
                 "spotify" : "https://open.spotify.com/album/32jRtHOvTfiPItM40XIEae"
@@ -133,7 +133,8 @@
             "name" : "Furi (Original Game Soundtrack)",
             "artist" : "Several Artists",
             "video" : {
-                "1" : "ZUlAytznxn4"
+                "1" : "1CGMk_roNaE",
+                "2" : "xZv2OCbQOmI"
             },
             "links" : {
                 "spotify" : "https://open.spotify.com/album/1NCt4W6d8fNGkBQAjXDVrA"
@@ -147,7 +148,8 @@
             "name" : "NieR Gestalt & Replicant Original Soundtrack",
             "artist" : "Keiichi Okabe, others",
             "video" : {
-                "1" : "V4CHW4F49oI"
+                "1" : "V4CHW4F49oI",
+                "2" : "sW9kTkKEiEo"
             },
             "links" : {
                 "spotify" : "https://open.spotify.com/album/5EvfMZYvdWB2XPZT0IvcyI"
@@ -213,5 +215,20 @@
             }
         },
         "imgName" : "hometown.png"
+    },
+    {
+        "id" : 16,
+        "data" : {
+            "name" : "Ratchet & Clank 2 Original Soundtrack",
+            "artist" : "David Bergeaud",
+            "video" : {
+                "1" : "P1DG9M-V_JY&t=31s",
+                "2" : "MT0rmOwDFek&t=47s"
+            },
+            "links" : {
+                "youtube" : ""
+            }
+        },
+        "imgName" : "ratchet_2_ost.png"
     }
 ]

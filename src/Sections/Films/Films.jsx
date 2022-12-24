@@ -32,9 +32,10 @@ function Films(){
                                     {
                                         // Map rows to items
                                         row.map((film) => {
+                                            const showcaseOnRight = (film.id % 3) !== 0;
                                             return (
                                             <div key={`film-${film.id}`} className="w-1/3 mb-8">
-                                                    <Film filmData={film} />
+                                                    <Film filmData={film} showcaseOnRight={showcaseOnRight} />
                                             </div>
                                         )})
                                     }

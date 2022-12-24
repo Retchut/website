@@ -32,9 +32,10 @@ function Shows(){
                                     {
                                         // Map rows to items
                                         row.map((show) => {
+                                            const showcaseOnRight = (show.id % 3) !== 0;
                                             return (
                                             <div key={`show-${show.id}`} className="w-1/3 mb-8">
-                                                    <Show showData={show} />
+                                                    <Show showData={show} showcaseOnRight={showcaseOnRight} />
                                             </div>
                                         )})
                                     }

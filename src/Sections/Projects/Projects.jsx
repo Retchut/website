@@ -12,6 +12,7 @@ import tags from '../../Assets/Data/Projects/Tags.json';
 
 function Projects(){
     const sectionLabel = "Projects";
+    const sectionSubtitle = "Some projects I have developed:";
     
     const [ filter, setFilter ] = useState("All");
 
@@ -31,6 +32,7 @@ function Projects(){
                     <Dropdown dropdownText={"Filters"} dropdownItems={tags} filterHandler={setFilter}></Dropdown>
                 </div>
                 <hr />
+                <p className="text-xl pt-4 pl-4 ">{sectionSubtitle}</p>
             </div>
 
             <div className="flex flex-col items-center">

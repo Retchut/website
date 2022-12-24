@@ -9,6 +9,7 @@ import favourites from '../../Assets/Data/Shows/Favourites.json';
 
 function Shows(){
     const sectionLabel = "Shows";
+    const sectionSubtitle = "Some of my favourite shows:";
     const showLabels = {
         subtitleLabel : "Director:",
         videoLabel : "Trailer",
@@ -27,6 +28,7 @@ function Shows(){
             <div className="w-full mb-8">
                 <p className="mb-4 text-4xl">{sectionLabel}</p>
                 <hr />
+                <p className="text-xl pt-4 pl-4 ">{sectionSubtitle}</p>
             </div>
 
             <div className="flex flex-col items-center">

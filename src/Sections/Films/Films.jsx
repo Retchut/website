@@ -9,6 +9,7 @@ import favourites from '../../Assets/Data/Films/Favourites.json';
 
 function Films(){
     const sectionLabel = "Films";
+    const sectionSubtitle = "Some of my favourite films:";
     const filmLabels = {
         subtitleLabel : "Director:",
         videoLabel : "Trailer",
@@ -27,6 +28,7 @@ function Films(){
             <div className="w-full mb-8">
                 <p className="mb-4 text-4xl">{sectionLabel}</p>
                 <hr />
+                <p className="text-xl pt-4 pl-4 ">{sectionSubtitle}</p>
             </div>
 
             <div className="flex flex-col items-center">

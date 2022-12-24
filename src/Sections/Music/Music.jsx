@@ -9,6 +9,7 @@ import favourites from '../../Assets/Data/Music/Favourites.json';
 
 function Music(){
     const sectionLabel = "Music";
+    const sectionSubtitle = "Some of my favourite music albums:";
     const albumLabels = {
         subtitleLabel : "By:",
         videoLabel : "My favourite song(s)",
@@ -27,6 +28,7 @@ function Music(){
             <div className="w-full mb-8">
                 <p className="mb-4 text-4xl">{sectionLabel}</p>
                 <hr />
+                <p className="text-xl pt-4 pl-4 ">{sectionSubtitle}</p>
             </div>
 
             <div className="flex flex-col items-center">

@@ -10,7 +10,7 @@ function getShowcase({ name, artist, video, links }){
     const subtitleLabel = "By: ";
 
     const videoKeys = Object.keys(video);
-    const showVideoLabel = true;
+    const showVideoLabel = true && (videoKeys.length !== 0);
     const videoLabel = "My favourite song" + ((videoKeys.length > 1) ? "s" : "") + ":";
 
     const linkKeys = Object.keys(links);

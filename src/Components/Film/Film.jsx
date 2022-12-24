@@ -8,7 +8,7 @@ function getImage(imgName){
 
 function getShowcase({ name, director, video, links }){
     const videoKeys = Object.keys(video);
-    const showVideoLabel = true;
+    const showVideoLabel = true && (videoKeys.length !== 0);
     const videoLabel = "Trailer";
 
     const linkKeys = Object.keys(links);

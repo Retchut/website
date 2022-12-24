@@ -32,9 +32,10 @@ function Music(){
                                     {
                                         // Map rows to items
                                         row.map((album) => {
+                                            const showcaseOnRight = (album.id % 3) !== 0;
                                             return (
                                             <div key={`album-${album.id}`} className="w-1/3 mb-8">
-                                                    <Album albumData={album} />
+                                                    <Album albumData={album} showcaseOnRight={showcaseOnRight} />
                                             </div>
                                         )})
                                     }

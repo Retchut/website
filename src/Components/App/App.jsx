@@ -41,13 +41,13 @@ function App() {
         <Games />
       </section>
       <section className="pb-10">
+        <Music />
+      </section>
+      <section className="pb-10">
         <Films />
       </section>
       <section className="pb-10">
         <Shows />
-      </section>
-      <section className="pb-10">
-        <Music />
       </section>
       <Footer />
     </>

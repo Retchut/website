@@ -1,72 +1,217 @@
 [
     {
         "id" : 1,
-        "name" : "Modal Soul",
-        "imgName" : "modal_soul.png"
+        "data" : {
+            "name" : "Hydeout Productions 2nd Collection",
+            "artist" : "Nujabes",
+            "video" : {
+                "1" : "0jFzOnDQmA4"
+            },
+            "links" : {
+                "spotify" : "https://open.spotify.com/album/1uFAVpKOz5CBiaMxVnA9UW"
+            }
+        },
+        "imgName" : "hydeout_2nd.png"
     },
     {
         "id" : 2,
-        "name" : "Metaphorical Music",
+        "data" : {
+            "name" : "Metaphorical Music",
+            "artist" : "Nujabes",
+            "video" : {
+                "1" : "V8Xh5ErjIyM"
+            },
+            "links" : {
+                "spotify" : "https://open.spotify.com/album/5FrjDW96mCYw9ECc74c637"
+            }
+        },
         "imgName" : "metaphorical_music.png"
     },
     {
         "id" : 3,
-        "name" : "Tarot",
-        "imgName" : "tarot.png"
+        "data" : {
+            "name" : "Modal Soul Classics II",
+            "artist" : "Uyama Hiroto, Pase Rock, others",
+            "video" : {
+                "1" : "e1LmvSr2ZqM",
+                "2" : "xEHtDiwKpyc"
+            },
+            "links" : {
+                "youtube" : "https://youtu.be/OnWOgOPfzAk"
+            }
+        },
+        "imgName" : "modal_soul_classics_ii.png"
     },
     {
         "id" : 4,
-        "name" : "Winter's Gate",
-        "imgName" : "winters_gate.png"
+        "data" : {
+            "name" : "Tarot",
+            "artist" : "Æther Realm",
+            "video" : {
+                "1" : "bw3UygAi2oo"
+            },
+            "links" : {
+                "spotify" : "https://open.spotify.com/album/2QFew4zGb4RNsuW3KF39ev"
+            }
+        },
+        "imgName" : "tarot.png"
     },
     {
         "id" : 5,
-        "name" : "Urn",
-        "imgName" : "urn.png"
+        "data" : {
+            "name" : "Winter's Gate",
+            "artist" : "Insomnium",
+            "video" : {
+                "1" : "CwNWhWt5ZeU"
+            },
+            "links" : {
+                "spotify" : "https://open.spotify.com/album/1lCmbNOMbDw1QeFzWGWLbR"
+            }
+        },
+        "imgName" : "winters_gate.png"
     },
     {
         "id" : 6,
-        "name" : "Stone's Reach",
-        "imgName" : "stones_reach.png"
+        "data" : {
+            "name" : "Urn",
+            "artist" : "Ne Obliviscaris",
+            "video" : {
+                "1" : "-9kERB40e7s"
+            },
+            "links" : {
+                "spotify" : "https://open.spotify.com/album/32jRtHOvTfiPItM40XIEae"
+            }
+        },
+        "imgName" : "urn.png"
     },
     {
         "id" : 7,
-        "name" : "Fortune",
-        "imgName" : "fortune.png"
+        "data" : {
+            "name" : "Stone's Reach",
+            "artist" : "Be'lakor",
+            "video" : {
+                "1" : "eYaxAosBuro"
+            },
+            "links" : {
+                "spotify" : "https://open.spotify.com/album/4VzCNpLiC373x4sb1DyxIn"
+            }
+        },
+        "imgName" : "stones_reach.png"
     },
     {
         "id" : 8,
-        "name" : "Cherish",
-        "imgName" : "cherish.png"
+        "data" : {
+            "name" : "Fortune",
+            "artist" : "SNUG SPACE",
+            "video" : {
+                "1" : "9hTSmk7bVLc"
+            },
+            "links" : {
+                "youtube" : "https://youtu.be/rTb1LWEpek4"
+            }
+        },
+        "imgName" : "fortune.png"
     },
     {
         "id" : 9,
-        "name" : "Furi (Original Game Soundtrack)",
-        "imgName" : "furi_ost.png"
+        "data" : {
+            "name" : "Cherish",
+            "artist" : "KIRINJI",
+            "video" : {
+                "1" : "mgY7V-nB3VI",
+                "2" : "Y36b8_WFejI"
+            },
+            "links" : {
+                "spotify" : "https://open.spotify.com/album/3hJezmiYPXSjbYEsJ0Xu30"
+            }
+        },
+        "imgName" : "cherish.png"
     },
     {
         "id" : 10,
-        "name" : "NieR Gestalt & Replicant Original Soundtrack",
-        "imgName" : "nier_ost.png"
+        "data" : {
+            "name" : "Furi (Original Game Soundtrack)",
+            "artist" : "Several Artists",
+            "video" : {
+                "1" : "ZUlAytznxn4"
+            },
+            "links" : {
+                "spotify" : "https://open.spotify.com/album/1NCt4W6d8fNGkBQAjXDVrA"
+            }
+        },
+        "imgName" : "furi_ost.png"
     },
     {
         "id" : 11,
-        "name" : "NieR:Automata Original Soundtrack",
-        "imgName" : "nier_automata_ost.png"
+        "data" : {
+            "name" : "NieR Gestalt & Replicant Original Soundtrack",
+            "artist" : "Keiichi Okabe, others",
+            "video" : {
+                "1" : "V4CHW4F49oI"
+            },
+            "links" : {
+                "spotify" : "https://open.spotify.com/album/5EvfMZYvdWB2XPZT0IvcyI"
+            }
+        },
+        "imgName" : "nier_ost.png"
     },
     {
         "id" : 12,
-        "name" : "Persona 3 Original Soundtrack",
-        "imgName" : "p3_ost.png"
+        "data" : {
+            "name" : "NieR:Automata Original Soundtrack",
+            "artist" : "Keiichi Okabe, others",
+            "video" : {
+                "1" : "t0eTErEiyJQ",
+                "2" : "ABvi5qegodY"
+            },
+            "links" : {
+                "spotify" : "https://open.spotify.com/album/6Nws2NAPuxaHzB7MfD1lhg"
+            }
+        },
+        "imgName" : "nier_automata_ost.png"
     },
     {
         "id" : 13,
-        "name" : "Ratchet & Clank Original Soundtrack",
-        "imgName" : "ratchet_ost.png"
+        "data" : {
+            "name" : "Persona 3 Original Soundtrack",
+            "artist" : "Shoji Meguro",
+            "video" : {
+                "1" : "oYuzXkDRRXE",
+                "2" : "wCbYkNmvi0w"
+            },
+            "links" : {
+                "spotify" : "https://open.spotify.com/album/4yyExVOiwrE7TDZfxAGgki"
+            }
+        },
+        "imgName" : "p3_ost.png"
     },
     {
         "id" : 14,
-        "name" : "ホームタウン",
+        "data" : {
+            "name" : "Ratchet & Clank Original Soundtrack",
+            "artist" : "David Bergeaud",
+            "video" : {
+                "1" : "hGyP1dWj4OY",
+                "2" : "jOH7M1KdB1o"
+            },
+            "links" : {
+                "youtube" : "https://youtu.be/Q00O5mXjiNg"
+            }
+        },
+        "imgName" : "ratchet_ost.png"
+    },
+    {
+        "id" : 15,
+        "data" : {
+            "name" : "ホームタウン",
+            "artist" : "Asian Kung-Fu Generation",
+            "video" : {
+                "1" : "KGM-BO0mklY"
+            },
+            "links" : {
+                "spotify" : "https://open.spotify.com/album/3wmz5LudXtskEIT87Jn8S4"
+            }
+        },
         "imgName" : "hometown.png"
     }
 ]

@@ -8,8 +8,11 @@ function getImage(imgName){
 
 function getShowcase({ name, developer, video, links }){
     const videoKeys = Object.keys(video);
-    const showVideoKey = false;
+    const showVideoLabel = false;
+    const videoLabel = "Trailer";
+
     const linkKeys = Object.keys(links);
+    const linkLabel = "See more:"
 
     return (
         <div className="background-box mx-4 px-4 h-full flex flex-col justify-center items-center">
@@ -17,21 +20,17 @@ function getShowcase({ name, developer, video, links }){
                 <p className="mb-2 text-4xl">{name}</p>
                 <p className="my-1 text-xl">Developed by {developer}</p>
             </div>
+            {showVideoLabel && <p className="text-xl pb-1">{videoLabel}</p>}
             <div className="w-full flex flex-col items-center pb-2">
                 {
                     videoKeys.map((type, index) => {
-                        return (
-                        <>
-                            {showVideoKey && <p className="text-xl pb-1">{capitalize(type)}</p>}
-                            <YoutubeEmbed key={index} embedID={video[type]} />
-                        </>
-                        )
+                        return <YoutubeEmbed key={index} embedID={video[type]} />
                     })
                 }
             </div>
             <div className="w-full grow flex items-end pb-1">
                 <div className="w-full">
-                    <p className="pl-4 text-xl">See more:</p>
+                    <p className="pl-4 text-xl">{linkLabel}</p>
                     <div className="flex justify-center">
                         {linkKeys.map((platform, index) => {
                             return (

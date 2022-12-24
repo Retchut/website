@@ -7,24 +7,30 @@ function getImage(imgName){
 }
 
 function getShowcase({ name, artist, video, links }){
+    const subtitleLabel = "By: ";
+
     const videoKeys = Object.keys(video);
     const showVideoLabel = true;
-    const videoLabel = "My favourite song" + ((videoKeys.length > 1) ? "s" : "");
+    const videoLabel = "My favourite song" + ((videoKeys.length > 1) ? "s" : "") + ":";
 
     const linkKeys = Object.keys(links);
-    const linkLabel = "Listen on:";
+    const linkLabel = "Full album on:";
 
     return (
         <div className="background-box mx-4 px-4 h-full flex flex-col justify-center items-center">
             <div className="my-3 text-center">
                 <p className="mb-2 text-4xl">{name}</p>
-                <p className="my-1 text-xl">Artist: {artist}</p>
+                <p className="my-1 text-xl">{subtitleLabel} {artist}</p>
             </div>
             {showVideoLabel && <p className="text-xl pb-1">{videoLabel}</p>}
             <div className="w-full flex flex-col items-center pb-2">
                 {
                     videoKeys.map((type, index) => {
-                        return <YoutubeEmbed key={index} embedID={video[type]} />
+                        return (
+                            <div className="pb-1">
+                                <YoutubeEmbed key={index} embedID={video[type]} />
+                            </div>
+                        )
                     })
                 }
             </div>

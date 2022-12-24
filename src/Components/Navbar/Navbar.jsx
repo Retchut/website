@@ -4,7 +4,10 @@ function Navbar(props){
     const [ homeKey, homeLabel ]  = [ "home", "Home" ];
     const sections = {
         "projects" : "Projects",
-        "interests" : "Interests"
+        "games" : "Games",
+        "music" : "Music",
+        "films" : "Films",
+        "shows" : "Shows"
     }
 
     const LinkButton = ({sectionKey, sectionLabel}) => {

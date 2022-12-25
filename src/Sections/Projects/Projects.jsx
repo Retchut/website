@@ -32,7 +32,7 @@ function Projects(){
                     <Dropdown dropdownText={"Filters"} dropdownItems={tags} filterHandler={setFilter}></Dropdown>
                 </div>
                 <hr />
-                <p className="text-xl pt-4 pl-4 ">{sectionSubtitle}</p>
+                <p className="text-xl pt-4 pl-4">{sectionSubtitle}</p>
             </div>
 
             <div className="flex flex-col items-center">

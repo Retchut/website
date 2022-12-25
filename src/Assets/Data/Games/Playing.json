@@ -1,0 +1,32 @@
+[
+    {
+        "id" : 1,
+        "data" : {
+            "title" : "Jak 2",
+            "subtitle" : "Naughty Dog",
+            "video" : {
+                "trailer" : "dE8F6gFKn6U"
+            },
+            "links" : {
+                "pSStore" : "https://store.playstation.com/pt-pt/product/EP9000-CUSA07990_00-SCES5160800000013",
+                "website" : "https://www.playstation.com/en-us/games/jak-and-daxter-the-precursor-legacy/"
+            }
+        },
+        "imgName" : "jak2.png"
+    },
+    {
+        "id" : 2,
+        "data" : {
+            "title" : "Kingdom Hearts",
+            "subtitle" : "Square Enix",
+            "video" : {
+                "trailer" : "WoTFkF88rKs"
+            },
+            "links" : {
+                "pSStore" : "https://store.playstation.com/pt-pt/product/EP0082-CUSA05786_00-KINGDOMHEART1525",
+                "website" : "https://www.playstation.com/en-us/games/kingdom-hearts-hd-1-5-2-5-remix/"
+            }
+        },
+        "imgName" : "kh1.png"
+    }
+]

@@ -34,7 +34,7 @@ function Games(){
             <div className="w-full mb-8">
                 <p className="mb-4 text-4xl">{sectionLabel}</p>
                 <hr />
-                <p className="text-2xl pt-4 pl-4">{playingSubtitle}</p>
+                <p className="text-2xl pt-4 pl-4 text-center">{playingSubtitle}</p>
             </div>
             
             <div ref={playingRef} >
@@ -53,7 +53,7 @@ function Games(){
             </div>
 
             <div className="w-full mb-8">
-                <p className="text-2xl pt-4 pl-4">{sectionSubtitle}</p>
+                <p className="text-xl pt-4 pl-4 text-center">{sectionSubtitle}</p>
             </div>
 
             <div className="flex flex-col items-center">

@@ -8,6 +8,8 @@ function getTagColNum(windowSize){
             return 3;
         case 1:
             return 2;
+        default:
+            return 1;
     }
 }
 

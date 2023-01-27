@@ -44,7 +44,6 @@ function getTags(projectName, tags, techs, windowSize){
     return (
         <div className="">
             {rows.map((row, index) => {
-                // console.log(item)
                 return (
                     <div className="my-2 pb-2 flex justify-center items-center">
                         {row.map((item, index) => {
@@ -58,21 +57,6 @@ function getTags(projectName, tags, techs, windowSize){
                 )
             })}
         </div>
-
-
-
-        // <div className="my-2 pb-2 grid grid-cols-4">
-        //     {tags.map((tag, index) =>
-        //         <div key={projectName + "Tag" + index} className="flex h-min justify-center">
-        //             <p className="text-center px-2 py-0.5 mb-0 my-1 bg-tag rounded-md">{tag}</p>
-        //         </div>
-        //     )}
-        //     {techs.map((technology, index) =>
-        //         <div key={projectName + "Tech" + index} className="flex h-min justify-center">
-        //             <p className="text-center px-2 py-0.5 mb-0 my-1 bg-tech rounded-md">{technology}</p>
-        //         </div>
-        //     )}
-        // </div>
     )
 }
 

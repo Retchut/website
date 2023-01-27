@@ -10,14 +10,16 @@ import Shows from '../../Sections/Shows/Shows.jsx';
 import Music from '../../Sections/Music/Music.jsx';
 
 function App() {
-  const [ isMobile, setMobile ] = useState(false);
+  const [ windowSize, setWindowSize ] = useState(3);
 
   const handleWindowResize = () => {
-      if (window.innerWidth < 1140) {
-          setMobile(true)
-      } else {
-          setMobile(false)
-      }
+    const windowSize = window.innerWidth;
+    if (windowSize >= 1700)
+      setWindowSize(3)
+    else if(windowSize >= 1140)
+      setWindowSize(2)
+    else
+      setWindowSize(1)
   }
 
   useEffect(() => {
@@ -52,19 +54,19 @@ function App() {
         <Home />
       </section>
       <section ref={refs.projects} className="pb-10">
-        <Projects isMobile={isMobile}/>
+        <Projects windowSize={windowSize}/>
       </section>
       <section ref={refs.games} className="pb-10">
-        <Games isMobile={isMobile}/>
+        <Games windowSize={windowSize}/>
       </section>
       <section ref={refs.music} className="pb-10">
-        <Music isMobile={isMobile}/>
+        <Music windowSize={windowSize}/>
       </section>
       <section ref={refs.films} className="pb-10">
-        <Films isMobile={isMobile}/>
+        <Films windowSize={windowSize}/>
       </section>
       <section ref={refs.shows} className="pb-10">
-        <Shows isMobile={isMobile}/>
+        <Shows windowSize={windowSize}/>
       </section>
       <Footer />
     </>

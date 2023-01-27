@@ -10,7 +10,7 @@ import noteworthy from '../../Assets/Data/Projects/Noteworthy.json';
 import other from '../../Assets/Data/Projects/Other.json';
 import tags from '../../Assets/Data/Projects/Tags.json';
 
-function Projects({ isMobile }){
+function Projects({ windowSize }){
     const sectionLabel = "Projects";
     const sectionSubtitle = "Some projects I have developed:";
     
@@ -19,7 +19,7 @@ function Projects({ isMobile }){
     // const noteworthyProjs = filterArray(noteworthy, filter);
     // const otherProjs = filterArray(other, filter);
     const allProjs = noteworthy.concat(other);
-    const projCols = (isMobile) ? 1 : 2;
+    const projCols = (windowSize < 2) ? 1 : 2;
     const rows = buildRows(allProjs, projCols, filter);
 
     const showcaseRef = useRef(null);
@@ -48,7 +48,7 @@ function Projects({ isMobile }){
                                         row.map((project) => {
                                             return (
                                             <div key={`project-${project.id}`} className="w-1/2 mb-8">
-                                                <Project projectData={project} />
+                                                <Project windowSize={windowSize} projectData={project} />
                                             </div>
                                         )})
                                     }

@@ -7,7 +7,7 @@ import { buildRows } from '../../Utils/arrayFilters';
 
 import favourites from '../../Assets/Data/Films/Favourites.json';
 
-function Films({ isMobile }){
+function Films({ windowSize }){
     const sectionLabel = "Films";
     const sectionSubtitle = "Some of my favourite films:";
     const filmLabels = {

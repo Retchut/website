@@ -20,6 +20,19 @@ function buildRows(data, colNum, tagFilter = ""){
     return rows;
 }
 
+function buildTagRows(techs, tags, colNum){
+    // TODO: make this cleaner
+    let items = [];
+    for(const tech of techs){
+        items.push({ content : tech, isTag : false});
+    }
+    for(const tag of tags){
+        items.push({ content : tag, isTag : true});
+    }
+
+    return buildRows(items, colNum);
+}
+
 function filterArray(data, tagFilter){
     const baseFilter = "All";
     if(tagFilter !== ""){
@@ -31,4 +44,4 @@ function filterArray(data, tagFilter){
     return data;
 }
 
-export { buildRows, filterArray };
+export { buildRows, buildTagRows, filterArray };

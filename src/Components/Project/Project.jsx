@@ -1,3 +1,16 @@
+import { buildTagRows } from '../../Utils/arrayFilters.js';
+
+function getTagColNum(windowSize){
+    switch(windowSize){
+        case 3:
+            return 4;
+        case 2:
+            return 3;
+        case 1:
+            return 2;
+    }
+}
+
 function getImage(folderPath, imgName){
     return (
         <div className="grow p-2 flex justify-center items-center">
@@ -23,25 +36,47 @@ function getDescription(name, description){
     )
 }
 
-function getTags(projectName, tags, techs){
+function getTags(projectName, tags, techs, windowSize){
+    const rows = buildTagRows(tags, techs, getTagColNum(windowSize));
+
     return (
-        <div className="my-2 pb-2 grid grid-cols-4">
-            {tags.map((tag, index) =>
-                <div key={projectName + "Tag" + index} className="flex h-min justify-center">
-                    <p className="whitespace-nowrap px-2 py-0.5 mb-0 my-1 bg-tag rounded-md">{tag}</p>
-                </div>
-            )}
-            {techs.map((technology, index) =>
-                <div key={projectName + "Tech" + index} className="flex h-min justify-center">
-                    <p className="whitespace-nowrap px-2 py-0.5 mb-0 my-1 bg-tech rounded-md">{technology}</p>
-                </div>
-            )}
+        <div className="">
+            {rows.map((row, index) => {
+                // console.log(item)
+                return (
+                    <div className="my-2 pb-2 flex justify-center items-center">
+                        {row.map((item, index) => {
+                            return (
+                                <div key={projectName + "Tag" + index} className="mx-2">
+                                    <p className={`text-center px-2 py-0.5 mb-0 my-1 rounded-md ${(item.isTag ? "bg-tag" : "bg-tech")}`}>{item.content}</p>
+                                </div>
+                            );
+                        })}
+                    </div>
+                )
+            })}
         </div>
+
+
+
+        // <div className="my-2 pb-2 grid grid-cols-4">
+        //     {tags.map((tag, index) =>
+        //         <div key={projectName + "Tag" + index} className="flex h-min justify-center">
+        //             <p className="text-center px-2 py-0.5 mb-0 my-1 bg-tag rounded-md">{tag}</p>
+        //         </div>
+        //     )}
+        //     {techs.map((technology, index) =>
+        //         <div key={projectName + "Tech" + index} className="flex h-min justify-center">
+        //             <p className="text-center px-2 py-0.5 mb-0 my-1 bg-tech rounded-md">{technology}</p>
+        //         </div>
+        //     )}
+        // </div>
     )
 }
 
 function Project(props) {
     const { name, description, imgName, tags, techs, buttonText, buttonUrl } = props.projectData;
+    const windowSize = props.windowSize;
     
     return (
         <div className="background-box grid grid-cols-3">
@@ -54,7 +89,7 @@ function Project(props) {
             <div className="col-span-2">
                 <div className="h-full flex flex-col">
                     {getDescription(name, description)}
-                    {getTags(name, tags, techs)}
+                    {getTags(name, tags, techs, windowSize)}
                 </div>
             </div>
         </div>

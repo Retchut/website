@@ -8,7 +8,7 @@ import { buildRows } from '../../Utils/arrayFilters';
 import playing from '../../Assets/Data/Games/Playing.json';
 import favourites from '../../Assets/Data/Games/Favourites.json';
 
-function Games(){
+function Games({ isMobile }){
     const sectionLabel = "Games";
     const sectionSubtitle = "Some of my favourite games";
     const playingSubtitle = "Currently (re)playing"

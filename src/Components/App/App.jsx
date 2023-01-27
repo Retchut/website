@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 import Footer from '../Footer/Footer.jsx';
 import Navbar from '../Navbar/Navbar.jsx';
@@ -10,6 +10,20 @@ import Shows from '../../Sections/Shows/Shows.jsx';
 import Music from '../../Sections/Music/Music.jsx';
 
 function App() {
+  const [ isMobile, setMobile ] = useState(false);
+
+  const handleWindowResize = () => {
+      if (window.innerWidth < 1140) {
+          setMobile(true)
+      } else {
+          setMobile(false)
+      }
+  }
+
+  useEffect(() => {
+      window.addEventListener("resize", handleWindowResize)
+  })
+
   const refs = {
     home : useRef(null),
     projects : useRef(null),
@@ -38,19 +52,19 @@ function App() {
         <Home />
       </section>
       <section ref={refs.projects} className="pb-10">
-        <Projects />
+        <Projects isMobile={isMobile}/>
       </section>
       <section ref={refs.games} className="pb-10">
-        <Games />
+        <Games isMobile={isMobile}/>
       </section>
       <section ref={refs.music} className="pb-10">
-        <Music />
+        <Music isMobile={isMobile}/>
       </section>
       <section ref={refs.films} className="pb-10">
-        <Films />
+        <Films isMobile={isMobile}/>
       </section>
       <section ref={refs.shows} className="pb-10">
-        <Shows />
+        <Shows isMobile={isMobile}/>
       </section>
       <Footer />
     </>

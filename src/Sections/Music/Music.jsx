@@ -7,7 +7,7 @@ import { buildRows } from '../../Utils/arrayFilters';
 
 import favourites from '../../Assets/Data/Music/Favourites.json';
 
-function Music(){
+function Music({ isMobile }){
     const sectionLabel = "Music";
     const sectionSubtitle = "Some of my favourite music albums:";
     const albumLabels = {

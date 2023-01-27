@@ -10,7 +10,7 @@ import noteworthy from '../../Assets/Data/Projects/Noteworthy.json';
 import other from '../../Assets/Data/Projects/Other.json';
 import tags from '../../Assets/Data/Projects/Tags.json';
 
-function Projects(){
+function Projects({ isMobile }){
     const sectionLabel = "Projects";
     const sectionSubtitle = "Some projects I have developed:";
     
@@ -19,7 +19,8 @@ function Projects(){
     // const noteworthyProjs = filterArray(noteworthy, filter);
     // const otherProjs = filterArray(other, filter);
     const allProjs = noteworthy.concat(other);
-    const rows = buildRows(allProjs, 2, filter);
+    const projCols = (isMobile) ? 1 : 2;
+    const rows = buildRows(allProjs, projCols, filter);
 
     const showcaseRef = useRef(null);
     useScrollAnimation(showcaseRef, 0.3, [filter]);

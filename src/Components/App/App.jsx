@@ -13,12 +13,14 @@ function App() {
   const [ windowSize, setWindowSize ] = useState(3);
 
   const handleWindowResize = () => {
-    const windowSize = window.innerWidth;
-    if (windowSize >= 1536) // 2xl
+    const screenSize = window.innerWidth;
+    if (screenSize > 1536) // 2xl
+      setWindowSize(4)
+    else if(screenSize > 1280) // xl
       setWindowSize(3)
-    else if(windowSize >= 1024) // lg
+    else if(screenSize > 1024) // lg
       setWindowSize(2)
-    else if(windowSize < 640) // sm
+    else // md, sm
       setWindowSize(1)
   }
 

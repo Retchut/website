@@ -19,7 +19,7 @@ function Projects({ windowSize }){
     // const noteworthyProjs = filterArray(noteworthy, filter);
     // const otherProjs = filterArray(other, filter);
     const allProjs = noteworthy.concat(other);
-    const projCols = (windowSize < 2) ? 1 : 2;
+    const projCols = (windowSize === 1) ? 1 : 2;
     const rows = buildRows(allProjs, projCols, filter);
 
     const showcaseRef = useRef(null);

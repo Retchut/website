@@ -14,11 +14,11 @@ function App() {
 
   const handleWindowResize = () => {
     const windowSize = window.innerWidth;
-    if (windowSize >= 1700)
+    if (windowSize >= 1536) // 2xl
       setWindowSize(3)
-    else if(windowSize >= 1140)
+    else if(windowSize >= 1024) // lg
       setWindowSize(2)
-    else
+    else if(windowSize < 640) // sm
       setWindowSize(1)
   }
 

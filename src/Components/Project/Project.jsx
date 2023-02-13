@@ -1,12 +1,13 @@
 import { buildTagRows } from '../../Utils/arrayFilters.js';
 
 function getTagColNum(windowSize){
+    console.log(windowSize)
     switch(windowSize){
-        case 3:
-            return 4;
-        case 2:
+        case 4: // 2xl
+        case 3: // xl
             return 3;
-        case 1:
+        case 2: // lg
+        case 1: // md/sm
             return 2;
         default:
             return 1;

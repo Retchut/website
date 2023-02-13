@@ -37,7 +37,7 @@ function Projects({ windowSize }){
             </div>
 
             <div className="flex flex-col items-center">
-                <div ref={showcaseRef} className="w-4/6">
+                <div ref={showcaseRef} className="w-full xl:w-4/6">
                     {
                         // Map rows to containers
                         rows.map((row, index) => {
@@ -47,7 +47,7 @@ function Projects({ windowSize }){
                                         // Map rows to items
                                         row.map((project) => {
                                             return (
-                                            <div key={`project-${project.id}`} className="w-1/2 mb-8">
+                                            <div key={`project-${project.id}`} className="w-3/4 lg:w-1/2 mb-8">
                                                 <Project windowSize={windowSize} projectData={project} />
                                             </div>
                                         )})

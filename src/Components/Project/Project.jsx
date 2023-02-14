@@ -18,16 +18,8 @@ function getTagColNum(windowSize){
 
 function getImage(folderPath, imgName){
     return (
-        <div className="grow p-2 flex justify-center items-center">
+        <div className="p-2 h-full flex justify-center items-center">
             <img className="w-proj-thumb aspect-square rounded-md" src={folderPath + imgName} alt={imgName} />
-        </div>
-    )
-}
-
-function getButton(buttonText, buttonUrl) {
-    return (
-        <div className="flex justify-center items-end">
-            <a className="link-btn my-2" href={buttonUrl}>{buttonText}</a>
         </div>
     )
 }
@@ -45,7 +37,7 @@ function getTags(projectName, tags, techs, windowSize){
     const rows = buildTagRows(tags, techs, getTagColNum(windowSize));
 
     return (
-        <div className="">
+        <div className="h-full flex flex-col justify-around">
             {rows.map((row, index) => {
                 return (
                     <div className="my-2 pb-2 flex justify-center items-center">
@@ -59,6 +51,14 @@ function getTags(projectName, tags, techs, windowSize){
                     </div>
                 )
             })}
+        </div>
+    )
+}
+
+function getButton(buttonText, buttonUrl) {
+    return (
+        <div className="flex h-full justify-center items-center">
+            <a className="link-btn my-2" href={buttonUrl}>{buttonText}</a>
         </div>
     )
 }

@@ -6,7 +6,7 @@
         "imgName" : "react-logo.png",
         "tags" : [ "Web" ],
         "techs" : [
-            "React", "Tailwind CSS", "HTML", "CSS", "JavaScript"
+            "React", "Tailwind CSS"
         ],
         "buttonUrl" : "https://github.com/Retchut/website",
         "buttonText" : "Git Repo"
@@ -30,7 +30,7 @@
         "imgName" :"ncgm-website.png",
         "tags" : [ "Web" ],
         "techs" : [
-            "React",    "Bootstrap 5",   "Express",  "Node.js",  "MongoDB",  "Javascript",   "CSS",  "HTML"
+            "MERN",    "Bootstrap"
         ],
         "buttonUrl" : "https://ncgm.fe.up.pt/",
         "buttonText" : "Visit it"
@@ -42,7 +42,7 @@
         "imgName" :"atlas.png",
         "tags" : [ "Web" ],
         "techs" : [
-            "React",    "Tailwind CSS",   "Express",  "Node.js",  "MongoDB",  "Javascript",   "CSS",  "HTML"
+            "MERN",    "Tailwind CSS"
         ],
         "buttonUrl" : "https://atlas.fly.dev/",
         "buttonText" : "Visit it"

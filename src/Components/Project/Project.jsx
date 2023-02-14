@@ -1,5 +1,7 @@
 import { buildTagRows } from '../../Utils/arrayFilters.js';
 
+import './Project.css';
+
 function getTagColNum(windowSize){
     console.log(windowSize)
     switch(windowSize){
@@ -32,7 +34,7 @@ function getButton(buttonText, buttonUrl) {
 
 function getDescription(name, description){
     return (
-        <div className="grow px-4 pt-3 pb-4">
+        <div className="shrink lg:grow px-4 pt-3 pb-4">
             <p className="text-3xl pb-4">{name}</p>
             <p>{description}</p>
         </div>
@@ -66,18 +68,18 @@ function Project(props) {
     const windowSize = props.windowSize;
     
     return (
-        <div className="background-box grid grid-cols-3">
-            <div className="col-span-1">
-                <div className="h-full flex flex-col">
-                    {getImage("./Images/Projects/", imgName)}
-                    {getButton(buttonText, buttonUrl)}
-                </div>
+        <div className="background-box grid grid-rows-4 grid-cols-6">
+            <div className="image-xs image-lg">
+                {getImage("./Images/Projects/", imgName)}
             </div>
-            <div className="col-span-2">
-                <div className="h-full flex flex-col">
-                    {getDescription(name, description)}
-                    {getTags(name, tags, techs, windowSize)}
-                </div>
+            <div className="description-xs description-lg">
+                {getDescription(name, description)}
+            </div>
+            <div className="tags-xs tags-lg">
+                {getTags(name, tags, techs, windowSize)}
+            </div>
+            <div className="button-xs button-lg">
+                    {getButton(buttonText, buttonUrl)}
             </div>
         </div>
     )

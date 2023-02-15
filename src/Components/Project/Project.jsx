@@ -3,14 +3,14 @@ import { buildTagRows } from '../../Utils/arrayFilters.js';
 import './Project.css';
 
 function getTagColNum(windowSize){
-    console.log(windowSize)
     switch(windowSize){
-        case 4: // 2xl
-        case 3: // xl
+        case 5: // >2xl
+        case 4: // 2xl (<1536px)
+        case 3: // xl (<1280px)
             return 3;
-        case 2: // lg
-        case 1: // md/sm
-            return 2;
+        case 2: // lg (<1024px)
+        case 1: // md (<768px), sm (<640px)
+            return 3;
         default:
             return 1;
     }

@@ -37,11 +37,11 @@
 }
 
 .description-lg {
-    @apply  sm:row-start-1 sm:col-start-3 sm:row-span-2 sm:col-span-4
+    @apply  sm:row-start-1 sm:col-start-3 sm:row-span-3 sm:col-span-4
 }
 
 .tags-lg {
-    @apply  sm:row-start-3 sm:col-start-3 sm:row-span-2 sm:col-span-4
+    @apply  sm:row-start-4 sm:col-start-3 sm:row-span-1 sm:col-span-4
 }
 
 .button-lg {

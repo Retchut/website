@@ -10,7 +10,7 @@ function getTagColNum(windowSize){
             return 3;
         case 2: // lg (<1024px)
         case 1: // md (<768px), sm (<640px)
-            return 3;
+            return 2;
         default:
             return 1;
     }
@@ -37,20 +37,22 @@ function getTags(projectName, tags, techs, windowSize){
     const rows = buildTagRows(tags, techs, getTagColNum(windowSize));
 
     return (
-        <div className="h-full flex flex-col justify-around">
-            {rows.map((row, index) => {
-                return (
-                    <div className="my-2 pb-2 flex justify-center items-center">
-                        {row.map((item, index) => {
-                            return (
-                                <div key={projectName + "Tag" + index} className="mx-2">
-                                    <p className={`text-center px-2 py-0.5 mb-0 my-1 rounded-md ${(item.isTag ? "bg-tag" : "bg-tech")}`}>{item.content}</p>
-                                </div>
-                            );
-                        })}
-                    </div>
-                )
-            })}
+        <div className="h-full flex justify-center items-center">
+            <div className="flex flex-col justify-around">
+                {rows.map((row, index) => {
+                    return (
+                        <div className="my-2 pb-2 flex justify-center items-center">
+                            {row.map((item, index) => {
+                                return (
+                                    <div key={projectName + "Tag" + index} className="mx-2">
+                                        <p className={`text-center px-2 py-0.5 mb-0 my-1 rounded-md ${(item.isTag ? "bg-tag" : "bg-tech")}`}>{item.content}</p>
+                                    </div>
+                                );
+                            })}
+                        </div>
+                    )
+                })}
+            </div>
         </div>
     )
 }

@@ -70,7 +70,7 @@ function Project(props) {
     const windowSize = props.windowSize;
     
     return (
-        <div className="background-box grid grid-xs grid-lg">
+        <div className="background-box grid grid-rows-4 grid-cols-6">
             <div className="image-xs image-lg">
                 {getImage("./Images/Projects/", imgName)}
             </div>

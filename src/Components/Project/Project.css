@@ -1,25 +1,3 @@
-/* 
-.image-lg{
-    @apply row-start-1 col-start-1 row-span-3 col-span-2
-}
-
-.description-lg {
-    @apply row-start-1 col-start-3 row-span-2 col-span-4
-}
-
-.tags-lg {
-    @apply row-start-3 col-start-3 row-span-2 col-span-4
-}
-
-.button-lg {
-    @apply row-start-4 col-start-1 row-span-1 col-span-2
-}
-*/
-
-.grid-xs {
-    @apply grid-rows-4 grid-cols-6
-}
-
 .image-xs{
     @apply  row-start-1 col-start-1 row-span-2 col-span-6
 }
@@ -36,22 +14,18 @@
     @apply  row-start-4 col-start-4 row-span-1 col-span-3
 }
 
-.grid-lg {
-    @apply grid-rows-4 grid-cols-6
-}
-
-.image-lg{
+.image-sm{
     @apply  sm:row-start-1 sm:col-start-1 sm:row-span-3 sm:col-span-2
 }
 
-.description-lg {
+.description-sm {
     @apply  sm:row-start-1 sm:col-start-3 sm:row-span-3 sm:col-span-4
 }
 
-.tags-lg {
+.tags-sm {
     @apply  sm:row-start-4 sm:col-start-3 sm:row-span-1 sm:col-span-4
 }
 
-.button-lg {
+.button-sm {
     @apply  sm:row-start-4 sm:col-start-1 sm:row-span-1 sm:col-span-2
 }

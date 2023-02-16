@@ -30,7 +30,7 @@ function Games({ windowSize }){
     useScrollAnimation(gamesRef, 0.2);
 
     return (
-        <div className="min-h-screen flex flex-col">
+        <div className="flex flex-col">
             <div className="w-full mb-8">
                 <p className="mb-4 text-4xl">{sectionLabel}</p>
                 <hr />

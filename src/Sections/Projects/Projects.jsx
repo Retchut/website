@@ -26,7 +26,7 @@ function Projects({ windowSize }){
     useScrollAnimation(showcaseRef, 0.3, [filter]);
 
     return (
-        <div className="min-h-screen flex flex-col">
+        <div className="flex flex-col">
             <div className="mb-8">
                 <div className="w-full mb-4 flex justify-between">
                     <p className="text-4xl">{sectionLabel}</p>

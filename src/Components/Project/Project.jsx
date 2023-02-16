@@ -71,17 +71,17 @@ function Project(props) {
     
     return (
         <div className="background-box grid grid-rows-4 grid-cols-6">
-            <div className="image-xs image-lg">
+            <div className="image-xs image-sm">
                 {getImage("./Images/Projects/", imgName)}
             </div>
-            <div className="description-xs description-lg">
+            <div className="description-xs description-sm">
                 {getDescription(name, description)}
             </div>
-            <div className="tags-xs tags-lg">
+            <div className="tags-xs tags-sm">
                 {getTags(name, tags, techs, windowSize)}
             </div>
-            <div className="button-xs button-lg">
-                    {getButton(buttonText, buttonUrl)}
+            <div className="button-xs button-sm">
+                {getButton(buttonText, buttonUrl)}
             </div>
         </div>
     )

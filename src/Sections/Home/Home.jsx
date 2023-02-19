@@ -18,7 +18,7 @@ function Home(){
                 <hr />
             </div>
             <div ref={homeRef} className="w-4/6 h-5/6 grid grid-cols-6 grid-rows-5">
-                <div className="fade-in-scroll z-10 row-start-1 col-start-1 row-span-3 col-span-5 background-box p-4 overflow-auto">
+                <div className="fade-in-scroll z-10 row-start-1 col-start-1 row-span-3 col-span-5 background-box p-4 overflow-hidden">
                     <div className="grid grid-rows-3 grid-cols-5">
                         <div className="row-start-1 col-start-1 row-span-1 col-span-5">
                             <ParagraphBox paragraphs={texts.row1} keyText={"welcome1"} />

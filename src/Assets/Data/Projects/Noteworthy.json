@@ -2,7 +2,7 @@
     {
         "id" : 1,
         "name" : "This website",
-        "description" : "Repository holding this website's code. I am personally proud of the custom animations and dynamic content loading from json files.",
+        "description" : "Repository holding this website's code. I am proud of the dynamic content loading from json files, which allows me to easily change most of the content of the website without touching the html itself",
         "imgName" : "react-logo.png",
         "tags" : [ "Web" ],
         "techs" : [

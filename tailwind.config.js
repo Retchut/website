@@ -9,10 +9,17 @@ module.exports = {
   theme: {
     extend: {
       maxWidth: {
-        "3/5vw" : "60vw"
+        "3/5vw" : "60vw",
+        "proj-img-xs" : "70%"
       },
       width: {
-        "1/3vw" : "33.333333vw"
+        "1/3vw" : "33.333333vw",
+        "proj-img-md" : "30%",
+        "proj-desc-md" : "70%",
+        "proj-tags-xs" : "60%",
+        "proj-tags-md" : "70%",
+        "proj-btn-xs" : "40%",
+        "proj-btn-md" : "30%"
       },
       colors: {
         "section-color" : "#60ffd9"

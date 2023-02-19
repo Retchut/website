@@ -20,7 +20,7 @@ function getTagColNum(windowSize){
 function getImage(folderPath, imgName){
     return (
         <div className="p-2 h-full flex justify-center items-center">
-            <img className="max-w-[70%] md:max-w-full aspect-square rounded-md" src={folderPath + imgName} alt={imgName} />
+            <img className="max-w-proj-img-xs md:max-w-full aspect-square rounded-md" src={folderPath + imgName} alt={imgName} />
         </div>
     )
 }
@@ -73,29 +73,21 @@ function Project(props) {
     return (
         <div className="background-box flex flex-col">
             <div className="md:flex">
-                <div className="w-full md:w-[30%]">
+                <div className="w-full md:w-proj-img-md">
                     {getImage("./Images/Projects/", imgName)}
                 </div>
-                <div className="w-full md:w-[70%]">
+                <div className="w-full md:w-proj-desc-md">
                     {getDescription(name, description)}
                 </div>
             </div>
             <div className="flex flex-row md:flex-row-reverse">
-                <div className="w-[60%] md:w-[70%]">
+                <div className="w-proj-tags-xs md:w-proj-tags-md">
                     {getTags(name, tags, techs, windowSize)}
                 </div>
-                <div className="w-[40%] md:w-[30%]">
+                <div className="w-proj-btn-xs md:w-proj-btn-md">
                     {getButton(buttonText, buttonUrl)}
                 </div>
             </div>
-            {/* <div className="flex">
-                <div className="w-[30%]">
-                </div>
-                <div className="w-[70%]">
-                </div>
-            </div>
-            <div className="flex">
-            </div> */}
         </div>
     )
 }

@@ -8,6 +8,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      maxWidth: {
+        "3/5vw" : "60vw"
+      },
+      width: {
+        "1/3vw" : "33.333333vw"
+      },
       colors: {
         "section-color" : "#60ffd9"
       },
@@ -28,7 +34,8 @@ module.exports = {
         'dropdown-item': '0px 0px 1px',
       },
       aspectRatio: {
-        'poster': '2 / 3'
+        'poster': '2 / 3',
+        'youtube-embed': '5 / 3'
       }
     }
   },

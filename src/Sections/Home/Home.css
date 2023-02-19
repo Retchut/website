@@ -4,7 +4,7 @@
     setWindowSize(4)
   else if(screenSize > 1024) // xl (<1280px)
     setWindowSize(3)
-  else if(screenSize > 768) // lg (<1024px)
+  else if(screenSize > 768) // md (<1024px)
     setWindowSize(2)
   else // md (<768px), sm (<640px) */
 
@@ -12,8 +12,8 @@
     @apply row-start-1 col-start-1 row-span-3 col-span-6
 }
 
-.textbox-lg {
-    @apply lg:row-start-1 lg:col-start-1 lg:row-span-4 lg:col-span-5
+.textbox-md {
+    @apply md:row-start-1 md:col-start-1 md:row-span-4 md:col-span-5
 }
 
 .textbox-xl {
@@ -28,8 +28,8 @@
     @apply row-start-4 col-start-1 row-span-2 col-span-6
 }
 
-.home-image-lg {
-    @apply lg:row-start-4 lg:col-start-5 lg:row-span-3 lg:col-span-2
+.home-image-md {
+    @apply md:row-start-4 md:col-start-5 md:row-span-3 md:col-span-2
 }
 
 .home-image-xl {

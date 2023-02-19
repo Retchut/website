@@ -71,7 +71,7 @@ function Project(props) {
     
     return (
         <div className="background-box grid grid-rows-4 grid-cols-6">
-            <div className="image-xs image-sm">
+            <div className="proj-image-xs proj-image-sm">
                 {getImage("./Images/Projects/", imgName)}
             </div>
             <div className="description-xs description-sm">

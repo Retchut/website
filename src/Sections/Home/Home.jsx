@@ -30,7 +30,7 @@ function Home(){
                         </div>
                     </div>
                 </div>
-                <div className="fade-in-scroll z-10 py-5 lg:py-0 flex justify-center lg:block image-xs image-lg image-xl image-2xl">
+                <div className="fade-in-scroll z-10 py-5 lg:py-0 flex justify-center lg:block home-image-xs home-image-lg home-image-xl home-image-2xl">
                     <img src={myPortrait} alt="Me" className="img-fluid background-box"></img>
                 </div>
             </div>

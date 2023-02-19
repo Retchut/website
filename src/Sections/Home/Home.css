@@ -24,18 +24,18 @@
     @apply 2xl:row-start-1 2xl:col-start-1 2xl:row-span-3 2xl:col-span-5
 }
 
-.image-xs {
-    @apply row-start-4 col-start-1 row-span-3 col-span-6
+.home-image-xs {
+    @apply row-start-4 col-start-1 row-span-2 col-span-6
 }
 
-.image-lg {
+.home-image-lg {
     @apply lg:row-start-4 lg:col-start-5 lg:row-span-3 lg:col-span-2
 }
 
-.image-xl {
+.home-image-xl {
     @apply xl:row-start-3 xl:col-start-5 xl:row-span-3 xl:col-span-2
 }
 
-.image-2xl {
+.home-image-2xl {
     @apply 2xl:row-start-2 2xl:col-start-5 2xl:row-span-3 2xl:col-span-2
 }

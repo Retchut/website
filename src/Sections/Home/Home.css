@@ -1,0 +1,41 @@
+/* if (screenSize > 1536) // >2xl
+    setWindowSize(5)
+  else if(screenSize > 1280) // 2xl (<1536px)
+    setWindowSize(4)
+  else if(screenSize > 1024) // xl (<1280px)
+    setWindowSize(3)
+  else if(screenSize > 768) // lg (<1024px)
+    setWindowSize(2)
+  else // md (<768px), sm (<640px) */
+
+.textbox-xs {
+    @apply row-start-1 col-start-1 row-span-3 col-span-6
+}
+
+.textbox-lg {
+    @apply lg:row-start-1 lg:col-start-1 lg:row-span-4 lg:col-span-5
+}
+
+.textbox-xl {
+    @apply xl:row-start-1 xl:col-start-1 xl:row-span-4 xl:col-span-5
+}
+
+.textbox-2xl {
+    @apply 2xl:row-start-1 2xl:col-start-1 2xl:row-span-3 2xl:col-span-5
+}
+
+.image-xs {
+    @apply row-start-4 col-start-3 row-span-3 col-span-2
+}
+
+.image-lg {
+    @apply lg:row-start-4 lg:col-start-5 lg:row-span-3 lg:col-span-2
+}
+
+.image-xl {
+    @apply xl:row-start-3 xl:col-start-5 xl:row-span-3 xl:col-span-2
+}
+
+.image-2xl {
+    @apply 2xl:row-start-2 2xl:col-start-5 2xl:row-span-3 2xl:col-span-2
+}

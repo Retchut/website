@@ -20,9 +20,9 @@ function App() {
       setWindowSize(4)
     else if(screenSize > 1024) // xl (<1280px)
       setWindowSize(3)
-    else if(screenSize > 768) // lg (<1024px)
+    else if(screenSize > 640) // md (<768px),lg (<1024px)
       setWindowSize(2)
-    else // md (<768px), sm (<640px)
+    else // sm (<640px)
       setWindowSize(1)
   }
 

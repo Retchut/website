@@ -9,8 +9,9 @@ function getTagColNum(windowSize){
         case 3: // xl (<1280px)
             return 3;
         case 2: // lg (<1024px)
-        case 1: // md (<768px), sm (<640px)
             return 2;
+        case 1: // md (<768px), sm (<640px)
+            return 1;
         default:
             return 1;
     }

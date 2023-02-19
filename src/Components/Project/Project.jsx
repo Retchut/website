@@ -20,7 +20,7 @@ function getTagColNum(windowSize){
 function getImage(folderPath, imgName){
     return (
         <div className="p-2 h-full flex justify-center items-center">
-            <img className="w-proj-thumb aspect-square rounded-md" src={folderPath + imgName} alt={imgName} />
+            <img className="max-w-[70%] md:max-w-full aspect-square rounded-md" src={folderPath + imgName} alt={imgName} />
         </div>
     )
 }
@@ -60,7 +60,7 @@ function getTags(projectName, tags, techs, windowSize){
 
 function getButton(buttonText, buttonUrl) {
     return (
-        <div className="flex h-full justify-center items-center">
+        <div className="flex h-full justify-start sm:justify-center items-center">
             <a className="link-btn my-2" href={buttonUrl}>{buttonText}</a>
         </div>
     )
@@ -71,19 +71,31 @@ function Project(props) {
     const windowSize = props.windowSize;
     
     return (
-        <div className="background-box grid grid-rows-4 grid-cols-6">
-            <div className="proj-image-xs proj-image-sm">
-                {getImage("./Images/Projects/", imgName)}
+        <div className="background-box flex flex-col">
+            <div className="md:flex">
+                <div className="w-full md:w-[30%]">
+                    {getImage("./Images/Projects/", imgName)}
+                </div>
+                <div className="w-full md:w-[70%]">
+                    {getDescription(name, description)}
+                </div>
             </div>
-            <div className="description-xs description-sm">
-                {getDescription(name, description)}
+            <div className="flex flex-row md:flex-row-reverse">
+                <div className="w-[60%] md:w-[70%]">
+                    {getTags(name, tags, techs, windowSize)}
+                </div>
+                <div className="w-[40%] md:w-[30%]">
+                    {getButton(buttonText, buttonUrl)}
+                </div>
             </div>
-            <div className="tags-xs tags-sm">
-                {getTags(name, tags, techs, windowSize)}
+            {/* <div className="flex">
+                <div className="w-[30%]">
+                </div>
+                <div className="w-[70%]">
+                </div>
             </div>
-            <div className="button-xs button-sm">
-                {getButton(buttonText, buttonUrl)}
-            </div>
+            <div className="flex">
+            </div> */}
         </div>
     )
 }

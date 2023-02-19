@@ -20,7 +20,7 @@ function Home(){
                 <hr />
             </div>
             <div ref={homeRef} className="w-4/6 h-5/6 grid grid-cols-6 grid-rows-5">
-                <div className="fade-in-scroll z-10 background-box p-4 overflow-hidden textbox-xs textbox-xs textbox-lg textbox-xl textbox-2xl">
+                <div className="fade-in-scroll z-10 background-box p-4 overflow-auto xl:overflow-hidden textbox-xs textbox-lg textbox-xl textbox-2xl">
                     <div className="grid grid-rows-3 grid-cols-5">
                         <div className="row-start-1 col-start-1 row-span-1 col-span-5">
                             <ParagraphBox paragraphs={texts.row1} keyText={"welcome1"} />
@@ -30,7 +30,7 @@ function Home(){
                         </div>
                     </div>
                 </div>
-                <div className="fade-in-scroll z-10 image-xs image-xs image-lg image-xl image-2xl">
+                <div className="fade-in-scroll z-10 py-5 lg:py-0 flex justify-center lg:block image-xs image-lg image-xl image-2xl">
                     <img src={myPortrait} alt="Me" className="img-fluid background-box"></img>
                 </div>
             </div>

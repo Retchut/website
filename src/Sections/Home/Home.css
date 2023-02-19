@@ -25,7 +25,7 @@
 }
 
 .image-xs {
-    @apply row-start-4 col-start-3 row-span-3 col-span-2
+    @apply row-start-4 col-start-1 row-span-3 col-span-6
 }
 
 .image-lg {

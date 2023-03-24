@@ -9,6 +9,7 @@ import { buildRows } from '../../Utils/arrayFilters';
 import noteworthy from '../../Assets/Data/Projects/Noteworthy.json';
 import other from '../../Assets/Data/Projects/Other.json';
 import tags from '../../Assets/Data/Projects/Tags.json';
+import ProjectRow from '../../Components/ProjectRow/ProjectRow';
 
 function Projects({ windowSize }){
     const sectionLabel = "Projects";
@@ -40,21 +41,7 @@ function Projects({ windowSize }){
                 <div ref={showcaseRef} className="w-full xl:w-4/6">
                     {
                         // Map rows to containers
-                        rows.map((row, index) => {
-                            return (
-                                <div key={`row-${index}`} className="fade-in-scroll flex gap-8 justify-center">
-                                    {
-                                        // Map rows to items
-                                        row.map((project) => {
-                                            return (
-                                            <div key={`project-${project.id}`} className="w-3/4 lg:w-1/2 mb-8">
-                                                <Project windowSize={windowSize} projectData={project} />
-                                            </div>
-                                        )})
-                                    }
-                                </div>
-                            )
-                        })
+                        rows.map((row, index) => <ProjectRow key={`row-${index}`} rowData={row} windowSize={windowSize}/>)
                     }
                     {rows.length === 0 && 
                         <div className="fade-in-scroll col-span-2 flex justify-center">

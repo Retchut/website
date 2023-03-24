@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react';
 
-import Dropdown from '../../Components/Dropdown/Dropdown';
+import FilterDropdown from '../../Components/FilterDropdown/FilterDropdown';
 import Project from '../../Components/Project/Project';
 
 import useScrollAnimation from '../../Hooks/useScrollAnimation';
@@ -30,7 +30,7 @@ function Projects({ windowSize }){
             <div className="mb-8">
                 <div className="w-full mb-4 flex justify-between">
                     <p className="text-4xl">{sectionLabel}</p>
-                    <Dropdown dropdownText={"Filters"} dropdownItems={tags} filterHandler={setFilter}></Dropdown>
+                    <FilterDropdown dropdownText={"Filters"} dropdownItems={tags} filterHandler={setFilter}></FilterDropdown>
                 </div>
                 <hr />
                 <p className="text-xl pt-4 pl-4">{sectionSubtitle}</p>

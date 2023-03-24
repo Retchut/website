@@ -19,7 +19,7 @@ function DropdownMenu(props){
     )
 }
 
-function Dropdown(props){
+function FilterDropdown(props){
     const { dropdownText, dropdownItems, filterHandler } = props;
 
     const [ dropdownOpen, setDropdownOpen ] = useState(false);
@@ -36,4 +36,4 @@ function Dropdown(props){
     )
 }
 
-export default Dropdown;
+export default FilterDropdown;

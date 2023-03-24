@@ -42,7 +42,7 @@ function getTags(projectName, tags, techs, windowSize){
             <div className="flex flex-col justify-around">
                 {rows.map((row, index) => {
                     return (
-                        <div className="my-2 pb-2 flex justify-center items-center">
+                        <div key={`row-${index}`} className="my-2 pb-2 flex justify-center items-center">
                             {row.map((item, index) => {
                                 return (
                                     <div key={projectName + "Tag" + index} className="mx-2">

@@ -22,7 +22,7 @@ function InterestShowcase({ labels, data }){
                 {
                     videoKeys.map((type, index) => {
                         return (
-                            <div className="pb-1">
+                            <div key={`video-${index}`} className="pb-1">
                                 <YoutubeEmbed key={index} embedID={video[type]} />
                             </div>
                         )
@@ -35,7 +35,7 @@ function InterestShowcase({ labels, data }){
                     <div className="flex justify-center">
                         {linkKeys.map((platform, index) => {
                             return (
-                                <a className="m-2 link-btn" href={links[platform]}>{capitalize(platform)}</a>
+                                <a key={`url-${index}`} className="m-2 link-btn" href={links[platform]}>{capitalize(platform)}</a>
                             )
                         })}
                     </div>

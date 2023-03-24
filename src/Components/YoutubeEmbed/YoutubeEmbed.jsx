@@ -1,10 +1,7 @@
-function YoutubeEmbed({ embedID }){
-    const width = "250";
-    const height = "150";
+function YoutubeEmbed({ embedID }){    
     return (
         <iframe
-            width={width}
-            height={height}
+            className="w-full aspect-youtube-embed"
             src={`https://www.youtube.com/embed/${embedID}`}
             title="YouTube video player"
             frameborder="0"

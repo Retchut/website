@@ -6,7 +6,7 @@
         "imgName" :"ncgm-vr-workshop.png",
         "tags" : [ "Web", "VR" ],
         "techs" : [
-            "WebXR", "Javascript",   "CSS",  "HTML"
+            "WebXR", "JavaScript"
         ],
         "buttonUrl" : "https://github.com/Retchut/ncgm-workshop-vr",
         "buttonText" : "Git Repo"
@@ -18,7 +18,7 @@
         "imgName" : "library-tracker.png",
         "tags" : [ "Utility" ],
         "techs" : [
-            "Java", "Gradle",   "JSoup"
+            "Java", "Gradle", "JSoup"
         ],
         "buttonUrl" : "https://github.com/Retchut/OldLibraryTracker",
         "buttonText" : "Git Repo"
@@ -30,7 +30,7 @@
         "imgName" : "event-pointer.png",
         "tags" : [ "Web", "University" ],
         "techs" : [
-            "PHP",  "PostgreSQL",   "Laravel",  "Bootstrap 5",    "JavaScript",   "Docker"
+            "Laravel",  "PostgreSQL",   "Bootstrap"
         ],
         "buttonUrl" : "https://github.com/Retchut/EventPointer/",
         "buttonText" : "Git Repo"

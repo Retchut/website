@@ -7,7 +7,7 @@ import { buildRows } from '../../Utils/arrayFilters';
 
 import favourites from '../../Assets/Data/Films/Favourites.json';
 
-function Films(){
+function Films({ windowSize }){
     const sectionLabel = "Films";
     const sectionSubtitle = "Some of my favourite films:";
     const filmLabels = {
@@ -24,7 +24,7 @@ function Films(){
     useScrollAnimation(filmsRef, 0.1);
 
     return (
-        <div className="min-h-screen flex flex-col">
+        <div className="flex flex-col">
             <div className="w-full mb-8">
                 <p className="mb-4 text-4xl">{sectionLabel}</p>
                 <hr />

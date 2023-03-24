@@ -8,7 +8,7 @@ import { buildRows } from '../../Utils/arrayFilters';
 import playing from '../../Assets/Data/Games/Playing.json';
 import favourites from '../../Assets/Data/Games/Favourites.json';
 
-function Games(){
+function Games({ windowSize }){
     const sectionLabel = "Games";
     const sectionSubtitle = "Some of my favourite games";
     const playingSubtitle = "Currently (re)playing"
@@ -30,7 +30,7 @@ function Games(){
     useScrollAnimation(gamesRef, 0.2);
 
     return (
-        <div className="min-h-screen flex flex-col">
+        <div className="flex flex-col">
             <div className="w-full mb-8">
                 <p className="mb-4 text-4xl">{sectionLabel}</p>
                 <hr />

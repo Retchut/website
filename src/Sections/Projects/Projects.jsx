@@ -10,7 +10,7 @@ import noteworthy from '../../Assets/Data/Projects/Noteworthy.json';
 import other from '../../Assets/Data/Projects/Other.json';
 import tags from '../../Assets/Data/Projects/Tags.json';
 
-function Projects(){
+function Projects({ windowSize }){
     const sectionLabel = "Projects";
     const sectionSubtitle = "Some projects I have developed:";
     
@@ -19,13 +19,14 @@ function Projects(){
     // const noteworthyProjs = filterArray(noteworthy, filter);
     // const otherProjs = filterArray(other, filter);
     const allProjs = noteworthy.concat(other);
-    const rows = buildRows(allProjs, 2, filter);
+    const projCols = (windowSize === 1) ? 1 : 2;
+    const rows = buildRows(allProjs, projCols, filter);
 
     const showcaseRef = useRef(null);
     useScrollAnimation(showcaseRef, 0.3, [filter]);
 
     return (
-        <div className="min-h-screen flex flex-col">
+        <div className="flex flex-col">
             <div className="mb-8">
                 <div className="w-full mb-4 flex justify-between">
                     <p className="text-4xl">{sectionLabel}</p>
@@ -36,7 +37,7 @@ function Projects(){
             </div>
 
             <div className="flex flex-col items-center">
-                <div ref={showcaseRef} className="w-4/6">
+                <div ref={showcaseRef} className="w-full xl:w-4/6">
                     {
                         // Map rows to containers
                         rows.map((row, index) => {
@@ -46,8 +47,8 @@ function Projects(){
                                         // Map rows to items
                                         row.map((project) => {
                                             return (
-                                            <div key={`project-${project.id}`} className="w-1/2 mb-8">
-                                                <Project projectData={project} />
+                                            <div key={`project-${project.id}`} className="w-3/4 lg:w-1/2 mb-8">
+                                                <Project windowSize={windowSize} projectData={project} />
                                             </div>
                                         )})
                                     }

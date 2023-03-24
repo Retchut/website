@@ -2,11 +2,11 @@
     {
         "id" : 1,
         "name" : "This website",
-        "description" : "Repository holding this website's code. I am personally proud of the custom animations and dynamic content loading from json files.",
+        "description" : "Repository holding this website's code. I am proud of the dynamic content loading from json files, which allows me to easily change most of the content of the website without touching the html itself",
         "imgName" : "react-logo.png",
         "tags" : [ "Web" ],
         "techs" : [
-            "React", "Tailwind CSS", "HTML", "CSS", "JavaScript"
+            "React", "Tailwind CSS"
         ],
         "buttonUrl" : "https://github.com/Retchut/website",
         "buttonText" : "Git Repo"
@@ -30,7 +30,7 @@
         "imgName" :"ncgm-website.png",
         "tags" : [ "Web" ],
         "techs" : [
-            "React",    "Bootstrap 5",   "Express",  "Node.js",  "MongoDB",  "Javascript",   "CSS",  "HTML"
+            "MERN",    "Bootstrap"
         ],
         "buttonUrl" : "https://ncgm.fe.up.pt/",
         "buttonText" : "Visit it"
@@ -42,7 +42,7 @@
         "imgName" :"atlas.png",
         "tags" : [ "Web" ],
         "techs" : [
-            "React",    "Tailwind CSS",   "Express",  "Node.js",  "MongoDB",  "Javascript",   "CSS",  "HTML"
+            "MERN",    "Tailwind CSS"
         ],
         "buttonUrl" : "https://atlas.fly.dev/",
         "buttonText" : "Visit it"

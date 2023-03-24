@@ -31,7 +31,7 @@ function Home(){
                     </div>
                 </div>
                 <div className="fade-in-scroll z-10 py-5 md:py-0 flex justify-center md:block home-image-xs home-image-md home-image-xl home-image-2xl">
-                    <img src={myPortrait} alt="Me" className="img-fluid background-box"></img>
+                    {/* <img src={myPortrait} alt="Me" className="img-fluid background-box"></img> */}
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function DropdownMenu(props){
+function FilterMenu(props){
     const { dropdownItems, filterHandler } = props;
 
     return (
@@ -31,7 +31,7 @@ function FilterDropdown(props){
                     {dropdownText}
                 </button>
             </div>
-            { dropdownOpen && <DropdownMenu filterHandler={filterHandler} dropdownItems={dropdownItems} /> }
+            { dropdownOpen && <FilterMenu filterHandler={filterHandler} dropdownItems={dropdownItems} /> }
         </div>
     )
 }

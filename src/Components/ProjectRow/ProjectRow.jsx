@@ -1,9 +1,9 @@
 import Project from "../Project/Project";
 
 function ProjectRow(props){
-    const { rowData, windowSize } = props;
+    const { rowData, windowSize, fadeIn } = props;
     return (
-        <div className="fade-in-scroll flex gap-8 justify-center">
+        <div className={`${fadeIn ? " fade-in-scroll " : ""}flex gap-8 justify-center`}>
             {
                 // Map rows to items
                 rowData.map((project) => {

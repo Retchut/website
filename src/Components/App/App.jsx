@@ -60,7 +60,7 @@ function App() {
       <section ref={refs.projects} className="pb-10">
         <Projects windowSize={windowSize}/>
       </section>
-      <section ref={refs.games} className="pb-10">
+      {/* <section ref={refs.games} className="pb-10">
         <Games windowSize={windowSize}/>
       </section>
       <section ref={refs.music} className="pb-10">
@@ -71,7 +71,7 @@ function App() {
       </section>
       <section ref={refs.shows} className="pb-10">
         <Shows windowSize={windowSize}/>
-      </section>
+      </section> */}
       <Footer />
     </>
   );

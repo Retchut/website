@@ -49,15 +49,16 @@
     },
     {
         "id" : 5,
-        "name" : "[] Invaders",
-        "description" : "Repository for MIEIC's LCOM class of the year 2021/2022. Contains the lab assignments and my final project project for the class,a clone of the classic Space Invaders.",
-        "imgName" : "[]invaders.png",
-        "tags" : [ "University" ],
+        "name" : "FEUP Hell",
+        "description" : "Preliminary project developed for the 2023 edition of the Game Design and Development class of M.EIC.",
+        "imgName" : "feup-hell.png",
+        "tags" : [ "Game Dev", "University" ],
         "techs" : [
-            "C"
+            "Unity",
+            "C#"
         ],
-        "buttonUrl" : "https://github.com/Retchut/LCOM-2020-2021",
-        "buttonText" : "Git Repo"
+        "buttonUrl" : "https://retchut.itch.io/feup-hell",
+        "buttonText" : "Play it!"
     },
     {
         "id" : 6,
@@ -85,41 +86,42 @@
     },
     {
         "id" : 8,
-        "name" : "NCGM Learning Project",
-        "description" : "My learning project developed for NCGM. A simple text based adventure about escaping a locked room.",
-        "imgName" : "learning-project.png",
-        "tags" : [ "Game Dev" ],
+        "name" : "Pibox Quick Setup",
+        "description" : "Some scripts and files to make setting up my raspberry pi emulation session on a fresh install.",
+        "imgName" : "arch-quick-setup.jpg",
+        "tags" : [ "Utility" ],
         "techs" : [
-            "Unity",
-            "C#"
+            "bash"
         ],
-        "buttonUrl" : "https://github.com/Retchut/LearningProject1920",
+        "buttonUrl" : "https://github.com/Retchut/pibox-quick-setup",
         "buttonText" : "Git Repo"
     },
     {
         "id" : 9,
-        "name" : "Cleaning Day",
-        "description" : "Game developed for the 2022 edition of the Level-Up Game Jam.",
-        "imgName" : "cleaning-day.png",
-        "tags" : [ "Game Dev" ],
+        "name" : "Magic: the Gathering (and Processing of Information)",
+        "description" : "Repository for the project of the PRI class of the year 2022/2023. We retrieved data, indexed it, and developed a search system for Magic: the Gathering cards.",
+        "imgName" : "pri-proj.png",
+        "tags" : [ "University" ],
         "techs" : [
-            "Unity",
-            "C#"
+            "Python",
+            "Solr",
+            "React",
+            "MongoDB",
+            "Bootstrap"
         ],
-        "buttonUrl" : "https://retchut.itch.io/cleaning-day",
-        "buttonText" : "Play it!"
+        "buttonUrl" : "https://github.com/Retchut/LCOM-2020-2021",
+        "buttonText" : "Git Repo"
     },
     {
         "id" : 10,
-        "name" : "Tap(e) It",
-        "description" : "Game developed for the 2020 edition of the Global Game Jam.",
-        "imgName" : "tape-it.png",
-        "tags" : [ "Game Dev" ],
+        "name" : "[] Invaders",
+        "description" : "Repository for MIEIC's LCOM class of the year 2020/2021. Contains the lab assignments and my final project project for the class, a clone of the classic Space Invaders.",
+        "imgName" : "[]invaders.png",
+        "tags" : [ "University" ],
         "techs" : [
-            "Unity",
-            "C#"
+            "C"
         ],
-        "buttonUrl" : "https://simmer.io/@Retchut/tap-e-it",
-        "buttonText" : "Play it!"
+        "buttonUrl" : "https://github.com/Retchut/LCOM-2020-2021",
+        "buttonText" : "Git Repo"
     }
 ]

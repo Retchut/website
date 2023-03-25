@@ -14,8 +14,8 @@ function ProjectsDropdown(props){
     // useScrollAnimation(itemsRef, 0.3, [filter]);
 
     return (
-        <div className="pb-4 flex flex-col">
-            <div>
+        <div className="flex flex-col">
+            <div className="pt-4 pb-8">
                 <button className="w-full text-2xl" onClick={() => setDropdownOpen(!dropdownOpen)}>
                     <div className="pb-1 flex justify-between">
                         <p>Other projects</p>

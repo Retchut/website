@@ -215,20 +215,5 @@
             }
         },
         "imgName" : "hometown.png"
-    },
-    {
-        "id" : 16,
-        "data" : {
-            "title" : "Ratchet & Clank 2 Original Soundtrack",
-            "subtitle" : "David Bergeaud",
-            "video" : {
-                "1" : "P1DG9M-V_JY&t=31s",
-                "2" : "MT0rmOwDFek&t=47s"
-            },
-            "links" : {
-                "youtube" : "https://youtu.be/CZ8flS2V7QI"
-            }
-        },
-        "imgName" : "ratchet_2_ost.png"
     }
 ]

@@ -24,7 +24,7 @@ function Projects({ windowSize }){
     const otherRows = buildRows(otherProjs, projCols, filter);
 
     const mainProjRef = useRef(null);
-    useScrollAnimation(mainProjRef, 0.3, [filter]);
+    useScrollAnimation(mainProjRef, 0.3, [filter, projCols]);
 
     // TODO: use scroll animation with dropdown (maybe inside div with ref?)
 

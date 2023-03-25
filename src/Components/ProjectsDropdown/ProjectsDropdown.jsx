@@ -10,19 +10,22 @@ function ProjectsDropdown(props){
 
     const [ dropdownOpen, setDropdownOpen ] = useState(false);
 
+    const labelRef = useRef(null);
+    useScrollAnimation(labelRef, 1, [filter]);
+
     const itemsRef = useRef(null);
     useScrollAnimation(itemsRef, 0.3, [filter, dropdownOpen]);
 
     return (
         <div className="flex flex-col">
-            <div className="pt-4 pb-8">
-                <button className="w-full text-2xl" onClick={() => setDropdownOpen(!dropdownOpen)}>
+            <div ref={labelRef} className="pt-4 pb-8">
+                <button className="fade-in-scroll w-full text-2xl" onClick={() => setDropdownOpen(!dropdownOpen)}>
                     <div className="pb-1 flex justify-between">
                         <p>Other projects</p>
                         { dropdownOpen ? <RxDoubleArrowUp /> : <RxDoubleArrowDown />}
                     </div>
                 </button>
-                <hr />
+                <hr className="fade-in-scroll" />
             </div>
             <div ref={itemsRef}>
                 { dropdownOpen &&

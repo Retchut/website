@@ -34,7 +34,7 @@ function Games({ windowSize }){
                 <p className="text-xl pt-4 pl-4">{sectionSubtitle}</p>
             </div>
             
-            <div ref={gamesRef} className="w-4/6 flex flex-col items-center">
+            <div ref={gamesRef} className="w-full xl:w-4/6 flex flex-col items-center">
                 {/* Favourites section */}
                 {
                     // Map favourite rows to containers

@@ -31,7 +31,7 @@ function Films({ windowSize }){
                 <p className="text-xl pt-4 pl-4">{sectionSubtitle}</p>
             </div>
 
-            <div ref={filmsRef} className="w-4/6 flex flex-col items-center">
+            <div ref={filmsRef} className="w-full xl:w-4/6 flex flex-col items-center">
                 {
                     // Map rows to containers
                     rows.map((row, index) => {

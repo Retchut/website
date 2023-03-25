@@ -55,7 +55,7 @@ function Projects({ windowSize }){
                 </div>
                 {/* less important projects */}
                 <div className="w-full xl:w-4/6">
-                    <ProjectsDropdown menuRows={otherRows} windowSize={windowSize} filter={filter} fadeIn={false} />
+                    <ProjectsDropdown menuRows={otherRows} windowSize={windowSize} filter={filter} />
                 </div>
             </div>
         </div>

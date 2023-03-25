@@ -6,12 +6,12 @@ import ProjectRow from "../ProjectRow/ProjectRow";
 import useScrollAnimation from '../../Hooks/useScrollAnimation';
 
 function ProjectsDropdown(props){
-    const { menuRows, windowSize, filter, fadeIn } = props;
+    const { menuRows, windowSize, filter } = props;
 
     const [ dropdownOpen, setDropdownOpen ] = useState(false);
 
-    // const itemsRef = useRef(null);
-    // useScrollAnimation(itemsRef, 0.3, [filter]);
+    const itemsRef = useRef(null);
+    useScrollAnimation(itemsRef, 0.3, [filter, dropdownOpen]);
 
     return (
         <div className="flex flex-col">
@@ -24,10 +24,10 @@ function ProjectsDropdown(props){
                 </button>
                 <hr />
             </div>
-            <div /*ref={itemsRef}*/>
+            <div ref={itemsRef}>
                 { dropdownOpen &&
                     // Map rows to containers
-                    menuRows.map((row, index) => <ProjectRow key={`row-${index}`} rowData={row} windowSize={windowSize} fadeIn={fadeIn}/>)
+                    menuRows.map((row, index) => <ProjectRow key={`row-${index}`} rowData={row} windowSize={windowSize} fadeIn={true}/>)
                 }
             </div>
             { dropdownOpen && menuRows.length === 0 && 

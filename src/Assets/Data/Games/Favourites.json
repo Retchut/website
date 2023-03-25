@@ -146,5 +146,20 @@
             }
         },
         "imgName" : "metro.png"
+    },
+    {
+        "id" : 11,
+        "data" : {
+            "title" : "XCOM: Enemy Unknown",
+            "subtitle" : "Firaxis Games",
+            "video" : {
+                "trailer" : "YPvbF7bG7lk"
+            },
+            "links" : {
+                "steam" : "https://store.steampowered.com/app/200510/XCOM_Enemy_Unknown/",
+                "website" : "https://xcom.com/"
+            }
+        },
+        "imgName" : "xcom.png"
     }
 ]

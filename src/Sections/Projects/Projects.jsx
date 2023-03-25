@@ -30,7 +30,7 @@ function Projects({ windowSize }){
 
     return (
         <div className="flex flex-col">
-            <div className="mb-8">
+            <div className="mb-6">
                 <div className="w-full mb-4 flex justify-between">
                     <p className="text-4xl">{sectionLabel}</p>
                     <FilterDropdown dropdownText={"Filters"} dropdownItems={tags} filterHandler={setFilter} />

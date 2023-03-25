@@ -1,13 +1,3 @@
-/* if (screenSize > 1536) // >2xl
-    setWindowSize(5)
-  else if(screenSize > 1280) // 2xl (<1536px)
-    setWindowSize(4)
-  else if(screenSize > 1024) // xl (<1280px)
-    setWindowSize(3)
-  else if(screenSize > 768) // md (<1024px)
-    setWindowSize(2)
-  else // md (<768px), sm (<640px) */
-
 .textbox-xs {
     @apply row-start-1 col-start-1 row-span-3 col-span-6
 }

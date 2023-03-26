@@ -12,7 +12,7 @@
                 "website" : "https://www.heartmachine.com/hyper-light-drifter"
             }
         },
-        "imgName" : "hld.png"
+        "imgName" : "hld.jpeg"
     },
     {
         "id" : 2,
@@ -27,7 +27,7 @@
                 "website" : "https://www.thegamebakers.com/press/sheet.php?p=furi"
             }
         },
-        "imgName" : "furi.png"
+        "imgName" : "furi.jpeg"
     },
     {
         "id" : 3,
@@ -42,7 +42,7 @@
                 "website" : "https://nierautomata.square-enix-games.com/en-us/"
             }
         },
-        "imgName" : "nier_automata.png"
+        "imgName" : "nier_automata.jpeg"
     },
     {
         "id" : 4,
@@ -56,7 +56,7 @@
                 "website" : "https://atlus.com/atlus-titles/p3fes/?ItemID=109"
             }
         },
-        "imgName" : "p3.png"
+        "imgName" : "p3.jpeg"
     },
     {
         "id" : 5,
@@ -71,7 +71,7 @@
                 "website" : "https://nier.square-enix-games.com/en-us/"
             }
         },
-        "imgName" : "nier_replicant.png"
+        "imgName" : "nier_replicant.jpeg"
     },
     {
         "id" : 6,
@@ -85,7 +85,7 @@
                 "website" : "https://insomniac.games/game/ratchet-and-clank/"
             }
         },
-        "imgName" : "ratchet2.png"
+        "imgName" : "ratchet2.jpeg"
     },
     {
         "id" : 7,
@@ -100,7 +100,7 @@
                 "website" : "https://www.terraria.org/"
             }
         },
-        "imgName" : "terraria.png"
+        "imgName" : "terraria.jpeg"
     },
     {
         "id" : 8,
@@ -115,7 +115,7 @@
                 "website" : "https://2k.com/en-US/game/borderlands-2/"
             }
         },
-        "imgName" : "bl2.png"
+        "imgName" : "bl2.jpeg"
     },
     {
         "id" : 9,
@@ -130,7 +130,7 @@
                 "website" : "https://www.playstation.com/en-us/games/jak-and-daxter-the-precursor-legacy/"
             }
         },
-        "imgName" : "jak3.png"
+        "imgName" : "jak3.jpeg"
     },
     {
         "id" : 10,
@@ -145,7 +145,7 @@
                 "website" : "https://www.metrothegame.com/story-so-far/"
             }
         },
-        "imgName" : "metro.png"
+        "imgName" : "metro.jpeg"
     },
     {
         "id" : 11,
@@ -160,6 +160,6 @@
                 "website" : "https://xcom.com/"
             }
         },
-        "imgName" : "xcom.png"
+        "imgName" : "xcom.jpeg"
     }
 ]

@@ -57,7 +57,7 @@ function Games({ windowSize }){
 
                 {/* Playing section */}
                 <p className="fade-in-scroll text-2xl pl-4 text-center mb-4">{playingSubtitle}</p>
-                <div className="fade-in-scroll flex gap-8 justify-center">
+                <div className="w-full fade-in-scroll flex gap-8 justify-center">
                     {
                         playing.map((game, index) => {
                             const showcaseOnRight = (game.id % playingColNum) !== 0;

@@ -26,6 +26,8 @@ function App() {
       setWindowSize(1)
   }
 
+  useEffect(handleWindowResize, []); // set window size on the first render
+
   useEffect(() => {
       window.addEventListener("resize", handleWindowResize)
   })

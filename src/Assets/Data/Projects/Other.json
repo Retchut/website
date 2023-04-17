@@ -25,6 +25,32 @@
     },
     {
         "id" : 3,
+        "name" : "SDLE Project 2",
+        "description" : "A decentralized timeline service developed for the Large Scale Distributed Systems class, using GUN.js.",
+        "imgName" : "uni-project-placeholder.png",
+        "tags" : [ "University", "Web" ],
+        "techs" : [
+            "Gun.js",
+            "Javascript"
+        ],
+        "buttonUrl" : "https://github.com/Retchut/sdle-proj2",
+        "buttonText" : "Git Repo"
+    },
+    {
+        "id" : 4,
+        "name" : "SDLE Project 1",
+        "description" : "A centralized communication protocol developed for the Large Scale Distributed Systems class, using ZeroMQ.",
+        "imgName" : "uni-project-placeholder.png",
+        "tags" : [ "University" ],
+        "techs" : [
+            "ZMQ",
+            "C++"
+        ],
+        "buttonUrl" : "https://github.com/Retchut/sdle-proj1",
+        "buttonText" : "Git Repo"
+    },
+    {
+        "id" : 5,
         "name" : "NCGM Learning Project",
         "description" : "My learning project developed for NCGM. A simple text based adventure about escaping a locked room.",
         "imgName" : "learning-project.png",
@@ -37,7 +63,7 @@
         "buttonText" : "Git Repo"
     },
     {
-        "id" : 4,
+        "id" : 6,
         "name" : "Cleaning Day",
         "description" : "Game developed for the 2022 edition of the Level-Up Game Jam.",
         "imgName" : "cleaning-day.png",
@@ -50,7 +76,7 @@
         "buttonText" : "Play it!"
     },
     {
-        "id" : 5,
+        "id" : 7,
         "name" : "Tap(e) It",
         "description" : "Game developed for the 2020 edition of the Global Game Jam.",
         "imgName" : "tape-it.png",
@@ -63,7 +89,7 @@
         "buttonText" : "Play it!"
     },
     {
-        "id" : 6,
+        "id" : 8,
         "name" : "Event Pointer",
         "description" : "Project developed by my group for the Laboratory of Databases and Web Applications (LBAW).",
         "imgName" : "event-pointer.png",
@@ -75,7 +101,7 @@
         "buttonText" : "Git Repo"
     },
     {
-        "id" : 7,
+        "id" : 9,
         "name" : "SOPE-2020-2021",
         "description" : "Projects developed for MIEIC's 2019/2020 SOPE class (2nd year, 2nd semester)",
         "imgName" : "uni-project-placeholder.png",
@@ -87,7 +113,7 @@
         "buttonText" : "Git Repo"
     },
     {
-        "id" : 8,
+        "id" : 10,
         "name" : "CAL-2020-2021-PROJ",
         "description" : "Projects developed for MIEIC's 2019/2020 PROG class (1st year, 2nd semester) ",
         "imgName" : "uni-project-placeholder.png",
@@ -99,7 +125,7 @@
         "buttonText" : "Git Repo"
     },
     {
-        "id" : 9,
+        "id" : 11,
         "name" : "rcom-data-link-protocol",
         "description" : "Projects developed for MIEIC's 2019/2020 PROG class (1st year, 2nd semester) ",
         "imgName" : "uni-project-placeholder.png",
@@ -111,7 +137,7 @@
         "buttonText" : "Git Repo"
     },
     {
-        "id" : 10,
+        "id" : 12,
         "name" : "PROG-2019-2020",
         "description" : "Projects developed for MIEIC's 2019/2020 PROG class (1st year, 2nd semester).",
         "imgName" : "uni-project-placeholder.png",

@@ -2,7 +2,7 @@
     {
         "id" : 1,
         "name" : "This website",
-        "description" : "Repository holding this website's code. I am proud of the dynamic content loading from json files, which allows me to easily change most of the content of the website without touching the html itself",
+        "description" : "Repository holding this website's code. I am proud of the dynamic content loading, which allows me to easily change any of the website's content without touching the source code itself",
         "imgName" : "react-logo.png",
         "tags" : [ "Web" ],
         "techs" : [
@@ -14,7 +14,7 @@
     {
         "id" : 2,
         "name" : "Arch Quick Setup",
-        "description" : "Some scripts and files to make setting up arch on a fresh install just the way I like like it simple and easy, with just a few simple strokes and key presses. Constant WIP.",
+        "description" : "Some scripts and files to make setting up arch on a fresh install just the way I like it simple and easy, with just a few simple strokes and key presses. Constant WIP.",
         "imgName" : "arch-quick-setup.jpg",
         "tags" : [ "Utility" ],
         "techs" : [
@@ -38,7 +38,7 @@
     {
         "id" : 4,
         "name" : "Atlas of Anatomical Pathology",
-        "description" : "An online Atlas of Anatomical Pathology. An educative tool made for a Veterinary Medicine University teacher.",
+        "description" : "An online Atlas of Anatomical Pathology. An educative tool made for a Veterinary Medicine University teacher. Still missing content, but it will be up and running in no time!",
         "imgName" :"atlas.png",
         "tags" : [ "Web" ],
         "techs" : [
@@ -87,7 +87,7 @@
     {
         "id" : 8,
         "name" : "Pibox Quick Setup",
-        "description" : "Some scripts and files to make setting up my raspberry pi emulation session on a fresh install.",
+        "description" : "Some scripts and files to make setting up my raspberry pi emulation station on a fresh install.",
         "imgName" : "arch-quick-setup.jpg",
         "tags" : [ "Utility" ],
         "techs" : [
@@ -109,7 +109,7 @@
             "MongoDB",
             "Bootstrap"
         ],
-        "buttonUrl" : "https://github.com/Retchut/LCOM-2020-2021",
+        "buttonUrl" : "https://github.com/Retchut/pri-proj",
         "buttonText" : "Git Repo"
     },
     {
@@ -122,6 +122,19 @@
             "C"
         ],
         "buttonUrl" : "https://github.com/Retchut/LCOM-2020-2021",
+        "buttonText" : "Git Repo"
+    },
+    {
+        "id" : 11,
+        "name" : "SGI Final Project",
+        "description" : "Final project developed for the Interactive Graphics Systems class of MIEIC. An interactive, animated 3D chess gameplay environment, which can parse and render different scene files provided to it in xml format.",
+        "imgName" : "[]invaders.png",
+        "tags" : [ "University" ],
+        "techs" : [
+            "WebGL",
+            "Javascript"
+        ],
+        "buttonUrl" : "https://github.com/Retchut/sgi-proj",
         "buttonText" : "Git Repo"
     }
 ]

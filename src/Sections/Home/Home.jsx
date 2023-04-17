@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 
 import ParagraphBox from '../../Components/ParagraphBox/ParagraphBox';
+import LazyImage from '../../Components/LazyImage/LazyImage';
 
 import useScrollAnimation from '../../Hooks/useScrollAnimation';
 
@@ -31,7 +32,7 @@ function Home(){
                     </div>
                 </div>
                 <div className="fade-in-scroll z-10 py-5 md:py-0 flex justify-center md:block home-image-xs home-image-md home-image-xl home-image-2xl">
-                    <img src={myPortrait} alt="Me" className="img-fluid background-box"></img>
+                    <LazyImage src={myPortrait} alt="Me" className="img-fluid background-box" />
                 </div>
             </div>
         </div>

@@ -1,5 +1,7 @@
 import { buildTagRows } from '../../Utils/arrayFilters.js';
 
+import LazyImage from '../LazyImage/LazyImage.jsx';
+
 import './Project.css';
 
 function getTagColNum(windowSize){
@@ -20,7 +22,7 @@ function getTagColNum(windowSize){
 function getImage(folderPath, imgName){
     return (
         <div className="p-2 h-full flex justify-center items-center">
-            <img className="max-w-proj-img-xs md:max-w-full aspect-square rounded-md" src={folderPath + imgName} alt={imgName} />
+            <LazyImage className="max-w-proj-img-xs md:max-w-full aspect-square rounded-md" src={folderPath + imgName} alt={imgName} />
         </div>
     )
 }

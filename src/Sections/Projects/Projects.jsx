@@ -47,7 +47,7 @@ function Projects({ windowSize }){
                     }
                     {mainRows.length === 0 && 
                         <div className="fade-in-scroll col-span-2 flex justify-center">
-                            <div className=" background-box text-center">
+                            <div className="background-box text-center">
                                 <p className="px-4 pt-3 pb-4 text-3xl">No projects here for this category. Check out the "Other projects" tab, or come back later!</p>    
                             </div>
                         </div>

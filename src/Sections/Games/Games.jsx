@@ -40,7 +40,7 @@ function Games({ windowSize }){
                     // Map favourite rows to containers
                     favouriteRows.map((row, index) => {
                         return (
-                            <div key={`row-${index}`} className="fade-in-scroll flex gap-8 justify-center">
+                            <div key={`row-${index}`} className="w-full fade-in-scroll flex gap-8 justify-center">
                                 {
                                     row.map((game) => {
                                         const showcaseOnRight = (game.id % favouriteColNum) !== 0;

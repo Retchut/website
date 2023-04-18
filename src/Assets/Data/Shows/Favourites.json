@@ -57,6 +57,32 @@
     {
         "id" : 5,
         "data" : {
+            "title" : "Monty Python's Flying Circus",
+            "subtitle" : "The Pythons",
+            "video" : {
+            },
+            "links" : {
+                "IMDB" : "https://www.imdb.com/title/tt0063929/"
+            }
+        },
+        "imgName" : "monty_python.jpeg"
+    },
+    {
+        "id" : 6,
+        "data" : {
+            "title" : "It's Always Sunny in Philadelphia",
+            "subtitle" : "Rob McElhenney and Glenn Howerton",
+            "video" : {
+            },
+            "links" : {
+                "IMDB" : "https://www.imdb.com/title/tt0472954/"
+            }
+        },
+        "imgName" : "sunshine.jpeg"
+    },
+    {
+        "id" : 7,
+        "data" : {
             "title" : "Death Parade",
             "subtitle" : "Yuzuru Tachikawa",
             "video" : {
@@ -69,7 +95,7 @@
         "imgName" : "death_parade.jpg"
     },
     {
-        "id" : 6,
+        "id" : 8,
         "data" : {
             "title" : "Bakuman",
             "subtitle" : "Kenichi Kasai",

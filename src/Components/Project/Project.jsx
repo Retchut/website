@@ -88,7 +88,7 @@ function Project(props) {
                     {getTags(name, tags, techs, windowSize)}
                 </div>
                 <div className="w-proj-btn-xs md:w-proj-btn-md">
-                    {getButton(buttonText, buttonUrl)}
+                    {buttonText !== undefined && getButton(buttonText, buttonUrl)}
                 </div>
             </div>
         </div>

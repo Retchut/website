@@ -2,7 +2,7 @@
     {
         "id" : 1,
         "name" : "This website",
-        "description" : "Repository holding this website's code. I am proud of the dynamic content loading from json files, which allows me to easily change most of the content of the website without touching the html itself",
+        "description" : "Repository holding this website's code. I am proud of the dynamic content loading, which allows me to easily change any of the website's content without touching the source code itself",
         "imgName" : "react-logo.png",
         "tags" : [ "Web" ],
         "techs" : [
@@ -13,18 +13,6 @@
     },
     {
         "id" : 2,
-        "name" : "Arch Quick Setup",
-        "description" : "Some scripts and files to make setting up arch on a fresh install just the way I like like it simple and easy, with just a few simple strokes and key presses. Constant WIP.",
-        "imgName" : "arch-quick-setup.jpg",
-        "tags" : [ "Utility" ],
-        "techs" : [
-            "bash"
-        ],
-        "buttonUrl" : "https://github.com/Retchut/arch-quick-setup",
-        "buttonText" : "Git Repo"
-    },
-    {
-        "id" : 3,
         "name" : "NCGM's Website",
         "description" : "Website of the Nucleus of Computer Graphics and Multimedia (NCGM)",
         "imgName" :"ncgm-website.jpg",
@@ -36,9 +24,19 @@
         "buttonText" : "Visit it"
     },
     {
+        "id" : 3,
+        "name" : "Jornadas da Ciência da Informação",
+        "description" : "Website for the 2023 edition of the \"Jornadas da ciência da Informação\")",
+        "imgName" :"jci.jpeg",
+        "tags" : [ "Web" ],
+        "techs" : [
+            "Svelte",    "Tailwind CSS"
+        ]
+    },
+    {
         "id" : 4,
         "name" : "Atlas of Anatomical Pathology",
-        "description" : "An online Atlas of Anatomical Pathology. An educative tool made for a Veterinary Medicine University teacher.",
+        "description" : "An online Atlas of Anatomical Pathology. An educative tool made for a Veterinary Medicine University teacher. Still missing content, but it will be up and running in no time!",
         "imgName" :"atlas.jpg",
         "tags" : [ "Web" ],
         "techs" : [
@@ -62,6 +60,18 @@
     },
     {
         "id" : 6,
+        "name" : "Arch Quick Setup",
+        "description" : "Some scripts and files to make setting up arch on a fresh install just the way I like it simple and easy, with just a few simple strokes and key presses. Constant WIP.",
+        "imgName" : "arch-quick-setup.jpg",
+        "tags" : [ "Utility" ],
+        "techs" : [
+            "bash"
+        ],
+        "buttonUrl" : "https://github.com/Retchut/arch-quick-setup",
+        "buttonText" : "Git Repo"
+    },
+    {
+        "id" : 7,
         "name" : "Library Tracker",
         "description" : "Command line utility I made to track my card collection. Allows adding cards to a collection, removing them, editing, etc.. Additionally, this program fetches prices for Yu-Gi-Oh cards in the collection from cardmarket.",
         "imgName" : "library-tracker.jpg",
@@ -73,7 +83,7 @@
         "buttonText" : "Git Repo"
     },
     {
-        "id" : 7,
+        "id" : 8,
         "name" : "SRT Editor",
         "description" : "Simple srt file editing tool created to aid me in my manual modification (and occasional creation) of subtitle files.",
         "imgName" : "srt-editor.png",
@@ -85,9 +95,9 @@
         "buttonText" : "Git Repo"
     },
     {
-        "id" : 8,
+        "id" : 9,
         "name" : "Pibox Quick Setup",
-        "description" : "Some scripts and files to make setting up my raspberry pi emulation session on a fresh install.",
+        "description" : "Some scripts and files to make setting up my raspberry pi emulation station on a fresh install.",
         "imgName" : "arch-quick-setup.jpg",
         "tags" : [ "Utility" ],
         "techs" : [
@@ -97,7 +107,7 @@
         "buttonText" : "Git Repo"
     },
     {
-        "id" : 9,
+        "id" : 10,
         "name" : "Magic: the Gathering (and Processing of Information)",
         "description" : "Repository for the project of the PRI class of the year 2022/2023. We retrieved data, indexed it, and developed a search system for Magic: the Gathering cards.",
         "imgName" : "pri-proj.jpg",
@@ -109,11 +119,11 @@
             "MongoDB",
             "Bootstrap"
         ],
-        "buttonUrl" : "https://github.com/Retchut/LCOM-2020-2021",
+        "buttonUrl" : "https://github.com/Retchut/pri-proj",
         "buttonText" : "Git Repo"
     },
     {
-        "id" : 10,
+        "id" : 11,
         "name" : "[] Invaders",
         "description" : "Repository for MIEIC's LCOM class of the year 2020/2021. Contains the lab assignments and my final project project for the class, a clone of the classic Space Invaders.",
         "imgName" : "[]invaders.jpg",
@@ -122,6 +132,19 @@
             "C"
         ],
         "buttonUrl" : "https://github.com/Retchut/LCOM-2020-2021",
+        "buttonText" : "Git Repo"
+    },
+    {
+        "id" : 12,
+        "name" : "SGI Final Project",
+        "description" : "Final project developed for the Interactive Graphics Systems class of MIEIC. An interactive, animated 3D chess gameplay environment, which can parse and render different scene files provided to it in xml format.",
+        "imgName" : "[]invaders.jpg",
+        "tags" : [ "University" ],
+        "techs" : [
+            "WebGL",
+            "Javascript"
+        ],
+        "buttonUrl" : "https://github.com/Retchut/sgi-proj",
         "buttonText" : "Git Repo"
     }
 ]

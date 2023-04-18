@@ -1,6 +1,5 @@
 import { buildTagRows } from '../../Utils/arrayFilters.js';
-
-import LazyImage from '../LazyImage/LazyImage.jsx';
+import { getImageFileNames } from '../../Utils/textUtils.js';
 
 import './Project.css';
 
@@ -20,9 +19,13 @@ function getTagColNum(windowSize){
 }
 
 function getImage(folderPath, imgName){
+    // const [lowResImg, hiResImg] = getImageFileNames(folderPath, imgName);
+    const lowResImg = folderPath + 'test.jpg';
+    const hiResImg = folderPath + imgName;
+    
     return (
         <div className="p-2 h-full flex justify-center items-center">
-            <LazyImage className="max-w-proj-img-xs md:max-w-full aspect-square rounded-md" src={folderPath + imgName} alt={imgName} />
+            <img className="max-w-proj-img-xs md:max-w-full w-full aspect-square rounded-md" src={lowResImg} src-hi-res={hiResImg} alt={imgName} />
         </div>
     )
 }

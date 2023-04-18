@@ -32,7 +32,6 @@ function Home(){
                     </div>
                 </div>
                 <div className="fade-in-scroll z-10 py-5 md:py-0 flex justify-center md:block home-image-xs home-image-md home-image-xl home-image-2xl">
-                    {/* <LazyImage initSrc={test} srcHiRes={myPortrait} alt="Me" className="img-fluid background-box" /> */}
                     <img src={test} src-hi-res={myPortrait} alt="Me" className="img-fluid w-full background-box" />
                 </div>
             </div>

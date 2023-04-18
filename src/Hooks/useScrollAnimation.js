@@ -7,7 +7,7 @@ function useScrollAnimation(parentRef, threshold, stateDependencies = []) {
         const children = parentRef.current.children;
         const observer = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
-            toggleAnimation(entry.target, entry.isIntersecting)
+                toggleAnimation(entry.target, entry.isIntersecting)
             })
         },
         {

@@ -1,5 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 
+import useLazyLoading from '../../Hooks/useLazyLoading.js';
+
 import Footer from '../Footer/Footer.jsx';
 import Navbar from '../Navbar/Navbar.jsx';
 import Home from '../../Sections/Home/Home.jsx';
@@ -11,6 +13,7 @@ import Music from '../../Sections/Music/Music.jsx';
 
 function App() {
   const [ windowSize, setWindowSize ] = useState(3);
+  useLazyLoading();
 
   const handleWindowResize = () => {
     const screenSize = window.innerWidth;

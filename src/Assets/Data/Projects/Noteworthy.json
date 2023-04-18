@@ -27,7 +27,7 @@
         "id" : 3,
         "name" : "Jornadas da Ciência da Informação",
         "description" : "Website for the 2023 edition of the \"Jornadas da ciência da Informação\")",
-        "imgName" :"jci.jpeg",
+        "imgName" :"jci.jpg",
         "tags" : [ "Web" ],
         "techs" : [
             "Svelte",    "Tailwind CSS"

@@ -138,7 +138,7 @@
         "id" : 12,
         "name" : "SGI Final Project",
         "description" : "Final project developed for the Interactive Graphics Systems class of MIEIC. An interactive, animated 3D chess gameplay environment, which can parse and render different scene files provided to it in xml format.",
-        "imgName" : "[]invaders.jpg",
+        "imgName" : "uni-project-placeholder.png",
         "tags" : [ "University" ],
         "techs" : [
             "WebGL",

@@ -19,9 +19,7 @@ function getTagColNum(windowSize){
 }
 
 function getImage(folderPath, imgName){
-    // const [lowResImg, hiResImg] = getImageFileNames(folderPath, imgName);
-    const lowResImg = folderPath + 'test.jpg';
-    const hiResImg = folderPath + imgName;
+    const [lowResImg, hiResImg] = getImageFileNames(folderPath, imgName);
     
     return (
         <div className="p-2 h-full flex justify-center items-center">

@@ -12,7 +12,7 @@
                 "website" : "https://www.playstation.com/en-us/games/jak-and-daxter-the-precursor-legacy/"
             }
         },
-        "imgName" : "jak2.jpeg"
+        "imgName" : "jak2.jpg"
     },
     {
         "id" : 2,
@@ -27,6 +27,6 @@
                 "website" : "https://www.playstation.com/en-us/games/kingdom-hearts-hd-1-5-2-5-remix/"
             }
         },
-        "imgName" : "kh1.jpeg"
+        "imgName" : "kh1.jpg"
     }
 ]

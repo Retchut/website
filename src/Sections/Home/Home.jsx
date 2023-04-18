@@ -8,7 +8,7 @@ import './Home.css';
 
 import texts from '../../Assets/Data/Home/Texts.json';
 import myPortrait from '../../Assets/Images/Home/me.jpg';
-import test from '../../Assets/Images/Home/test.jpg';
+import meLowRes from '../../Assets/Images/Home/me_lowres.jpg';
 
 function Home(){
     const homeRef = useRef(null);
@@ -32,7 +32,7 @@ function Home(){
                     </div>
                 </div>
                 <div className="fade-in-scroll z-10 py-5 md:py-0 flex justify-center md:block home-image-xs home-image-md home-image-xl home-image-2xl">
-                    <img src={test} src-hi-res={myPortrait} alt="Me" className="img-fluid w-full background-box" />
+                    <img src={meLowRes} src-hi-res={myPortrait} alt="Me" className="img-fluid w-full background-box" />
                 </div>
             </div>
         </div>

@@ -11,7 +11,7 @@
                 "IMDB" : "https://www.imdb.com/title/tt0083658/"
             }
         },
-        "imgName" : "blade_runner.jpeg"
+        "imgName" : "blade_runner.jpg"
     },
     {
         "id" : 2,
@@ -25,7 +25,7 @@
                 "IMDB" : "https://www.imdb.com/title/tt0109424/"
             }
         },
-        "imgName" : "chungking_express.jpeg"
+        "imgName" : "chungking_express.jpg"
     },
     {
         "id" : 3,
@@ -39,7 +39,7 @@
                 "IMDB" : "https://www.imdb.com/title/tt0156887/"
             }
         },
-        "imgName" : "perfect_blue.jpeg"
+        "imgName" : "perfect_blue.jpg"
     },
     {
         "id" : 4,
@@ -53,7 +53,7 @@
                 "IMDB" : "https://www.imdb.com/title/tt0071853/"
             }
         },
-        "imgName" : "holy_grail.jpeg"
+        "imgName" : "holy_grail.jpg"
     },
     {
         "id" : 5,
@@ -67,7 +67,7 @@
                 "IMDB" : "https://www.imdb.com/title/tt0113568/"
             }
         },
-        "imgName" : "ghost_in_the_shell.jpeg"
+        "imgName" : "ghost_in_the_shell.jpg"
     },
     {
         "id" : 6,
@@ -81,7 +81,7 @@
                 "IMDB" : "https://www.imdb.com/title/tt2582802/"
             }
         },
-        "imgName" : "whiplash.jpeg"
+        "imgName" : "whiplash.jpg"
     },
     {
         "id" : 7,
@@ -95,7 +95,7 @@
                 "IMDB" : "https://www.imdb.com/title/tt0169858/"
             }
         },
-        "imgName" : "end_of_eva.jpeg"
+        "imgName" : "end_of_eva.jpg"
     },
     {
         "id" : 8,
@@ -109,6 +109,6 @@
                 "IMDB" : "https://www.imdb.com/title/tt0110912/"
             }
         },
-        "imgName" : "pulp_fiction.jpeg"
+        "imgName" : "pulp_fiction.jpg"
     }
 ]

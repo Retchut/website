@@ -27,7 +27,7 @@
         "id" : 3,
         "name" : "NCGM's Website",
         "description" : "Website of the Nucleus of Computer Graphics and Multimedia (NCGM)",
-        "imgName" :"ncgm-website.png",
+        "imgName" :"ncgm-website.jpg",
         "tags" : [ "Web" ],
         "techs" : [
             "MERN",    "Bootstrap"
@@ -39,7 +39,7 @@
         "id" : 4,
         "name" : "Atlas of Anatomical Pathology",
         "description" : "An online Atlas of Anatomical Pathology. An educative tool made for a Veterinary Medicine University teacher.",
-        "imgName" :"atlas.png",
+        "imgName" :"atlas.jpg",
         "tags" : [ "Web" ],
         "techs" : [
             "MERN",    "Tailwind CSS"
@@ -51,7 +51,7 @@
         "id" : 5,
         "name" : "FEUP Hell",
         "description" : "Preliminary project developed for the 2023 edition of the Game Design and Development class of M.EIC.",
-        "imgName" : "feup-hell.png",
+        "imgName" : "feup-hell.jpg",
         "tags" : [ "Game Dev", "University" ],
         "techs" : [
             "Unity",
@@ -64,7 +64,7 @@
         "id" : 6,
         "name" : "Library Tracker",
         "description" : "Command line utility I made to track my card collection. Allows adding cards to a collection, removing them, editing, etc.. Additionally, this program fetches prices for Yu-Gi-Oh cards in the collection from cardmarket.",
-        "imgName" : "library-tracker.png",
+        "imgName" : "library-tracker.jpg",
         "tags" : [ "Utility" ],
         "techs" : [
             "Python"
@@ -100,7 +100,7 @@
         "id" : 9,
         "name" : "Magic: the Gathering (and Processing of Information)",
         "description" : "Repository for the project of the PRI class of the year 2022/2023. We retrieved data, indexed it, and developed a search system for Magic: the Gathering cards.",
-        "imgName" : "pri-proj.png",
+        "imgName" : "pri-proj.jpg",
         "tags" : [ "University" ],
         "techs" : [
             "Python",
@@ -116,7 +116,7 @@
         "id" : 10,
         "name" : "[] Invaders",
         "description" : "Repository for MIEIC's LCOM class of the year 2020/2021. Contains the lab assignments and my final project project for the class, a clone of the classic Space Invaders.",
-        "imgName" : "[]invaders.png",
+        "imgName" : "[]invaders.jpg",
         "tags" : [ "University" ],
         "techs" : [
             "C"

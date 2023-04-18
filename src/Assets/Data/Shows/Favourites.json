@@ -11,7 +11,7 @@
                 "IMDB" : "https://www.imdb.com/title/tt1847445/"
             }
         },
-        "imgName" : "tatami_galaxy.jpeg"
+        "imgName" : "tatami_galaxy.jpg"
     },
     {
         "id" : 2,
@@ -25,7 +25,7 @@
                 "IMDB" : "https://www.imdb.com/title/tt0213338/"
             }
         },
-        "imgName" : "cowboy_bebop.jpeg"
+        "imgName" : "cowboy_bebop.jpg"
     },
     {
         "id" : 3,
@@ -39,7 +39,7 @@
                 "IMDB" : "https://www.imdb.com/title/tt0423731/"
             }
         },
-        "imgName" : "samurai_champloo.jpeg"
+        "imgName" : "samurai_champloo.jpg"
     },
     {
         "id" : 4,
@@ -52,7 +52,7 @@
                 "IMDB" : "https://www.imdb.com/title/tt0121955/"
             }
         },
-        "imgName" : "south_park.jpeg"
+        "imgName" : "south_park.jpg"
     },
     {
         "id" : 5,
@@ -66,7 +66,7 @@
                 "IMDB" : "https://www.imdb.com/title/tt4279012/"
             }
         },
-        "imgName" : "death_parade.jpeg"
+        "imgName" : "death_parade.jpg"
     },
     {
         "id" : 6,
@@ -79,6 +79,6 @@
                 "IMDB" : "https://www.imdb.com/title/tt1738419/"
             }
         },
-        "imgName" : "bakuman.jpeg"
+        "imgName" : "bakuman.jpg"
     }
 ]

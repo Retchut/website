@@ -17,7 +17,7 @@ function useLazyLoading() {
             })
         },
         {
-            threshold: 0.1
+            threshold: 1.0
         })
         
         // observe 

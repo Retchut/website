@@ -10,9 +10,7 @@ function Interest({ data, imgName, imgFolderPath, showcaseLabels, showcaseOnRigh
         return <></>
     }
 
-    // const [lowResImg, hiResImg] = getImageFileNames(imgFolderPath, imgName);
-    const lowResImg = imgFolderPath + 'test.jpg';
-    const hiResImg = imgFolderPath + imgName;
+    const [lowResImg, hiResImg] = getImageFileNames(imgFolderPath, imgName);
     
     return (
         <div className="flex relative">

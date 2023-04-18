@@ -3,7 +3,7 @@
         "id" : 1,
         "name" : "NCGM Web VR Workshop",
         "description" : "End product of NCGM's VR workshop I attended.",
-        "imgName" :"ncgm-vr-workshop.png",
+        "imgName" :"ncgm-vr-workshop.jpg",
         "tags" : [ "Web", "VR" ],
         "techs" : [
             "WebXR", "JavaScript"
@@ -15,7 +15,7 @@
         "id" : 2,
         "name" : "Old Library Tracker",
         "description" : "Old version of my Library Tracker. Allows for the same functionality as the other program.",
-        "imgName" : "library-tracker.png",
+        "imgName" : "library-tracker.jpg",
         "tags" : [ "Utility" ],
         "techs" : [
             "Java", "Gradle", "JSoup"
@@ -27,7 +27,7 @@
         "id" : 3,
         "name" : "NCGM Learning Project",
         "description" : "My learning project developed for NCGM. A simple text based adventure about escaping a locked room.",
-        "imgName" : "learning-project.png",
+        "imgName" : "learning-project.jpg",
         "tags" : [ "Game Dev" ],
         "techs" : [
             "Unity",
@@ -40,7 +40,7 @@
         "id" : 4,
         "name" : "Cleaning Day",
         "description" : "Game developed for the 2022 edition of the Level-Up Game Jam.",
-        "imgName" : "cleaning-day.png",
+        "imgName" : "cleaning-day.jpg",
         "tags" : [ "Game Dev" ],
         "techs" : [
             "Unity",
@@ -53,7 +53,7 @@
         "id" : 5,
         "name" : "Tap(e) It",
         "description" : "Game developed for the 2020 edition of the Global Game Jam.",
-        "imgName" : "tape-it.png",
+        "imgName" : "tape-it.jpg",
         "tags" : [ "Game Dev" ],
         "techs" : [
             "Unity",
@@ -66,7 +66,7 @@
         "id" : 6,
         "name" : "Event Pointer",
         "description" : "Project developed by my group for the Laboratory of Databases and Web Applications (LBAW).",
-        "imgName" : "event-pointer.png",
+        "imgName" : "event-pointer.jpg",
         "tags" : [ "Web", "University" ],
         "techs" : [
             "Laravel",  "PostgreSQL",   "Bootstrap"

@@ -11,7 +11,7 @@
                 "spotify" : "https://open.spotify.com/album/1uFAVpKOz5CBiaMxVnA9UW"
             }
         },
-        "imgName" : "hydeout_2nd.png"
+        "imgName" : "hydeout_2nd.jpg"
     },
     {
         "id" : 2,
@@ -25,7 +25,7 @@
                 "spotify" : "https://open.spotify.com/album/5FrjDW96mCYw9ECc74c637"
             }
         },
-        "imgName" : "metaphorical_music.png"
+        "imgName" : "metaphorical_music.jpg"
     },
     {
         "id" : 3,
@@ -40,7 +40,7 @@
                 "youtube" : "https://youtu.be/OnWOgOPfzAk"
             }
         },
-        "imgName" : "modal_soul_classics_ii.png"
+        "imgName" : "modal_soul_classics_ii.jpg"
     },
     {
         "id" : 4,
@@ -54,7 +54,7 @@
                 "spotify" : "https://open.spotify.com/album/2QFew4zGb4RNsuW3KF39ev"
             }
         },
-        "imgName" : "tarot.png"
+        "imgName" : "tarot.jpg"
     },
     {
         "id" : 5,
@@ -68,7 +68,7 @@
                 "spotify" : "https://open.spotify.com/album/1lCmbNOMbDw1QeFzWGWLbR"
             }
         },
-        "imgName" : "winters_gate.png"
+        "imgName" : "winters_gate.jpg"
     },
     {
         "id" : 6,
@@ -82,7 +82,7 @@
                 "spotify" : "https://open.spotify.com/album/32jRtHOvTfiPItM40XIEae"
             }
         },
-        "imgName" : "urn.png"
+        "imgName" : "urn.jpg"
     },
     {
         "id" : 7,
@@ -96,7 +96,7 @@
                 "spotify" : "https://open.spotify.com/album/4VzCNpLiC373x4sb1DyxIn"
             }
         },
-        "imgName" : "stones_reach.png"
+        "imgName" : "stones_reach.jpg"
     },
     {
         "id" : 8,
@@ -110,7 +110,7 @@
                 "youtube" : "https://youtu.be/rTb1LWEpek4"
             }
         },
-        "imgName" : "fortune.png"
+        "imgName" : "fortune.jpg"
     },
     {
         "id" : 9,
@@ -125,7 +125,7 @@
                 "spotify" : "https://open.spotify.com/album/3hJezmiYPXSjbYEsJ0Xu30"
             }
         },
-        "imgName" : "cherish.png"
+        "imgName" : "cherish.jpg"
     },
     {
         "id" : 10,
@@ -140,7 +140,7 @@
                 "spotify" : "https://open.spotify.com/album/1NCt4W6d8fNGkBQAjXDVrA"
             }
         },
-        "imgName" : "furi_ost.png"
+        "imgName" : "furi_ost.jpg"
     },
     {
         "id" : 11,
@@ -155,7 +155,7 @@
                 "spotify" : "https://open.spotify.com/album/5EvfMZYvdWB2XPZT0IvcyI"
             }
         },
-        "imgName" : "nier_ost.png"
+        "imgName" : "nier_ost.jpg"
     },
     {
         "id" : 12,
@@ -170,7 +170,7 @@
                 "spotify" : "https://open.spotify.com/album/6Nws2NAPuxaHzB7MfD1lhg"
             }
         },
-        "imgName" : "nier_automata_ost.png"
+        "imgName" : "nier_automata_ost.jpg"
     },
     {
         "id" : 13,
@@ -185,7 +185,7 @@
                 "spotify" : "https://open.spotify.com/album/4yyExVOiwrE7TDZfxAGgki"
             }
         },
-        "imgName" : "p3_ost.png"
+        "imgName" : "p3_ost.jpg"
     },
     {
         "id" : 14,
@@ -200,7 +200,7 @@
                 "youtube" : "https://youtu.be/Q00O5mXjiNg"
             }
         },
-        "imgName" : "ratchet_ost.png"
+        "imgName" : "ratchet_ost.jpg"
     },
     {
         "id" : 15,
@@ -214,6 +214,6 @@
                 "spotify" : "https://open.spotify.com/album/3wmz5LudXtskEIT87Jn8S4"
             }
         },
-        "imgName" : "hometown.png"
+        "imgName" : "hometown.jpg"
     }
 ]

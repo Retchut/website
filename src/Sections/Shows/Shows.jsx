@@ -36,7 +36,7 @@ function Shows({ windowSize }){
                     // Map rows to containers
                     rows.map((row, index) => {
                         return (
-                            <div key={`row-${index}`} className="fade-in-scroll flex gap-8 justify-center">
+                            <div key={`row-${index}`} className="w-full fade-in-scroll flex gap-8 justify-center">
                                 {
                                     // Map rows to items
                                     row.map((show) => {

@@ -12,7 +12,7 @@
                 "website" : "https://www.heartmachine.com/hyper-light-drifter"
             }
         },
-        "imgName" : "hld.png"
+        "imgName" : "hld.jpg"
     },
     {
         "id" : 2,
@@ -20,14 +20,15 @@
             "title" : "Furi",
             "subtitle" : "The Game Bakers",
             "video" : {
-                "trailer" : "fVQNZFBvAck"
+                "trailer" : "fVQNZFBvAck",
+                "gameplay trailer" : "w8qjW_SQeCc"
             },
             "links" : {
                 "steam" : "https://store.steampowered.com/app/423230/Furi/",
                 "website" : "https://www.thegamebakers.com/press/sheet.php?p=furi"
             }
         },
-        "imgName" : "furi.png"
+        "imgName" : "furi.jpg"
     },
     {
         "id" : 3,
@@ -42,7 +43,7 @@
                 "website" : "https://nierautomata.square-enix-games.com/en-us/"
             }
         },
-        "imgName" : "nier_automata.png"
+        "imgName" : "nier_automata.jpg"
     },
     {
         "id" : 4,
@@ -56,7 +57,7 @@
                 "website" : "https://atlus.com/atlus-titles/p3fes/?ItemID=109"
             }
         },
-        "imgName" : "p3.png"
+        "imgName" : "p3.jpg"
     },
     {
         "id" : 5,
@@ -71,7 +72,7 @@
                 "website" : "https://nier.square-enix-games.com/en-us/"
             }
         },
-        "imgName" : "nier_replicant.png"
+        "imgName" : "nier_replicant.jpg"
     },
     {
         "id" : 6,
@@ -85,7 +86,7 @@
                 "website" : "https://insomniac.games/game/ratchet-and-clank/"
             }
         },
-        "imgName" : "ratchet2.png"
+        "imgName" : "ratchet2.jpg"
     },
     {
         "id" : 7,
@@ -100,7 +101,7 @@
                 "website" : "https://www.terraria.org/"
             }
         },
-        "imgName" : "terraria.png"
+        "imgName" : "terraria.jpg"
     },
     {
         "id" : 8,
@@ -115,7 +116,7 @@
                 "website" : "https://2k.com/en-US/game/borderlands-2/"
             }
         },
-        "imgName" : "bl2.png"
+        "imgName" : "bl2.jpg"
     },
     {
         "id" : 9,
@@ -130,7 +131,7 @@
                 "website" : "https://www.playstation.com/en-us/games/jak-and-daxter-the-precursor-legacy/"
             }
         },
-        "imgName" : "jak3.png"
+        "imgName" : "jak3.jpg"
     },
     {
         "id" : 10,
@@ -145,7 +146,7 @@
                 "website" : "https://www.metrothegame.com/story-so-far/"
             }
         },
-        "imgName" : "metro.png"
+        "imgName" : "metro.jpg"
     },
     {
         "id" : 11,
@@ -160,6 +161,6 @@
                 "website" : "https://xcom.com/"
             }
         },
-        "imgName" : "xcom.png"
+        "imgName" : "xcom.jpg"
     }
 ]

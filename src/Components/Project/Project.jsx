@@ -1,4 +1,5 @@
 import { buildTagRows } from '../../Utils/arrayFilters.js';
+import { getImageFileNames } from '../../Utils/textUtils.js';
 
 import './Project.css';
 
@@ -18,9 +19,11 @@ function getTagColNum(windowSize){
 }
 
 function getImage(folderPath, imgName){
+    const [lowResImg, hiResImg] = getImageFileNames(folderPath, imgName);
+    
     return (
         <div className="p-2 h-full flex justify-center items-center">
-            <img className="max-w-proj-img-xs md:max-w-full aspect-square rounded-md" src={folderPath + imgName} alt={imgName} />
+            <img className="max-w-proj-img-xs md:max-w-full w-full aspect-square rounded-md" src={lowResImg} src-hi-res={hiResImg} alt={imgName} />
         </div>
     )
 }
@@ -85,7 +88,7 @@ function Project(props) {
                     {getTags(name, tags, techs, windowSize)}
                 </div>
                 <div className="w-proj-btn-xs md:w-proj-btn-md">
-                    {getButton(buttonText, buttonUrl)}
+                    {buttonText !== undefined && getButton(buttonText, buttonUrl)}
                 </div>
             </div>
         </div>
